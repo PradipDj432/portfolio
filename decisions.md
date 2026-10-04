@@ -11,6 +11,7 @@ A log of choices made for the portfolio website and why. Add new decisions at th
 | D-002 | All work on one `working` branch, merged to `main` by pull request | Accepted |
 | D-003 | Plain HTML/CSS/JavaScript with no build step | Proposed |
 | D-004 | Host on GitHub Pages from `main`, repo root, on the free address | Proposed |
+| D-005 | The résumé PDF is kept in the repo and is the source for the site's facts | Accepted |
 
 When you add a decision, add a row here too.
 
@@ -47,3 +48,11 @@ When you add a decision, add a row here too.
 - **Decision:** GitHub Pages, "Deploy from a branch", `main`, `/ (root)`. Address: `pradipdj432.github.io/portfolio`.
 - **Alternatives considered:** Rename this repo to `PradipDj432.github.io` (GitHub's special name for a personal site) to get the shorter address `pradipdj432.github.io`; buy a custom domain.
 - **Consequences:** The owner turns Pages on once, after the first page is merged (steps in `README.md`). If the repo is renamed or a domain is added later, the site's address changes, so decide on the address before sharing the link widely.
+
+## D-005 — The résumé PDF is kept in the repo and is the source for the site's facts
+- **Date:** 2026-10-04
+- **Status:** Accepted
+- **Context:** The owner sent their résumé (`PRADIP_JALIYA_PROFILE_2026.pdf`, 2 pages, April 2026), asked to add it to the repo, and said everything the site needs, apart from the headline, is in it.
+- **Decision:** Save it unchanged as `resume/Pradipkumar-Jaliya-Resume.pdf`, with its SHA-256 in `resume/README.md`. Copy its facts into `profile.md` and treat them as confirmed. The site will offer it as "Download résumé". When a new résumé arrives, move the old one into `resume/archive/` and save the new one under the same name, so links never break. The headline is the owner's own words: "Claude Native · DevOps & AI Engineer · Full Stack Developer".
+- **Alternatives considered:** Only copy the facts and leave the PDF out of the repo; a new file name for each version (download links would break).
+- **Consequences:** The repo is public, so the PDF, with its phone number and email, can be opened by anyone. Obvious typos in the résumé are fixed in `profile.md` and on the site (for example "Predication" → "Prediction", "Linklist" → "linked lists", "MsSQL" → "MS SQL"); the PDF stays as the owner sent it. Where the résumé and the GitHub profile disagree (company name), the site follows the résumé until the owner says otherwise.
