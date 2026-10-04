@@ -5,11 +5,11 @@ Where the project stands right now, and a dated log of what was done. Update thi
 ## Current status
 | | |
 |---|---|
-| **Phase** | Live. The owner's first round of changes (name, headline, three companies, new numbers) is in PR #3, waiting for the owner's OK to merge. |
-| **Live site** | https://pradipdj432.github.io/portfolio/ GitHub Pages publishes every merge to `main` (Actions → "pages build and deployment"); the deploy of PR #2 succeeded. |
-| **Branches** | `main` has the first version (PR #2). `working` has PR #3. All new work starts on `working` (D-002). |
+| **Phase** | Live, with the owner's two rounds of changes (PR #3). |
+| **Live site** | https://pradipdj432.github.io/portfolio/ GitHub Pages publishes every merge to `main` (Actions → "pages build and deployment"); the deploy of PR #3 succeeded. |
+| **Branches** | `working` = `main` plus this notes update, which goes into the next pull request. All new work starts on `working` (D-002). |
 | **Blocked on** | Nothing. Two small facts are waiting on the owner (Dhitech end month, HFSS tech). |
-| **Next step** | Owner: look at the screenshots and say "merge". Full list in `backlog.md` → "Next up". |
+| **Next step** | Owner: check the live site on a phone; send the Dhitech end month and an updated resume when ready. Full list in `backlog.md` → "Next up". |
 
 ## Where we are
 - **Website:** one page with intro, about, experience, projects, skills, credentials and contact. Dark by default with a light theme. "Download resume" buttons, link previews, a 404 page, and Google search data.
@@ -26,7 +26,7 @@ Where the project stands right now, and a dated log of what was done. Update thi
 | — | Setup: rules and project docs. Committed straight to `main`, because the repo was empty (D-002) | 2026-10-04 |
 | #1 | Resume added; `profile.md` filled from it (D-005) | 2026-10-04 |
 | #2 | First version of the website: one page, "modern premium" design, dark and light (D-006 to D-008) | 2026-10-04 |
-| #3 | Notes after going live, plus the owner's changes: name, headline, three companies, new numbers (D-009 to D-011) | Open |
+| #3 | Notes after going live, plus the owner's two rounds of changes: name, headline, three companies, HFSS, job titles, new numbers, plain "resume" (D-009 to D-012) | 2026-10-04 |
 
 ## Log
 
@@ -59,3 +59,4 @@ Where the project stands right now, and a dated log of what was done. Update thi
 - The owner's second round: describe HFSS from its landing page and static pages; plain "resume" instead of the accented spelling everywhere; Credly only with the phone, LinkedIn, LeetCode and email links, not in the certificates; Professional Cloud Architect earned in 2026; job titles Senior Software Architect (Eagerminds) and Senior Software Engineer (Dhitech).
 - hfss.ch is blocked here, directly and through archive sites, so its own pages were read through web search: HFSS is Helvetia Financial Services, a Zurich fintech platform for payments (SEPA, SEPA Instant, TARGET2, SWIFT), crypto exchange and wallet, digital custody, currency exchange and debit cards, with Swiss-grade security and compliance. Added that to the HFSS entry in `profile.md` and on the site.
 - Made the changes (D-012): "resume" in plain letters across the site, code and docs; removed the Credly link from the certificate card and the "See all my badges on Credly" link; the new certificate shows 2026; new job titles in the experience cards, the intro badge, the profile card, the Google search data and the link-preview image.
+- The owner said "merge". **PR #3 merged** (`a0a23c7`); GitHub's "pages build and deployment" for it succeeded, so the changes are live. Synced `working` with `main`.

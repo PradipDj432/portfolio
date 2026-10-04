@@ -8,10 +8,9 @@ Everything still to do, newest ideas at the bottom of each section. When work st
 ## Next up
 The few things to do next, in order. Keep this list short and current.
 
-1. **Owner:** look at the changes (screenshots in PR #3) and say "merge".
+1. **Owner:** open the live site on your phone and share the link on WhatsApp once to check the preview.
 2. **Owner:** the month you left Dhitech (the site shows "Jul 2024 – 2026"), and the tech you used for HFSS, if you want it shown.
 3. **Owner:** send an updated resume; the one visitors download still says 3 years and doesn't list Eagerminds or Optimum.
-4. **Owner:** open the live site on your phone and share the link on WhatsApp once to check the preview.
 
 ## Waiting on the owner
 - [ ] **P2 · Owner** HFSS: the tech used, if it should be shown (the site describes the product from hfss.ch).
@@ -51,6 +50,7 @@ The few things to do next, in order. Keep this list short and current.
 - [x] **P2 · Owner** "Claude Native" wording: replaced by the owner's own line, "I use Claude Code and Codex to improve and deliver faster" (D-010). PR #3.
 - [x] **P1 · Owner** Job titles: Senior Software Architect at Eagerminds, Senior Software Engineer at Dhitech. PR #3.
 - [x] **P2 · Owner** Professional Cloud Architect year: 2026. PR #3.
+- [x] **P1 · Owner** Merge PR #3: yes, merged and live.
 - [x] **P2 · Owner** Plain "resume" spelling everywhere, and Credly only with the contact links (D-012). PR #3.
 - [x] **P1 · Owner** Headline: "Claude Native · DevOps & AI Engineer · Full Stack Developer". PR #1.
 - [x] **P1 · Owner** Resume PDF sent; name, bio, skills, work, projects, certificates, education and contact details all taken from it (D-005). PR #1.
