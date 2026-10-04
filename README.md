@@ -1,6 +1,6 @@
 # Portfolio — Website
 
-The personal portfolio website of **Pradipkumar Jaliya** ([PradipDj432](https://github.com/PradipDj432) on GitHub): Claude Native · DevOps & AI Engineer · Full Stack Developer. It introduces the owner, shows their work, projects, skills and certificates, offers the résumé as a download, and makes it easy to get in touch.
+The personal portfolio website of **Pradip Jaliya** ([PradipDj432](https://github.com/PradipDj432) on GitHub): Claude & DevOps · AI Engineer · Full Stack Developer. It introduces the owner, shows their work, projects, skills and certificates, offers the résumé as a download, and makes it easy to get in touch.
 
 **Live:** https://pradipdj432.github.io/portfolio/ · Where the project stands: `progress.md`. What's next: `backlog.md` → "Next up".
 
@@ -23,7 +23,7 @@ These are the same docs as the DK-Engineer and Aara Culture repos. `profile.md` 
 - **One page**, `index.html`, with these sections: intro, about, experience, projects, skills, credentials, contact. The text is written straight into the HTML and matches `profile.md` (D-007).
 - **Contact details and links** (email, phone, GitHub, LinkedIn, LeetCode, the résumé file and the live address) are in **one file, `js/config.js`**. `js/common.js` fills them into the page and adds the details Google shows in search results.
 - **Design:** "modern premium", dark by default with a light theme. The button in the header switches between them; the first visit follows the phone or computer setting (D-006).
-- **Résumé:** the "Download résumé" buttons link to `resume/Pradipkumar-Jaliya-Resume.pdf` (D-005).
+- **Résumé:** the "Download résumé" buttons link to `resume/Pradip-Jaliya-Resume.pdf` (D-005).
 - **Link previews:** when the address is shared on WhatsApp or LinkedIn, it shows `images/og-image.jpg` with the name and headline.
 
 ## How we work (branches)
@@ -44,7 +44,7 @@ portfolio/
 │   ├── favicon.svg    Browser tab icon
 │   └── apple-touch-icon.png   Icon when the site is saved to a phone's home screen
 ├── resume/
-│   ├── Pradipkumar-Jaliya-Resume.pdf   The current résumé (download + source of facts)
+│   ├── Pradip-Jaliya-Resume.pdf   The current résumé (download + source of facts)
 │   ├── README.md                       What's here, and steps for a new résumé
 │   └── archive/                        Older résumés
 ├── robots.txt, sitemap.xml   For Google

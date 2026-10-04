@@ -2,10 +2,9 @@
 // (header, intro, contact section and the Google search data). Facts come from profile.md.
 
 const PROFILE = {
-  name: "Pradipkumar Jaliya",
-  headline: "Claude Native · DevOps & AI Engineer · Full Stack Developer",
-  jobTitle: "Software Developer",
-  company: "Dhitech Solutions",
+  name: "Pradip Jaliya",
+  headline: "Claude & DevOps · AI Engineer · Full Stack Developer",
+  company: "Eagerminds",
 
   email: "pradipjaliya9802@gmail.com",
 
@@ -17,10 +16,11 @@ const PROFILE = {
     github: { url: "https://github.com/PradipDj432", handle: "PradipDj432" },
     linkedin: { url: "https://www.linkedin.com/in/pradipjaliya/", handle: "in/pradipjaliya" },
     leetcode: { url: "https://leetcode.com/Dj432/", handle: "Dj432" },
+    credly: { url: "https://www.credly.com/users/pradipdj432/badges/credly", handle: "pradipdj432" },
   },
 
   // The résumé PDF. Keep this file name when a new résumé arrives (see resume/README.md).
-  resume: "resume/Pradipkumar-Jaliya-Resume.pdf",
+  resume: "resume/Pradip-Jaliya-Resume.pdf",
 
   // The live address, used for the Google search data. Change it if the address changes (D-004).
   siteUrl: "https://pradipdj432.github.io/portfolio/",

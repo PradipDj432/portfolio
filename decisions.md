@@ -11,10 +11,13 @@ A log of choices made for the portfolio website and why. Add new decisions at th
 | D-002 | All work on one `working` branch, merged to `main` by pull request | Accepted |
 | D-003 | Plain HTML/CSS/JavaScript with no build step | Accepted |
 | D-004 | Host on GitHub Pages from `main`, repo root, on the free address | Accepted |
-| D-005 | The résumé PDF is kept in the repo and is the source for the site's facts | Accepted |
+| D-005 | The résumé PDF is kept in the repo and is the source for the site's facts | Accepted (file renamed by D-009, headline replaced by D-010) |
 | D-006 | "Modern premium" design: dark by default, with a light theme | Proposed |
 | D-007 | One page; text written in `index.html`, contact links in `js/config.js` | Proposed |
 | D-008 | Projects: the two live websites first, then the résumé projects | Proposed |
+| D-009 | The name on the site is "Pradip Jaliya" everywhere | Accepted |
+| D-010 | Headline: "Claude & DevOps · AI Engineer · Full Stack Developer" | Accepted |
+| D-011 | Three companies on the site, and the owner's numbers in the intro | Accepted |
 
 When you add a decision, add a row here too.
 
@@ -54,7 +57,7 @@ When you add a decision, add a row here too.
 
 ## D-005 — The résumé PDF is kept in the repo and is the source for the site's facts
 - **Date:** 2026-10-04
-- **Status:** Accepted
+- **Status:** Accepted (the file name changed with D-009; the headline was replaced by D-010)
 - **Context:** The owner sent their résumé (`PRADIP_JALIYA_PROFILE_2026.pdf`, 2 pages, April 2026), asked to add it to the repo, and said everything the site needs, apart from the headline, is in it.
 - **Decision:** Save it unchanged as `resume/Pradipkumar-Jaliya-Resume.pdf`, with its SHA-256 in `resume/README.md`. Copy its facts into `profile.md` and treat them as confirmed. The site will offer it as "Download résumé". When a new résumé arrives, move the old one into `resume/archive/` and save the new one under the same name, so links never break. The headline is the owner's own words: "Claude Native · DevOps & AI Engineer · Full Stack Developer".
 - **Alternatives considered:** Only copy the facts and leave the PDF out of the repo; a new file name for each version (download links would break).
@@ -83,3 +86,27 @@ When you add a decision, add a row here too.
 - **Decision:** Show the two live websites first, large, with real screenshots in a browser frame (taken from each repo's `main` branch), then Parking Management System, Bulldozer Price Prediction and Cricket Score Management System as smaller cards with drawn covers.
 - **Alternatives considered:** Résumé projects first; all five the same size.
 - **Consequences:** Live, clickable work is the first thing visitors see. When either live site changes a lot, retake its screenshot (`images/projects/`, 1200 × 750 JPEG under 250 KB).
+
+## D-009 — The name on the site is "Pradip Jaliya" everywhere
+- **Date:** 2026-10-04
+- **Status:** Accepted
+- **Context:** The résumé says "Pradipkumar Jaliya". The owner asked for "Pradip" in every place on the website.
+- **Decision:** Show "Pradip Jaliya" everywhere: page title, header, intro, footer, link previews (`images/og-image.jpg`), Google search data, the 404 page and `js/config.js`. The download file is renamed to `resume/Pradip-Jaliya-Resume.pdf`, and visitors save it as `Pradip-Jaliya-Resume.pdf`. The PDF itself is unchanged, so it still says "Pradipkumar Jaliya" inside. Replaces the file name in D-005.
+- **Alternatives considered:** Keep "Pradipkumar" on the site; show both names.
+- **Consequences:** `profile.md` keeps the full name as a fact. Old résumés in `resume/archive/` keep their original names.
+
+## D-010 — Headline: "Claude & DevOps · AI Engineer · Full Stack Developer"
+- **Date:** 2026-10-04
+- **Status:** Accepted
+- **Context:** The first headline was "Claude Native · DevOps & AI Engineer · Full Stack Developer". The owner asked not to mix DevOps and AI.
+- **Decision:** Use the owner's own words: "Claude & DevOps · AI Engineer · Full Stack Developer". The three About cards follow the same three titles: "Claude & DevOps" (cloud, DevOps, and using Claude Code and Codex to improve and deliver faster), "AI Engineer" (Python, ML, GenAI) and "Full Stack Developer". Replaces the headline in D-005.
+- **Alternatives considered:** Four separate titles (Claude Native, DevOps Engineer, AI Engineer, Full Stack Developer); keep the old headline.
+- **Consequences:** The headline is in `js/config.js`, `index.html` (title, link preview tags, intro, profile card) and `images/og-image.jpg`; change all of them together.
+
+## D-011 — Three companies on the site, and the owner's numbers in the intro
+- **Date:** 2026-10-04
+- **Status:** Accepted
+- **Context:** The owner sent an older CV (March 2026) that lists Optimum Financial Solutions (March 2023 – June 2024) and Dhitech Solutions from July 2024, and said they've worked at Eagerminds since April 2026. The main résumé (April 2026) shows only Dhitech, from March 2023. The owner also gave new numbers for the intro.
+- **Decision:** Show three companies, newest first: Eagerminds (HFSS, hfss.ch), Dhitech Solutions (Gift Card Management System at rbsgift.com, Call Clutch at callclutch.ai, Drive PG at drivepg.com) and Optimum Financial Solutions (JM Financial Mutual Fund). Work history follows the older CV and the owner's answers. Visitors still download the main résumé, not the older CV. The older CV is kept in `resume/archive/` as the source. The intro numbers are the owner's: 4+ years, 5+ certifications, 12+ projects, 800+ LeetCode problems. "3 clouds" was removed. The new Professional Cloud Architect certificate and a Credly link were added.
+- **Alternatives considered:** Offer the older CV for download; keep the résumé's numbers (3 years, 4 certificates, 700+).
+- **Consequences:** The downloadable résumé is now behind the website (it still says 3 years, 700+ LeetCode, four certificates and Dhitech from March 2023). When the owner sends an updated résumé, replace it (steps in `resume/README.md`). Unknowns are left out rather than guessed: the Eagerminds role, what HFSS is, the Dhitech end month and the year of the new certificate.

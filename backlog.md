@@ -8,24 +8,30 @@ Everything still to do, newest ideas at the bottom of each section. When work st
 ## Next up
 The few things to do next, in order. Keep this list short and current.
 
-1. **Owner:** open https://pradipdj432.github.io/portfolio/ on your phone; try the menu, the light/dark button and "Download résumé".
-2. **Owner:** share the link on WhatsApp once to check the preview picture.
-3. **Owner:** check the wording of the "Claude Native & AI" card and the first-person text (`profile.md` → "On the site as a first draft").
-4. **Owner:** add the portfolio link to your GitHub profile and LinkedIn.
+1. **Owner:** four quick answers: your role at Eagerminds, one line on what HFSS (hfss.ch) is and its tech, the month you left Dhitech, and the year of the Professional Cloud Architect certificate.
+2. **Owner:** look at the changes (screenshots in PR #3) and say "merge".
+3. **Owner:** send an updated résumé; the one visitors download still says 3 years and doesn't list Eagerminds or Optimum.
+4. **Owner:** open the live site on your phone and share the link on WhatsApp once to check the preview.
 
 ## Waiting on the owner
+- [ ] **P1 · Owner** Role (job title) at Eagerminds.
+- [ ] **P1 · Owner** HFSS: one line on what hfss.ch is, and the tech used.
+- [ ] **P2 · Owner** The month you left Dhitech Solutions (the site shows "Jul 2024 – 2026").
+- [ ] **P2 · Owner** The year of the Professional Cloud Architect certificate (the site links to Credly for now).
+- [ ] **P2 · Owner** An updated résumé PDF to replace `resume/Pradip-Jaliya-Resume.pdf` (fix the small typos such as "Predication" and "Linklist" too).
+- [ ] **P2 · Owner** Company name style: "Eagerminds" or "EagerMinds"?
 - [ ] **P1 · Owner** Check the live site on a real phone (menu, light/dark button, résumé download, contact links) and the WhatsApp link preview.
-- [ ] **P2 · Owner** Check the "Claude Native & AI" card wording and the first-person text (`profile.md`).
 - [ ] **P2 · Owner** Confirm the design (D-006) and the project order (D-008), or say what to change.
 - [ ] **P2 · Owner** Cricket Score Management System: is there a repo or live link? The résumé has none.
 - [ ] **P2 · Owner** Whether to show a location (GitHub says Ahmedabad; the résumé has none).
 - [ ] **P2 · Owner** A photo of yourself, if wanted.
 - [ ] **P3 · Owner** Update the GitHub profile's company (it still says Optimum Fitech) and add the portfolio link to GitHub and LinkedIn.
-- [ ] **P3 · Owner** Fix the small typos in the résumé PDF (for example "Predication", "Linklist"), then send the new PDF.
 - [ ] **P3 · Owner** Custom domain, if wanted (for example `pradipjaliya.in`).
 
 ## To build
 - [ ] **P2 · Dev** Open the live site, the 404 page and the link preview from an environment that can reach `github.io` (this one can't). The deploy itself succeeded.
+- [ ] **P1 · Dev** Fill in the Eagerminds role, the HFSS description and tech, the Dhitech end month and the certificate year once the owner answers.
+- [ ] **P2 · Dev** Swap in the updated résumé when it arrives (steps in `resume/README.md`).
 - [ ] **P2 · Dev** Add a photo to the intro once the owner sends one.
 - [ ] **P3 · Dev** Retake the DK-Engineer and Aara Culture screenshots when those sites change a lot.
 - [ ] **P3 · Dev** Free, privacy-friendly visitor counter (for example GoatCounter), if the owner wants to see visits.
@@ -40,6 +46,11 @@ The few things to do next, in order. Keep this list short and current.
 - [x] **P1 · Owner** Merge PR #1: yes, merged.
 - [x] **P1 · Owner** Review the first version: "merge". PR #2 merged.
 - [x] **P1 · Owner** Turn on GitHub Pages: done; the site is live (D-004).
+- [x] **P1 · Owner** Name on the site: "Pradip", everywhere (D-009). PR #3.
+- [x] **P1 · Owner** Headline: "Claude & DevOps · AI Engineer · Full Stack Developer", DevOps and AI kept apart (D-010). PR #3.
+- [x] **P1 · Owner** Work history: Optimum Financial Solutions (older CV), Dhitech from July 2024, Eagerminds since April 2026, with live links for HFSS, Call Clutch, the gift card system and Drive PG (D-011). PR #3.
+- [x] **P2 · Owner** New certificate (Professional Cloud Architect) and Credly link; numbers: 4+ years, 5+ certificates, 12+ projects, 800+ LeetCode (D-011). PR #3.
+- [x] **P2 · Owner** "Claude Native" wording: replaced by the owner's own line, "I use Claude Code and Codex to improve and deliver faster" (D-010). PR #3.
 - [x] **P1 · Owner** Headline: "Claude Native · DevOps & AI Engineer · Full Stack Developer". PR #1.
 - [x] **P1 · Owner** Résumé PDF sent; name, bio, skills, work, projects, certificates, education and contact details all taken from it (D-005). PR #1.
 
@@ -56,3 +67,4 @@ The few things to do next, in order. Keep this list short and current.
 - [x] **P2 · Dev** "Page not found" page (`404.html`). PR #2.
 - [x] **P3 · Dev** `sitemap.xml` and `robots.txt` for Google, plus schema.org `Person` data. PR #2.
 - [x] **P3 · Dev** Dark mode: dark by default, light theme, switch button that remembers the choice (D-006). PR #2.
+- [x] **P1 · Dev** Owner's changes: name, headline and About cards, three companies with live project links, fifth certificate and Credly, new numbers, Claude Code and Codex, new link-preview image; résumé file renamed and older CV archived (D-009 to D-011). PR #3.

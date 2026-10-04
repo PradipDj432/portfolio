@@ -5,17 +5,20 @@ Where the project stands right now, and a dated log of what was done. Update thi
 ## Current status
 | | |
 |---|---|
-| **Phase** | Live. The first version (PR #2) is merged and published by GitHub Pages. |
+| **Phase** | Live. The owner's first round of changes (name, headline, three companies, new numbers) is in PR #3, waiting for the owner's OK to merge. |
 | **Live site** | https://pradipdj432.github.io/portfolio/ GitHub Pages publishes every merge to `main` (Actions → "pages build and deployment"); the deploy of PR #2 succeeded. |
-| **Branches** | `working` and `main` hold the same site; this notes update is in PR #3. All new work starts on `working` (D-002). |
-| **Blocked on** | Nothing. A few small checks are waiting on the owner (see `backlog.md` → "Waiting on the owner"). |
-| **Next step** | Owner: open the live site on a phone, share the link on WhatsApp once, and check the two first-draft lines. Full list in `backlog.md` → "Next up". |
+| **Branches** | `main` has the first version (PR #2). `working` has PR #3. All new work starts on `working` (D-002). |
+| **Blocked on** | Nothing. Four small facts are waiting on the owner (Eagerminds role, HFSS, Dhitech end month, certificate year). |
+| **Next step** | Owner: answer the four questions and say "merge". Full list in `backlog.md` → "Next up". |
 
 ## Where we are
 - **Website:** one page with intro, about, experience, projects, skills, credentials and contact. Dark by default with a light theme. "Download résumé" buttons, link previews, a 404 page, and Google search data.
+- **Name and headline:** "Pradip Jaliya", "Claude & DevOps · AI Engineer · Full Stack Developer" (D-009, D-010).
+- **Experience:** Eagerminds (since April 2026, HFSS), Dhitech Solutions (July 2024 – 2026: gift card system, Call Clutch, Drive PG, each with its live link), Optimum Financial Solutions (March 2023 – June 2024: JM Financial Mutual Fund) (D-011).
 - **Projects shown:** DK-Engineer and Aara Culture (live, with screenshots), Parking Management System, Bulldozer Price Prediction, Cricket Score Management System.
-- **Facts:** everything on the page comes from `profile.md` (the résumé and the owner's answers). Two bits of wording are first drafts for the owner to check (`profile.md` → "On the site as a first draft").
-- **Repo:** website files, the résumé in `resume/`, and the project docs.
+- **Numbers:** 4+ years, 5+ certifications, 12+ projects, 800+ LeetCode problems (the owner's).
+- **Facts:** everything on the page comes from `profile.md` (the résumé, the older CV and the owner's answers). Unknowns are left off the page and listed in `profile.md` → "Still to confirm".
+- **Repo:** website files, the résumé (`resume/Pradip-Jaliya-Resume.pdf`) and the older CV in `resume/archive/`, and the project docs.
 
 ## Pull requests
 | PR | What | Merged |
@@ -23,7 +26,7 @@ Where the project stands right now, and a dated log of what was done. Update thi
 | — | Setup: rules and project docs. Committed straight to `main`, because the repo was empty (D-002) | 2026-10-04 |
 | #1 | Résumé added; `profile.md` filled from it (D-005) | 2026-10-04 |
 | #2 | First version of the website: one page, "modern premium" design, dark and light (D-006 to D-008) | 2026-10-04 |
-| #3 | Notes brought up to date after going live | Open |
+| #3 | Notes after going live, plus the owner's changes: name, headline, three companies, new numbers (D-009 to D-011) | Open |
 
 ## Log
 
@@ -49,3 +52,7 @@ Where the project stands right now, and a dated log of what was done. Update thi
 - Opened [PR #2](https://github.com/PradipDj432/portfolio/pull/2) from `working` into `main`.
 - The owner said "merge". **PR #2 merged.** The owner turned on GitHub Pages; GitHub's "pages build and deployment" ran for the merge of PR #2 (commit `c80b909`) and succeeded, so the site is live at https://pradipdj432.github.io/portfolio/. (The run for PR #1 was cancelled because the newer one replaced it.) This environment's network blocks `*.github.io`, so the live pages themselves weren't opened from here; the same files were tested locally before the merge.
 - Synced `working` with `main` again and opened [PR #3](https://github.com/PradipDj432/portfolio/pull/3) with this notes update.
+- The owner reviewed the live site ("looks good") and asked for changes: "Pradip" instead of "Pradipkumar" everywhere; the headline "Claude & DevOps · AI Engineer · Full Stack Developer" without mixing DevOps and AI; the work history from an older CV (Optimum Financial Solutions, March 2023 – June 2024; Dhitech from July 2024), but keep the main résumé as the download; the new job at Eagerminds since April 2026, where they built HFSS (hfss.ch); live links for the Dhitech projects (callclutch.ai, rbsgift.com, drivepg.com); the new Professional Cloud Architect certificate and their Credly page; "I use Claude Code and Codex to improve and deliver faster"; and new numbers: 4+ years, 5+ certificates, 12+ projects (replacing "3 clouds"), 800+ LeetCode.
+- Made all of it on `working` (D-009 to D-011). Renamed the download to `resume/Pradip-Jaliya-Resume.pdf` and saved the older CV as `resume/archive/Pradipkumar-Jaliya-CV-2026-03.pdf` (not linked). Rewrote the About cards to match the three titles, and the Experience section as three company cards. Added the fifth certificate and "See all my badges on Credly", a Credly link in the intro and contact list, and Claude Code, Codex, ASP.NET and SSO to the skills. Regenerated the link-preview image.
+- This environment's network blocks eagerminds.in, hfss.ch, callclutch.ai, rbsgift.com, drivepg.com and credly.com, so none of them could be read. The site shows only what the owner said: no Eagerminds role, no HFSS description, "Jul 2024 – 2026" for Dhitech, and a Credly link instead of a year for the new certificate. Asked the owner for those four facts.
+- Tested in Chromium at 390px and 1280px, in dark and light: no horizontal scrolling, no script errors, no failed requests, no broken images, all links and anchors resolve. Fixed two things the screenshots showed: a long label in the profile card on phones, and the five certificate cards not lining up at mid widths.
