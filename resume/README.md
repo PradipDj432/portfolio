@@ -1,6 +1,6 @@
 # Resume
 
-The owner's resume (CV). It's the source for the facts in `profile.md`, and the site's "Download resume" buttons link to it (D-005).
+The owner's resume (CV). The site's "Download resume" buttons link to it (D-005). Together with the older CV below and the owner's own answers, it's a source for the facts in `profile.md` (see "Sources" there).
 
 ## What's here
 | File | What it is |

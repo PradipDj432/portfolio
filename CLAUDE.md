@@ -16,8 +16,8 @@ All work happens on one branch, **`working`**, made from `main`. Don't create lo
 1. **Sync first:** `git fetch origin`, then `git checkout working && git pull origin working && git merge origin/main`, so `working` starts from the latest `main`. If `working` doesn't exist, create it: `git checkout -b working origin/main`.
 2. **Build** the feature on `working`. Commit with a clear message. Update the docs (table below) in the same branch.
 3. **Push** `working` and **open a pull request** from `working` into `main`. One feature per pull request.
-4. **Merge** the pull request into `main` when the owner says so (GitHub Pages then publishes it, once it's on).
-5. **Sync back:** `git fetch origin && git merge --ff-only origin/main` on `working`, then push `working`, so it matches `main` again.
+4. **Merge** the pull request into `main` when the owner says so. GitHub Pages publishes it in a minute or two; check that the repo's **Actions → "pages build and deployment"** run for the merge is green.
+5. **Sync back:** `git fetch origin && git merge --ff-only origin/main` on `working`, then push `working`, so it matches `main` again. Record the merge and the deploy in `progress.md` and `backlog.md` on `working`; that small notes commit goes into `main` with the next pull request, so there's no pull request just for notes (D-014).
 6. Start the next feature at step 2.
 
 Never commit straight to `main`, and don't create other branches unless the owner asks.
@@ -26,9 +26,10 @@ Never commit straight to `main`, and don't create other branches unless the owne
 | When you… | Update |
 |---|---|
 | Finish any piece of work | `progress.md`: add a line under today's date (with the pull request number), add the pull request to the "Pull requests" table, and refresh "Current status" and "Where we are" |
+| Merge a pull request | `progress.md` (mark it merged, note the deploy) and `backlog.md` (tick what it finished), on `working` |
 | Start or finish a backlog item | `backlog.md`: when done, tick it and move it to "Done" with its pull request number; add new work you discover; keep "Next up" short and current |
 | Make a choice between options (tech, design, content) | `decisions.md`: add a new numbered entry and a row in its index. Never edit an old decision's meaning; replace it with a new one |
-| Learn a fact about the owner (name, skills, work, projects, contact details) | `profile.md` |
+| Learn a fact about the owner (name, skills, work, projects, contact details) | `profile.md`, then the page text in `index.html` (and `js/config.js` or the link-preview image if they show it) |
 | Change how the code is laid out, run or deployed | `README.md` |
 
 ## Facts about the owner

@@ -1,11 +1,11 @@
 # Profile
 
-Facts about the owner, for the portfolio. This file holds facts only. Technical details go in `README.md`, choices go in `decisions.md`.
+Facts about the owner, for the portfolio, and the exact wording the site uses for them. Technical details go in `README.md`, choices go in `decisions.md`. The site (`index.html`, `js/config.js` and the link-preview image) must say the same as this file.
 
 **Sources:**
 1. The main resume, `resume/Pradip-Jaliya-Resume.pdf` (made April 2026, added 2026-10-04). This is the file visitors download.
 2. An older CV, `resume/archive/Pradipkumar-Jaliya-CV-2026-03.pdf` (made March 2026, sent 2026-10-04). The owner said to take the work history from it: Optimum Financial Solutions, then Dhitech Solutions from July 2024. It isn't offered for download.
-3. The owner's own answers on 2026-10-04: the name to show, the headline, the new job at Eagerminds and the job titles, the live project links, the new certificate and its year, Credly, Claude Code and Codex, and the numbers in the intro.
+3. The owner's own answers on 2026-10-04: the name to show, the headline ("Cloud", not "Claude"), the new job at Eagerminds and the job titles, the Dhitech end month, the company and project links, the new certificate and its year, Credly, Claude Code and Codex, and the numbers in the intro.
 4. For HFSS only: hfss.ch's own pages, read through web search on 2026-10-04 (this environment can't open the site directly). The owner asked for HFSS to be described from its landing page and static pages.
 
 Where these disagree, the owner's latest answer wins, then the older CV for work history, then the main resume. When a new resume comes in, update this file to match (steps in `resume/README.md`). Open questions are under "Still to confirm".
@@ -54,8 +54,7 @@ Given by the owner on 2026-10-04 (D-011).
 | Backend | Node.js, NestJS (Express.js, REST APIs, microservices, schedulers); ASP.NET and SSO from the Optimum work |
 | Database | MySQL, MS SQL, DynamoDB (RDBMS, NoSQL, SQL) |
 | Frontend | Angular, React (HTML, CSS, TypeScript, JavaScript, jQuery) |
-| AI & ML | Python (GenAI, LLMs, NumPy, Matplotlib, Pandas, Scikit-learn) |
-| AI coding tools | Claude Code, Codex |
+| AI & ML | Claude Code and Codex (AI coding tools, "to improve and deliver faster"); Python (GenAI, LLMs, NumPy, Matplotlib, Pandas, Scikit-learn) |
 | DSA | C++ (arrays, linked lists, stacks, queues, trees, heaps, sorting, searching) |
 | Tools | Git, GitHub, Bitbucket, Sourcetree, Postman, Jira, Confluence, Visual Studio, VS Code |
 
@@ -157,7 +156,7 @@ Public repos not on the resume and not on the site (from GitHub, 2026-10-04). Sh
 | [DataAnalysisProjects](https://github.com/PradipDj432/DataAnalysisProjects) | A fork of someone else's repo | 2022-10 |
 
 ## Still to confirm
-Tracked in `backlog.md`. Until answered, the site shows only what's known (no role, no year).
+Tracked in `backlog.md`. Until answered, nothing about these goes on the site, except "4+ years", which stays as the owner gave it.
 
 - **Years of experience:** the owner says 4+; the work history on the site starts in March 2023 (about 3.5 years in October 2026). Keep "4+" (for example, if there is earlier work not on the site) or change it to "3+".
 - **HFSS tech stack:** what the owner used to build it (the site shows the product areas instead).
@@ -166,8 +165,19 @@ Tracked in `backlog.md`. Until answered, the site shows only what's known (no ro
 - **Location:** the resume doesn't give one; GitHub says Ahmedabad. Show it or not?
 - **Photo** of the owner, if wanted.
 
-## On the site as a first draft
-Written from the facts above, already on the site; the owner should check the wording.
+## Wording on the site
+The main lines as the site writes them, built from the facts above. The owner reviewed the live site on 2026-10-04 ("looks good"). When a fact changes, change these lines and the matching text in `index.html` together, so every place says the same thing.
 
-- **First-person text:** the About text and the intro are the resume summary rewritten in the first person ("I deploy and run applications…").
-- **Projects order:** the two live websites first (D-008).
+| Where | Text |
+|---|---|
+| Intro badge | Senior Software Architect at Eagerminds |
+| Name | Pradip Jaliya |
+| Titles | Cloud & DevOps · AI Engineer · Full Stack Developer |
+| Intro | I work across cloud & DevOps, AI and full stack development, with 4+ years of experience. I deploy and run applications on AWS, GCP and Azure, use Python for machine learning and GenAI, and build web apps with Angular, React and Node.js. I use Claude Code and Codex to improve and deliver faster. |
+| About | I build full stack products and run them in the cloud: deployment, infrastructure and CI/CD on AWS, GCP and Azure, and single-page apps and REST APIs with Angular, React, Node.js, ASP.NET, MS SQL and MySQL. Today I'm a Senior Software Architect at Eagerminds, after Dhitech Solutions and Optimum Financial Solutions. I have good problem-solving skills, I'm eager to learn, and I use Python for machine learning and GenAI. |
+| Card: Cloud & DevOps | I deploy and run apps on AWS, GCP and Azure: infrastructure as code with Terraform, CI/CD pipelines, Docker and Kubernetes, and serverless workflows with Lambda and Step Functions. Certified on AWS, Azure and Google Cloud, including Google Professional Cloud Architect. |
+| Card: AI Engineer | I use Claude Code and Codex to improve and deliver faster. In Python I work on machine learning and GenAI with NumPy, Pandas, Scikit-learn and LLMs, and build models from Kaggle datasets. Google-certified Generative AI Leader. |
+| Card: Full Stack Developer | I build scalable single-page apps with Angular and React, and REST APIs and microservices with Node.js, NestJS and ASP.NET, on MySQL, MS SQL and DynamoDB. |
+| Experience intro | Three companies, across Swiss fintech, call tracking, gift cards, marketing analytics and mutual funds. |
+| Numbers | 4+ years of experience · 5+ cloud & AI certifications · 12+ projects built · 800+ LeetCode problems solved |
+| Link preview | "Pradip Jaliya. Cloud & DevOps · AI Engineer · Full Stack Developer", badge "Senior Software Architect at Eagerminds", "4+ yrs · 5+ certifications · 12+ projects" |

@@ -8,7 +8,7 @@ The personal portfolio website of **Pradip Jaliya** ([PradipDj432](https://githu
 | File | What's in it |
 |---|---|
 | `README.md` | This file: how the code works and how to run and edit it |
-| `profile.md` | Facts about the owner, taken from the resume: name, headline, skills, work, projects, education, contact details |
+| `profile.md` | Facts about the owner (from the resume, the older CV and the owner's answers) and the exact wording the site uses |
 | `decisions.md` | Every choice made and why (numbered D-001, D-002, …) |
 | `backlog.md` | Everything still to do, with priority |
 | `progress.md` | Current status and a dated work log |
@@ -21,10 +21,10 @@ These are the same docs as the DK-Engineer and Aara Culture repos. `profile.md` 
 - A static website: plain **HTML, CSS and JavaScript**. No framework and no build step (D-003).
 - Hosted free on **GitHub Pages** from the `main` branch, repo root (D-004).
 - **One page**, `index.html`, with these sections: intro, about, experience, projects, skills, credentials, contact. The text is written straight into the HTML and matches `profile.md` (D-007).
-- **Contact details and links** (email, phone, GitHub, LinkedIn, LeetCode, the resume file and the live address) are in **one file, `js/config.js`**. `js/common.js` fills them into the page and adds the details Google shows in search results.
+- **Contact details and links** (email, phone, GitHub, LinkedIn, LeetCode, Credly, the resume file and the live address) are in **one file, `js/config.js`**. `js/common.js` fills them into the page and adds the details Google shows in search results (schema.org `Person`: name, job title, company, headline, links).
 - **Design:** "modern premium", dark by default with a light theme. The button in the header switches between them; the first visit follows the phone or computer setting (D-006).
 - **Resume:** the "Download resume" buttons link to `resume/Pradip-Jaliya-Resume.pdf` (D-005).
-- **Link previews:** when the address is shared on WhatsApp or LinkedIn, it shows `images/og-image.jpg` with the name and headline.
+- **Link previews:** when the address is shared on WhatsApp or LinkedIn, it shows `images/og-image.jpg`. The picture has the name, headline, current job and numbers drawn into it, so it has to be remade when any of those change.
 
 ## How we work (branches)
 All changes are made on the **`working`** branch, one feature at a time: sync `working` with `main` → build the feature → open a pull request from `working` into `main` → merge it when the owner says so → sync `working` with `main` again. The exact steps are in `CLAUDE.md` → "Branches and pull requests" (D-002).
@@ -44,9 +44,10 @@ portfolio/
 │   ├── favicon.svg    Browser tab icon
 │   └── apple-touch-icon.png   Icon when the site is saved to a phone's home screen
 ├── resume/
-│   ├── Pradip-Jaliya-Resume.pdf   The current resume (download + source of facts)
-│   ├── README.md                       What's here, and steps for a new resume
-│   └── archive/                        Older resumes
+│   ├── Pradip-Jaliya-Resume.pdf   The current resume (the file visitors download)
+│   ├── README.md                  What's here, and steps for a new resume
+│   └── archive/                   Older resumes, not linked from the site
+│       └── Pradipkumar-Jaliya-CV-2026-03.pdf   Older CV, the source for the work history
 ├── robots.txt, sitemap.xml   For Google
 ├── .nojekyll          Tells GitHub Pages to serve the files as they are
 └── CLAUDE.md, README.md, profile.md, decisions.md, backlog.md, progress.md   Project docs
@@ -68,13 +69,17 @@ All changes go through the `working` branch (D-002). On GitHub, pick **`working`
 Open `js/config.js` → pencil icon (✏️) → change the value inside the quotes → **Commit changes**. It updates everywhere on the page.
 
 - `phone`: `number` is for the call link (`+91` and the number, no spaces); `display` is what people see.
-- `links`: `url` is the full address; `handle` is the short text shown in the contact section.
+- `links`: GitHub, LinkedIn, LeetCode and Credly. `url` is the full address; `handle` is the short text shown in the contact section.
+- `name`, `headline`, `jobTitle` and `company` are only used for the Google search data. The same words are also written in `index.html` (and drawn into `images/og-image.jpg`), so change them there too.
 
 ### Change page text
-Open `index.html` → pencil icon → find the words and change only the text between the tags. For example, in `<h3>Call Clutch</h3>` change only `Call Clutch`. → **Commit changes**. Then update `profile.md` to match.
+Open `index.html` → pencil icon → find the words and change only the text between the tags. For example, in `<h4>Call Clutch</h4>` change only `Call Clutch`. → **Commit changes**. Then update `profile.md` to match. If the same fact appears in other places (the intro, a card, the profile card, the numbers), change it everywhere, so the page never says two different things.
 
 ### Add a project
 In `index.html`, find the `<!-- Projects -->` section. Copy a whole small card, from `<article class="project card` to its closing `</article>`, and paste it after the last one. Change the title, the type (`project-kind`), the description, the tags (`<li>…</li>`) and the links. Then add the project to `profile.md`.
+
+### Change a job or a work project
+In `index.html`, find the `<!-- Experience: newest company first -->` section. Each company is one `<article class="job">` with its name, title and dates at the top. Each work project inside it is one `<li class="timeline-item">`: copy one, paste it under the last, and change the name, the link, the tags and the bullet points. Then update `profile.md` → "Work experience".
 
 ### Replace a project screenshot
 Make a 1200 × 750 JPEG under about 250 KB, upload it to `images/projects/` with the **same file name** (for example `dk-engineer.jpg`), and commit.

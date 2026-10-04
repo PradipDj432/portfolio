@@ -11,15 +11,16 @@ A log of choices made for the portfolio website and why. Add new decisions at th
 | D-002 | All work on one `working` branch, merged to `main` by pull request | Accepted |
 | D-003 | Plain HTML/CSS/JavaScript with no build step | Accepted |
 | D-004 | Host on GitHub Pages from `main`, repo root, on the free address | Accepted |
-| D-005 | The resume PDF is kept in the repo and is the source for the site's facts | Accepted (file renamed by D-009, headline replaced by D-010) |
-| D-006 | "Modern premium" design: dark by default, with a light theme | Proposed |
+| D-005 | The resume PDF is kept in the repo and is the source for the site's facts | Accepted (file renamed by D-009; headline replaced by D-010, then D-013) |
+| D-006 | "Modern premium" design: dark by default, with a light theme | Accepted |
 | D-007 | One page; text written in `index.html`, contact links in `js/config.js` | Proposed |
-| D-008 | Projects: the two live websites first, then the resume projects | Proposed |
+| D-008 | Projects: the two live websites first, then the resume projects | Accepted |
 | D-009 | The name on the site is "Pradip Jaliya" everywhere | Accepted |
 | D-010 | Headline: "Claude & DevOps · AI Engineer · Full Stack Developer" | Replaced by D-013 |
-| D-011 | Three companies on the site, and the owner's numbers in the intro | Accepted |
+| D-011 | Three companies on the site, and the owner's numbers in the intro | Accepted (Credly placement changed by D-012; its open facts answered later) |
 | D-012 | Plain "resume" spelling, and Credly only with the contact links | Accepted |
 | D-013 | Headline: "Cloud & DevOps · AI Engineer · Full Stack Developer"; Claude Code and Codex go with AI | Accepted |
+| D-014 | After a merge, the notes update rides along with the next pull request | Proposed |
 
 When you add a decision, add a row here too.
 
@@ -59,7 +60,7 @@ When you add a decision, add a row here too.
 
 ## D-005 — The resume PDF is kept in the repo and is the source for the site's facts
 - **Date:** 2026-10-04
-- **Status:** Accepted (the file name changed with D-009; the headline was replaced by D-010)
+- **Status:** Accepted (the file name changed with D-009; the headline was replaced by D-010, then by D-013)
 - **Context:** The owner sent their resume (`PRADIP_JALIYA_PROFILE_2026.pdf`, 2 pages, April 2026), asked to add it to the repo, and said everything the site needs, apart from the headline, is in it.
 - **Decision:** Save it unchanged as `resume/Pradipkumar-Jaliya-Resume.pdf`, with its SHA-256 in `resume/README.md`. Copy its facts into `profile.md` and treat them as confirmed. The site will offer it as "Download resume". When a new resume arrives, move the old one into `resume/archive/` and save the new one under the same name, so links never break. The headline is the owner's own words: "Claude Native · DevOps & AI Engineer · Full Stack Developer".
 - **Alternatives considered:** Only copy the facts and leave the PDF out of the repo; a new file name for each version (download links would break).
@@ -67,7 +68,7 @@ When you add a decision, add a row here too.
 
 ## D-006 — "Modern premium" design: dark by default, with a light theme
 - **Date:** 2026-10-04
-- **Status:** Proposed (the owner asked for a "solid, modern, premium" portfolio; confirm once they've seen it)
+- **Status:** Accepted (the owner reviewed the live site on 2026-10-04 and said "looks good"; later changes were to text and the size of the name only)
 - **Context:** The owner works in cloud, DevOps and AI, and wanted the site to look and feel modern and premium. A design-options round (as done for Aara Culture) was skipped because the owner asked to build straight away.
 - **Decision:** Near-black background with one warm orange accent (`#ff8a4c`; `#c2410c` in light mode), thin borders, large type and lots of space. Fonts: Geist for text, Geist Mono for small labels and code, Instrument Serif italic for one accent phrase in each heading (Google Fonts). The intro shows the name very large, the three titles, a code-style "profile.yaml" card and four numbers from the resume. Subtle touches: a faint grid and glow behind the intro, a moving row of technologies, a soft light that follows the pointer on cards, and sections that fade in on scroll. A button switches between dark and light; the first visit follows the device setting. People who turn off animations on their device get none.
 - **Alternatives considered:** A light, minimal "editorial" look (calm, but less of a tech feel); a bright, colourful gradient look (flashier, ages faster); showing 2–3 styles first.
@@ -83,7 +84,7 @@ When you add a decision, add a row here too.
 
 ## D-008 — Projects: the two live websites first, then the resume projects
 - **Date:** 2026-10-04
-- **Status:** Proposed
+- **Status:** Accepted (the owner reviewed the live site on 2026-10-04, said "looks good" and kept this order)
 - **Context:** The owner chose to show the DK-Engineer and Aara Culture websites as well as the resume's three projects, but didn't set an order.
 - **Decision:** Show the two live websites first, large, with real screenshots in a browser frame (taken from each repo's `main` branch), then Parking Management System, Bulldozer Price Prediction and Cricket Score Management System as smaller cards with drawn covers.
 - **Alternatives considered:** Resume projects first; all five the same size.
@@ -107,7 +108,7 @@ When you add a decision, add a row here too.
 
 ## D-011 — Three companies on the site, and the owner's numbers in the intro
 - **Date:** 2026-10-04
-- **Status:** Accepted
+- **Status:** Accepted (Credly placement changed by D-012; the unknowns listed below were answered later: job titles and HFSS in D-012's round, the Dhitech end month and the certificate year in D-013's round, all recorded in `profile.md`)
 - **Context:** The owner sent an older CV (March 2026) that lists Optimum Financial Solutions (March 2023 – June 2024) and Dhitech Solutions from July 2024, and said they've worked at Eagerminds since April 2026. The main resume (April 2026) shows only Dhitech, from March 2023. The owner also gave new numbers for the intro.
 - **Decision:** Show three companies, newest first: Eagerminds (HFSS, hfss.ch), Dhitech Solutions (Gift Card Management System at rbsgift.com, Call Clutch at callclutch.ai, Drive PG at drivepg.com) and Optimum Financial Solutions (JM Financial Mutual Fund). Work history follows the older CV and the owner's answers. Visitors still download the main resume, not the older CV. The older CV is kept in `resume/archive/` as the source. The intro numbers are the owner's: 4+ years, 5+ certifications, 12+ projects, 800+ LeetCode problems. "3 clouds" was removed. The new Professional Cloud Architect certificate and a Credly link were added.
 - **Alternatives considered:** Offer the older CV for download; keep the resume's numbers (3 years, 4 certificates, 700+).
@@ -128,3 +129,11 @@ When you add a decision, add a row here too.
 - **Decision:** Headline "Cloud & DevOps · AI Engineer · Full Stack Developer" everywhere: page title, link preview tags and image, intro, profile card, About card and `js/config.js`. Claude Code and Codex move to the AI Engineer card and to the "AI & ML" skills group. The intro is rewritten to follow the three titles in order. The line "I use Claude Code and Codex to improve and deliver faster" is word-for-word the same wherever it appears. Other changes from the same request: links for Dhitech Solutions (dhitech.solutions), Optimum Financial Solutions (optimumfintech.com) and JM Financial Mutual Fund (jmfinancialmf.com); Dhitech dates "Jul 2024 – Mar 2026"; the name in the intro a little smaller; the "Built with…" line removed from the footer. Replaces D-010.
 - **Alternatives considered:** Keep "Claude & DevOps" with a cloud-only card; four separate titles.
 - **Consequences:** The first headline ("Claude Native", D-005) and D-010 were most likely "Cloud" all along. `CLAUDE.md` now has a rule to keep each fact worded the same everywhere and to read the whole page after any text change.
+
+## D-014 — After a merge, the notes update rides along with the next pull request
+- **Date:** 2026-10-04
+- **Status:** Proposed (a working habit; the owner hasn't objected)
+- **Context:** The rules say every finished piece of work is recorded in `progress.md` and `backlog.md`, and that nothing is committed straight to `main`. Recording a merge (and its deploy) after it happens would need a new pull request each time, only for notes.
+- **Decision:** After a merge, sync `working` with `main`, then commit the notes about that merge on `working`. They reach `main` with the next pull request. A pull request only for notes is opened when the owner asks for the docs to be brought up to date.
+- **Alternatives considered:** A separate notes pull request after every merge; committing notes straight to `main`.
+- **Consequences:** Between pull requests, `working` can be one small notes commit ahead of `main`. The steps are in `CLAUDE.md` → "Branches and pull requests".
