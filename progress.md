@@ -5,11 +5,11 @@ Where the project stands right now, and a dated log of what was done. Update thi
 ## Current status
 | | |
 |---|---|
-| **Phase** | Live. The owner's third round (headline "Cloud & DevOps", links, Dhitech dates, consistency pass) is on `working`, waiting for the owner's OK to merge. |
-| **Live site** | https://pradipdj432.github.io/portfolio/ GitHub Pages publishes every merge to `main` (Actions → "pages build and deployment"); the deploy of PR #3 succeeded. |
-| **Branches** | `working` is ahead of `main` with the third round, in PR #4. All new work starts on `working` (D-002). |
+| **Phase** | Live, with the owner's third round (PR #4): headline "Cloud & DevOps", company links, Dhitech dates, consistency pass. |
+| **Live site** | https://pradipdj432.github.io/portfolio/ GitHub Pages publishes every merge to `main` (Actions → "pages build and deployment"); the deploy of PR #4 succeeded. |
+| **Branches** | `working` = `main` plus this notes update, which goes into the next pull request. All new work starts on `working` (D-002). |
 | **Blocked on** | Nothing. Two small checks are waiting on the owner ("4+ years", HFSS tech). |
-| **Next step** | Owner: look at PR #4 and say "merge". Full list in `backlog.md` → "Next up". |
+| **Next step** | Owner: confirm "4+ years", check the live site on a phone, and send an updated resume when ready. Full list in `backlog.md` → "Next up". |
 
 ## Where we are
 - **Website:** one page with intro, about, experience, projects, skills, credentials and contact. Dark by default with a light theme. "Download resume" buttons, link previews, a 404 page, and Google search data.
@@ -27,7 +27,7 @@ Where the project stands right now, and a dated log of what was done. Update thi
 | #1 | Resume added; `profile.md` filled from it (D-005) | 2026-10-04 |
 | #2 | First version of the website: one page, "modern premium" design, dark and light (D-006 to D-008) | 2026-10-04 |
 | #3 | Notes after going live, plus the owner's two rounds of changes: name, headline, three companies, HFSS, job titles, new numbers, plain "resume" (D-009 to D-012) | 2026-10-04 |
-| #4 | Third round: headline "Cloud & DevOps", Claude Code and Codex with AI, company links, Dhitech dates, consistency pass (D-013) | Open |
+| #4 | Third round: headline "Cloud & DevOps", Claude Code and Codex with AI, company links, Dhitech dates, consistency pass (D-013) | 2026-10-04 |
 
 ## Log
 
@@ -65,3 +65,4 @@ Where the project stands right now, and a dated log of what was done. Update thi
 - Checked the company names through web search (the sites are blocked here): optimumfintech.com brands itself "Optimum Fintech" and names the company "Optimum Financial Solutions", so the CV's name stays; dhitech.solutions is "Dhitech Solutions".
 - With Claude Code and Codex moved out, the "Claude & DevOps" card was only about cloud. Asked the owner: the first title is "Cloud & DevOps" (D-013). Changed it everywhere, including the link-preview image.
 - Read the whole page top to bottom for anything that disagreed. Rewrote the intro to follow the three titles; made the Python and Kaggle wording match across the intro, About, AI card and competitive coding; made the Claude Code line identical in both places; removed "since 2023" from the Experience intro because it clashed with "4+ years" (flagged to the owner instead). Added a rule to `CLAUDE.md` to keep each fact worded the same everywhere.
+- The owner said "merge". **PR #4 merged** (`f96abe2`); "pages build and deployment" for it succeeded, so the changes are live. "4+ years" stays as the owner gave it until they say otherwise. Synced `working` with `main`.

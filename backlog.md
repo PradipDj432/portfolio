@@ -53,6 +53,7 @@ The few things to do next, in order. Keep this list short and current.
 - [x] **P1 · Owner** Merge PR #3: yes, merged and live.
 - [x] **P1 · Owner** First title is "Cloud & DevOps", not "Claude"; Claude Code and Codex go with AI (D-013).
 - [x] **P2 · Owner** Dhitech end month: March 2026. Company links: dhitech.solutions, optimumfintech.com, jmfinancialmf.com.
+- [x] **P1 · Owner** Merge PR #4: yes, merged and live.
 - [x] **P2 · Owner** Plain "resume" spelling everywhere, and Credly only with the contact links (D-012). PR #3.
 - [x] **P1 · Owner** Headline: "Claude Native · DevOps & AI Engineer · Full Stack Developer". PR #1.
 - [x] **P1 · Owner** Resume PDF sent; name, bio, skills, work, projects, certificates, education and contact details all taken from it (D-005). PR #1.
