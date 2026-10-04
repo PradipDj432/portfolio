@@ -7,13 +7,14 @@ Where the project stands right now, and a dated log of what was done. Update thi
 |---|---|
 | **Phase** | Live. Five pull requests merged (#1–#5): the owner's three rounds of changes are on the site, and every doc matches it. |
 | **Live site** | https://pradipdj432.github.io/portfolio/ GitHub Pages publishes every merge to `main` (Actions → "pages build and deployment"). Every deploy so far has succeeded, the latest for PR #5 (`2de9a51`). |
-| **Branches** | `working` matches `main`, plus these merge notes for PR #5, which go into `main` with the next pull request (D-014). All new work starts on `working` (D-002). |
+| **Branches** | `working` is ahead of `main` with PR #6 (clearer intro, About and Projects texts), which also carries the merge notes for PR #5 (D-014). All new work starts on `working` (D-002). |
 | **Blocked on** | Nothing. A few small checks are waiting on the owner ("4+ years", HFSS tech, an updated resume). |
-| **Next step** | Owner: check the live site on a phone and answer the small checks. Full list in `backlog.md` → "Next up". |
+| **Next step** | Owner: say "merge" for PR #6, check the live site on a phone and answer the small checks. Full list in `backlog.md` → "Next up". |
 
 ## Where we are
 What's on the live site today:
 - **Page:** one page with intro, about, experience, projects, skills, credentials and contact, plus a "page not found" page. Dark by default with a light theme and a switch button. "Download resume" buttons, link previews for WhatsApp and LinkedIn, and Google search data (D-006, D-007).
+- **Intro and About:** short, clear texts about building web apps and running them in the cloud; Python and machine learning are in the AI Engineer card, Skills and the Bulldozer project only (D-015, in PR #6).
 - **Name and titles:** "Pradip Jaliya", "Cloud & DevOps · AI Engineer · Full Stack Developer", badge "Senior Software Architect at Eagerminds" (D-009, D-013).
 - **Experience:** Senior Software Architect at Eagerminds (since April 2026: HFSS, Helvetia Financial Services); Senior Software Engineer at Dhitech Solutions (July 2024 – March 2026: gift card system, Call Clutch, Drive PG, each with its live link); Junior Software Developer and Intern at Optimum Financial Solutions (March 2023 – June 2024: JM Financial Mutual Fund) (D-011).
 - **Projects:** DK-Engineer and Aara Culture (live, with screenshots), then Parking Management System, Bulldozer Price Prediction and Cricket Score Management System (D-008).
@@ -32,6 +33,7 @@ What's on the live site today:
 | #3 | Notes after going live, plus the owner's first and second rounds: name, headline, three companies, HFSS, job titles, new numbers, plain "resume" (D-009 to D-012) | 2026-10-04 |
 | #4 | Third round: headline "Cloud & DevOps", Claude Code and Codex with AI, company links, Dhitech dates, consistency pass (D-013) | 2026-10-04 |
 | #5 | Every `.md` file brought in sync with the site and code (D-014) | 2026-10-04 |
+| #6 | Clearer intro, About and Projects texts, about cloud and full stack only (D-015) | Open |
 
 ## Log
 
@@ -79,3 +81,11 @@ What's on the live site today:
   - `progress.md`: this file, with the status refreshed and the log split by round.
   - `resume/README.md`: says which sources feed `profile.md`.
 - Opened [PR #5](https://github.com/PradipDj432/portfolio/pull/5). The owner said "merge". **PR #5 merged** (`2de9a51`); the deploy succeeded.
+
+#### PR #6 (clearer intro, About and Projects texts)
+- The owner said the intro, About and Projects texts were unclear and mixed things together, and asked to take Python and the things around it out and keep cloud and full stack.
+- Asked where Python should go: the owner chose these three texts only, so Python and machine learning stay in the AI Engineer card, Skills and the Bulldozer project. The owner approved the new wording (D-015).
+- New texts: the intro (web apps and the cloud, 4+ years, Angular, React and Node.js, AWS, GCP and Azure, the Claude Code and Codex line); the About text (front end, APIs and databases, then infrastructure, CI/CD and the cloud, then the three companies); the Projects text (two live business websites, two full stack apps and one machine learning model). Aara Culture's label is now "Business website · Live", the same as DK ENGINEER'S.
+- Updated `profile.md` → "Wording on the site" (checked word for word against the page) and the Aara Culture type.
+- Tested at 390px and 1280px in dark and light: no script errors, no failed requests, no sideways scrolling.
+- Opened PR #6; waiting for the owner's OK to merge.
