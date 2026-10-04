@@ -33,8 +33,9 @@ Never commit straight to `main`, and don't create other branches unless the owne
 
 ## Facts about the owner
 - Never invent facts: name, job title, employer, dates, years of experience, skills, education, certificates, project results or numbers, client names. If a fact isn't confirmed in `profile.md`, ask the owner and list it in `backlog.md` under "Waiting on the owner".
-- Show only the projects the owner picked. Describe a project from its repo and the owner's own words; don't claim features its code doesn't have.
-- Don't put the owner's email, phone number or address on the site until the owner says which ones to show.
+- The résumé, `resume/Pradipkumar-Jaliya-Resume.pdf`, is the source for the facts in `profile.md` (D-005). When the owner sends a new résumé, move the old PDF into `resume/archive/` (never delete it), save the new one under the same name, and update `resume/README.md`, `profile.md` and the website together (steps in `resume/README.md`). Don't edit the PDF itself.
+- Show only the projects in `profile.md` (the résumé's, plus any the owner adds). Describe a project from the résumé, its repo and the owner's own words; don't claim features its code doesn't have.
+- Show only the contact details in `profile.md` → "Contact".
 - Don't add social media links, testimonials or reviews until real ones exist.
 - Once the site has code, contact links, social links and the résumé link live in one place, `js/config.js`. Don't hard-code them in the pages.
 
