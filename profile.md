@@ -14,11 +14,11 @@ Where these disagree, the owner's latest answer wins, then the older CV for work
 | | |
 |---|---|
 | **Name on the website** | **Pradip Jaliya**, everywhere (owner, 2026-10-04; D-009). Full name on the resume: Pradipkumar Jaliya |
-| **Headline** | Claude & DevOps · AI Engineer · Full Stack Developer (owner, 2026-10-04; DevOps and AI kept apart; D-010) |
+| **Headline** | Cloud & DevOps · AI Engineer · Full Stack Developer (owner, 2026-10-04; "Cloud", the cloud, not "Claude"; DevOps and AI kept apart; D-013) |
 | **Experience** | 4+ years (owner). Work started March 2023 |
 | **Current job** | Senior Software Architect at Eagerminds (https://www.eagerminds.in/), since April 2026 (owner) |
 | **Companies** | 3: Optimum Financial Solutions → Dhitech Solutions → Eagerminds |
-| **How they work** | Uses Claude Code and Codex "to improve and deliver faster" (owner's words) |
+| **How they work** | Uses Claude Code and Codex "to improve and deliver faster" (owner's words). On the site these sit with AI, not with cloud (D-013) |
 | **Resume (download)** | `resume/Pradip-Jaliya-Resume.pdf` |
 | **Website** | https://pradipdj432.github.io/portfolio/ (live) |
 
@@ -74,8 +74,8 @@ Built by the owner at Eagerminds (owner's words: "in which I build this project"
 - Security and compliance: certified HSMs, segregated funds, fraud monitoring, geo-redundant backups in Switzerland, AML/KYC/KYB/KYT and Travel Rule support, sanctions screening, accountant access with limited rights, REST APIs and webhooks, 99.99% uptime.
 - The tech stack the owner used: still to confirm.
 
-### Dhitech Solutions — Senior Software Engineer (July 2024 – 2026)
-Title from the owner, 2026-10-04 (both resumes say "Software Developer"). Start date from the older CV. End month still to confirm (the owner moved to Eagerminds in April 2026). The main resume says "March 2023 – Current"; the owner said to use the older CV's dates.
+### Dhitech Solutions — Senior Software Engineer (July 2024 – March 2026)
+https://dhitech.solutions/ · Title and end date from the owner, 2026-10-04 (both resumes say "Software Developer"). Start date from the older CV. The main resume says "March 2023 – Current"; the owner said to use the older CV's dates.
 
 **Gift Card Management System** (Angular, Node.js, MySQL, AWS) · live at http://rbsgift.com/
 - Built a gift card management system with role-based access (Merchant, Admin, etc.).
@@ -95,9 +95,9 @@ Title from the owner, 2026-10-04 (both resumes say "Software Developer"). Start 
 - Automated email workflows with AWS SES, and fed marketing campaign data into the React dashboard for real-time updates.
 
 ### Optimum Financial Solutions — Junior Software Developer and Intern (March 2023 – June 2024)
-From the older CV.
+https://www.optimumfintech.com/ (link from the owner) · From the older CV. The company's site brands itself "Optimum Fintech" and names the company "Optimum Financial Solutions", so the CV's name is kept. The GitHub profile's "Optimum Fitech" refers to this company.
 
-**JM Financial Mutual Fund** (Angular, ASP.NET, MS SQL)
+**JM Financial Mutual Fund** (Angular, ASP.NET, MS SQL) · https://www.jmfinancialmf.com/ (link from the owner)
 - Completed extensive training in Angular, the ASP.NET Framework and MS SQL, and applied it to the real-time mutual fund application.
 - Developed, tested and maintained the mutual fund application with Angular, ASP.NET and MS SQL; integrated microservice APIs, managed databases, and used data binding for smooth data synchronisation.
 - Built modules for single sign-on (SSO) login, schedulers, bulk insertion, brokerage calculations and report generation.
@@ -159,7 +159,7 @@ Public repos not on the resume and not on the site (from GitHub, 2026-10-04). Sh
 ## Still to confirm
 Tracked in `backlog.md`. Until answered, the site shows only what's known (no role, no year).
 
-- **Dhitech end month:** the site shows "Jul 2024 – 2026".
+- **Years of experience:** the owner says 4+; the work history on the site starts in March 2023 (about 3.5 years in October 2026). Keep "4+" (for example, if there is earlier work not on the site) or change it to "3+".
 - **HFSS tech stack:** what the owner used to build it (the site shows the product areas instead).
 - **Company name style:** "Eagerminds", or another spelling such as "EagerMinds"?
 - **Cricket Score Management System:** is there a repo or live link? The resume has none.

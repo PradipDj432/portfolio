@@ -16,9 +16,10 @@ A log of choices made for the portfolio website and why. Add new decisions at th
 | D-007 | One page; text written in `index.html`, contact links in `js/config.js` | Proposed |
 | D-008 | Projects: the two live websites first, then the resume projects | Proposed |
 | D-009 | The name on the site is "Pradip Jaliya" everywhere | Accepted |
-| D-010 | Headline: "Claude & DevOps · AI Engineer · Full Stack Developer" | Accepted |
+| D-010 | Headline: "Claude & DevOps · AI Engineer · Full Stack Developer" | Replaced by D-013 |
 | D-011 | Three companies on the site, and the owner's numbers in the intro | Accepted |
 | D-012 | Plain "resume" spelling, and Credly only with the contact links | Accepted |
+| D-013 | Headline: "Cloud & DevOps · AI Engineer · Full Stack Developer"; Claude Code and Codex go with AI | Accepted |
 
 When you add a decision, add a row here too.
 
@@ -98,7 +99,7 @@ When you add a decision, add a row here too.
 
 ## D-010 — Headline: "Claude & DevOps · AI Engineer · Full Stack Developer"
 - **Date:** 2026-10-04
-- **Status:** Accepted
+- **Status:** Replaced by D-013
 - **Context:** The first headline was "Claude Native · DevOps & AI Engineer · Full Stack Developer". The owner asked not to mix DevOps and AI.
 - **Decision:** Use the owner's own words: "Claude & DevOps · AI Engineer · Full Stack Developer". The three About cards follow the same three titles: "Claude & DevOps" (cloud, DevOps, and using Claude Code and Codex to improve and deliver faster), "AI Engineer" (Python, ML, GenAI) and "Full Stack Developer". Replaces the headline in D-005.
 - **Alternatives considered:** Four separate titles (Claude Native, DevOps Engineer, AI Engineer, Full Stack Developer); keep the old headline.
@@ -119,3 +120,11 @@ When you add a decision, add a row here too.
 - **Decision:** Write "resume" (no accents) everywhere: the website, the code and the docs. Show Credly only in the intro icons and the contact list. The certificates section has no Credly links, and every certificate card shows its year, so the cards line up. Professional Cloud Architect shows 2026.
 - **Alternatives considered:** Keep the accented spelling; keep the "See all my badges on Credly" link under the certificates.
 - **Consequences:** The Credly address lives in `js/config.js` like the other profile links.
+
+## D-013 — Headline: "Cloud & DevOps · AI Engineer · Full Stack Developer"; Claude Code and Codex go with AI
+- **Date:** 2026-10-04
+- **Status:** Accepted
+- **Context:** The owner asked to move Claude Code and Codex out of the first About card into the AI card. That left the "Claude & DevOps" card talking only about AWS, GCP, Azure, Terraform and Kubernetes. Asked whether the first title meant "Cloud" or "Claude", the owner chose "Cloud & DevOps", which matches the resume's "Cloud & DevOps" skill group. The owner also asked that every place on the site say the same thing.
+- **Decision:** Headline "Cloud & DevOps · AI Engineer · Full Stack Developer" everywhere: page title, link preview tags and image, intro, profile card, About card and `js/config.js`. Claude Code and Codex move to the AI Engineer card and to the "AI & ML" skills group. The intro is rewritten to follow the three titles in order. The line "I use Claude Code and Codex to improve and deliver faster" is word-for-word the same wherever it appears. Other changes from the same request: links for Dhitech Solutions (dhitech.solutions), Optimum Financial Solutions (optimumfintech.com) and JM Financial Mutual Fund (jmfinancialmf.com); Dhitech dates "Jul 2024 – Mar 2026"; the name in the intro a little smaller; the "Built with…" line removed from the footer. Replaces D-010.
+- **Alternatives considered:** Keep "Claude & DevOps" with a cloud-only card; four separate titles.
+- **Consequences:** The first headline ("Claude Native", D-005) and D-010 were most likely "Cloud" all along. `CLAUDE.md` now has a rule to keep each fact worded the same everywhere and to read the whole page after any text change.

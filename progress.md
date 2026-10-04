@@ -5,16 +5,16 @@ Where the project stands right now, and a dated log of what was done. Update thi
 ## Current status
 | | |
 |---|---|
-| **Phase** | Live, with the owner's two rounds of changes (PR #3). |
+| **Phase** | Live. The owner's third round (headline "Cloud & DevOps", links, Dhitech dates, consistency pass) is on `working`, waiting for the owner's OK to merge. |
 | **Live site** | https://pradipdj432.github.io/portfolio/ GitHub Pages publishes every merge to `main` (Actions → "pages build and deployment"); the deploy of PR #3 succeeded. |
-| **Branches** | `working` = `main` plus this notes update, which goes into the next pull request. All new work starts on `working` (D-002). |
-| **Blocked on** | Nothing. Two small facts are waiting on the owner (Dhitech end month, HFSS tech). |
-| **Next step** | Owner: check the live site on a phone; send the Dhitech end month and an updated resume when ready. Full list in `backlog.md` → "Next up". |
+| **Branches** | `working` is ahead of `main` with the third round, in PR #4. All new work starts on `working` (D-002). |
+| **Blocked on** | Nothing. Two small checks are waiting on the owner ("4+ years", HFSS tech). |
+| **Next step** | Owner: look at PR #4 and say "merge". Full list in `backlog.md` → "Next up". |
 
 ## Where we are
 - **Website:** one page with intro, about, experience, projects, skills, credentials and contact. Dark by default with a light theme. "Download resume" buttons, link previews, a 404 page, and Google search data.
-- **Name and headline:** "Pradip Jaliya", "Claude & DevOps · AI Engineer · Full Stack Developer" (D-009, D-010).
-- **Experience:** Senior Software Architect at Eagerminds (since April 2026: HFSS, Helvetia Financial Services), Senior Software Engineer at Dhitech Solutions (July 2024 – 2026: gift card system, Call Clutch, Drive PG, each with its live link), Junior Software Developer and Intern at Optimum Financial Solutions (March 2023 – June 2024: JM Financial Mutual Fund) (D-011).
+- **Name and headline:** "Pradip Jaliya", "Cloud & DevOps · AI Engineer · Full Stack Developer" (D-009, D-013).
+- **Experience:** Senior Software Architect at Eagerminds (since April 2026: HFSS, Helvetia Financial Services), Senior Software Engineer at Dhitech Solutions (July 2024 – March 2026: gift card system, Call Clutch, Drive PG, each with its live link), Junior Software Developer and Intern at Optimum Financial Solutions (March 2023 – June 2024: JM Financial Mutual Fund) (D-011).
 - **Projects shown:** DK-Engineer and Aara Culture (live, with screenshots), Parking Management System, Bulldozer Price Prediction, Cricket Score Management System.
 - **Numbers:** 4+ years, 5+ certifications, 12+ projects, 800+ LeetCode problems (the owner's).
 - **Facts:** everything on the page comes from `profile.md` (the resume, the older CV and the owner's answers). Unknowns are left off the page and listed in `profile.md` → "Still to confirm".
@@ -27,6 +27,7 @@ Where the project stands right now, and a dated log of what was done. Update thi
 | #1 | Resume added; `profile.md` filled from it (D-005) | 2026-10-04 |
 | #2 | First version of the website: one page, "modern premium" design, dark and light (D-006 to D-008) | 2026-10-04 |
 | #3 | Notes after going live, plus the owner's two rounds of changes: name, headline, three companies, HFSS, job titles, new numbers, plain "resume" (D-009 to D-012) | 2026-10-04 |
+| #4 | Third round: headline "Cloud & DevOps", Claude Code and Codex with AI, company links, Dhitech dates, consistency pass (D-013) | Open |
 
 ## Log
 
@@ -60,3 +61,7 @@ Where the project stands right now, and a dated log of what was done. Update thi
 - hfss.ch is blocked here, directly and through archive sites, so its own pages were read through web search: HFSS is Helvetia Financial Services, a Zurich fintech platform for payments (SEPA, SEPA Instant, TARGET2, SWIFT), crypto exchange and wallet, digital custody, currency exchange and debit cards, with Swiss-grade security and compliance. Added that to the HFSS entry in `profile.md` and on the site.
 - Made the changes (D-012): "resume" in plain letters across the site, code and docs; removed the Credly link from the certificate card and the "See all my badges on Credly" link; the new certificate shows 2026; new job titles in the experience cards, the intro badge, the profile card, the Google search data and the link-preview image.
 - The owner said "merge". **PR #3 merged** (`a0a23c7`); GitHub's "pages build and deployment" for it succeeded, so the changes are live. Synced `working` with `main`.
+- The owner's third round: links for JM Financial Mutual Fund (jmfinancialmf.com), Dhitech Solutions (dhitech.solutions) and Optimum (optimumfintech.com); Dhitech "Jul 2024 to March 2026"; move Claude Code and Codex from the first About card to the AI section; the name in the intro a little smaller; remove the "Built with…" footer line; and make every place on the site say the same thing.
+- Checked the company names through web search (the sites are blocked here): optimumfintech.com brands itself "Optimum Fintech" and names the company "Optimum Financial Solutions", so the CV's name stays; dhitech.solutions is "Dhitech Solutions".
+- With Claude Code and Codex moved out, the "Claude & DevOps" card was only about cloud. Asked the owner: the first title is "Cloud & DevOps" (D-013). Changed it everywhere, including the link-preview image.
+- Read the whole page top to bottom for anything that disagreed. Rewrote the intro to follow the three titles; made the Python and Kaggle wording match across the intro, About, AI card and competitive coding; made the Claude Code line identical in both places; removed "since 2023" from the Experience intro because it clashed with "4+ years" (flagged to the owner instead). Added a rule to `CLAUDE.md` to keep each fact worded the same everywhere.

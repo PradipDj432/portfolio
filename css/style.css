@@ -636,7 +636,7 @@ h2 em {
 
 .hero-name {
   margin-top: 26px;
-  font-size: clamp(3.6rem, 1.8rem + 8vw, 7.6rem);
+  font-size: clamp(3.2rem, 1.6rem + 6.8vw, 6.4rem);
   font-weight: 600;
   line-height: 0.92;
   letter-spacing: -0.055em;
@@ -1911,7 +1911,7 @@ h2 em {
 
 @media (min-width: 1200px) {
   .hero-name {
-    font-size: 7.6rem;
+    font-size: 6.4rem;
   }
 }
 
