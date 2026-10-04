@@ -37,13 +37,21 @@ Never commit straight to `main`, and don't create other branches unless the owne
 - Show only the projects in `profile.md` (the résumé's, plus any the owner adds). Describe a project from the résumé, its repo and the owner's own words; don't claim features its code doesn't have.
 - Show only the contact details in `profile.md` → "Contact".
 - Don't add social media links, testimonials or reviews until real ones exist.
-- Once the site has code, contact links, social links and the résumé link live in one place, `js/config.js`. Don't hard-code them in the pages.
+- Contact links, social links and the résumé link live in one place, `js/config.js`. Don't hard-code them in the pages.
+
+## Design ("modern premium", D-006)
+- Dark by default (`#09090b` background), with a light theme (`#fbfaf8`). The first visit follows the device setting; the button in the header switches and remembers the choice. Every change must look right in **both** themes.
+- One accent colour: warm orange `#ff8a4c` (dark) / `#c2410c` (light). No other bright colours.
+- Fonts: Geist for text, Geist Mono for small labels, dates and code, Instrument Serif italic only for the one accent phrase in a heading (`<em>`).
+- Thin 1px borders, rounded cards (18px), lots of space. Colours, fonts and sizes are set once at the top of `css/style.css`; use those variables, don't add new colours in other places.
+- Animations stay subtle, and none run for people who turn them off on their device (`prefers-reduced-motion`).
 
 ## Code
-The tech and hosting below are **proposed** (D-003, D-004). Confirm them with the owner before building the first page; once confirmed, they're rules.
 - Plain HTML, CSS and JavaScript only. No framework, no build step, no `npm` (D-003).
-- Hosted free on GitHub Pages from `main`, repo root (D-004).
-- Mobile first: check every page at phone width (390px) with no horizontal scrolling.
-- Before every pull request, test with a local server (`python3 -m http.server 8000`) at phone (390px) and desktop (1280px) widths: no script errors, no broken images or links.
-- Text from settings or data files goes through `escapeHtml()` before it's put into the page.
-- Images: compressed for the web (under about 250 KB each), with `width`, `height` and `alt` text.
+- Hosted free on GitHub Pages from `main`, repo root, at `https://pradipdj432.github.io/portfolio/` (D-004). If the address changes, update it in `index.html` (link preview tags), `js/config.js`, `robots.txt` and `sitemap.xml`.
+- One page, `index.html`. Its text is written in the HTML and must match `profile.md` (D-007). Keep the section order: intro, about, experience, projects, skills, credentials, contact.
+- `404.html` must load its own files through the script in its `<head>`, because GitHub Pages shows it at any wrong address, at any folder depth.
+- Mobile first: check every change at phone width (390px) with no horizontal scrolling.
+- Before every pull request, test with a local server (`python3 -m http.server 8000`) at phone (390px) and desktop (1280px) widths, in dark and light: no script errors, no broken images or links.
+- Text from settings or data files goes through `escapeHtml()` before it's put into the page with `innerHTML`.
+- Images: compressed for the web (under about 250 KB each), with `width`, `height` and `alt` text. Project screenshots are 1200 × 750 JPEGs in `images/projects/`.

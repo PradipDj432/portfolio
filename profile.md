@@ -10,7 +10,7 @@ Facts about the owner, for the portfolio. This file holds facts only. Technical 
 | **Name** | Pradipkumar Jaliya (as on the résumé). GitHub shows "Pradip Jaliya" |
 | **Headline** | Claude Native · DevOps & AI Engineer · Full Stack Developer |
 | **Experience** | Software Developer since March 2023 (the résumé, from April 2026, says "3 years of overall experience") |
-| **Current job** | Software Developer, Dhitech Solutions (March 2023 – now) |
+| **Current job** | Software Developer, Dhitech Solutions (March 2023 – now). Confirmed by the owner on 2026-10-04 (the GitHub profile still shows "Optimum Fitech") |
 | **Résumé** | `resume/Pradipkumar-Jaliya-Resume.pdf` |
 | **Website** | Not live yet (this repo, `PradipDj432/portfolio`) |
 
@@ -60,9 +60,13 @@ The headline in the owner's words: "Claude native & DevOps and AI engineer & ful
 - Automated data extraction and storage with AWS Lambda, EventBridge and Step Functions.
 - Automated email workflows with AWS SES, and fed marketing campaign data into the React dashboard for real-time updates.
 
-## Projects (from the résumé)
-| Project | Type | Built with | What it does | Code |
+## Projects
+The owner confirmed on 2026-10-04 that the DK-Engineer and Aara Culture websites are shown too. The other three come from the résumé.
+
+| Project | Type | Built with | What it does | Links |
 |---|---|---|---|---|
+| DK ENGINEER'S website | Business website, live | HTML, CSS, JavaScript, GitHub Pages, Claude Code | Website for an industrial hardware manufacturer and supplier in Vapi: a 14-section catalogue from their printed PDF, an inquiry form that opens email or WhatsApp, mobile-first | [Live](https://pradipdj432.github.io/DK-Engineer/), [Code](https://github.com/PradipDj432/DK-Engineer) |
+| Aara Culture website | Fashion catalog, live | HTML, CSS, JavaScript, JSON, GitHub Pages, Claude Code | Catalog for a women's clothing brand: shop with category and size filters, product pages, WhatsApp orders with a ready message, "minimal luxury" design, products in one JSON file | [Live](https://pradipdj432.github.io/aara-culture/), [Code](https://github.com/PradipDj432/aara-culture) |
 | Parking Management System | Full stack | Angular, ASP.NET, MS SQL | Pre-booking of parking slots and admin management of parking allocations; real-time monitoring for watchmen to track entries and exits; live parking availability | [SQL](https://github.com/PradipDj432/Parking-Management-System-SQL) (the résumé's link), [UI](https://github.com/PradipDj432/Parking-Management-System-UI), [API](https://github.com/PradipDj432/Parking-Management-System-API) |
 | Cricket Score Management System | Full stack | Angular, ASP.NET, MS SQL | Admins update live cricket scores and manage match details; users see real-time scores and match information; validation for data integrity | No link on the résumé |
 | Bulldozer Price Prediction | Data science & ML | Python, NumPy, Pandas, Matplotlib, Scikit-learn, Jupyter, Conda | Random Forest regression model that predicts bulldozer prices; 92% accuracy using bagging and boosting | [Code](https://github.com/PradipDj432/Bulldozer-price-prediction) |
@@ -94,12 +98,10 @@ The headline in the owner's words: "Claude native & DevOps and AI engineer & ful
 | MERN full stack development | 2024 |
 
 ## Other repos on GitHub
-Public repos not on the résumé (from GitHub, 2026-10-04). Not shown on the site unless the owner picks them.
+Public repos not on the résumé and not on the site (from GitHub, 2026-10-04). Shown only if the owner picks them.
 
 | Repo | What it is | Last update |
 |---|---|---|
-| [DK-Engineer](https://github.com/PradipDj432/DK-Engineer) | Website for DK ENGINEER'S, an industrial hardware business in Vapi. Live at https://pradipdj432.github.io/DK-Engineer/ | 2026-10 |
-| [aara-culture](https://github.com/PradipDj432/aara-culture) | Catalog website for Aara Culture, a women's clothing brand, with ordering on WhatsApp. Live at https://pradipdj432.github.io/aara-culture/ | 2026-10 |
 | [parcel-tracker](https://github.com/PradipDj432/parcel-tracker) | Not described yet | 2026-04 |
 | [video-player-frontend](https://github.com/PradipDj432/video-player-frontend), [video-player-backend](https://github.com/PradipDj432/video-player-backend) | Not described yet | 2025-01 |
 | [CPP](https://github.com/PradipDj432/CPP) | Not described yet | 2024-05 |
@@ -111,7 +113,12 @@ Public repos not on the résumé (from GitHub, 2026-10-04). Not shown on the sit
 ## Still to confirm
 Tracked in `backlog.md`. Don't put these on the website until the owner confirms them.
 
-- **Company name:** the résumé says Dhitech Solutions (March 2023 – now); the GitHub profile says Optimum Fitech. Which one is current? Until answered, the site follows the résumé.
-- **Extra projects:** also show the DK-Engineer and Aara Culture websites (live, not on the résumé), or any other repo above?
+- **Cricket Score Management System:** is there a repo or live link? The résumé has none.
 - **Location:** the résumé doesn't give one; GitHub says Ahmedabad. Show it or not?
 - **Photo** of the owner, if wanted.
+
+## On the site as a first draft
+Written from the facts above, already on the site; the owner should check the wording.
+
+- **"Claude Native & AI" card:** "I work AI-first, planning, building and shipping with Claude Code." Based on the owner's headline and on how the DK-Engineer, Aara Culture and portfolio sites were built (with Claude Code).
+- **First-person text:** the About text and the intro are the résumé summary rewritten in the first person ("I deploy and run applications…"). The years of experience show as "3+" (work started March 2023).

@@ -5,23 +5,24 @@ Where the project stands right now, and a dated log of what was done. Update thi
 ## Current status
 | | |
 |---|---|
-| **Phase** | Setup. Rules, project docs and the résumé are in place; `profile.md` has all the facts from the résumé. No website code yet. |
-| **Live site** | Not live yet. GitHub Pages gets turned on after the first page is merged. |
-| **Branches** | `main` is the default branch. The résumé work is on `working`, in a pull request to `main`. All new work starts on `working` (D-002). |
-| **Blocked on** | The owner's OK on the tech and hosting (D-003, D-004) before building. |
-| **Next step** | Owner: confirm D-003 and D-004, and the company name. Dev: show design styles, then build the first version. Full list in `backlog.md` → "Next up". |
+| **Phase** | First version built: a one-page portfolio in a "modern premium" design, dark and light. In a pull request (#2), waiting for the owner's OK to merge. |
+| **Live site** | Not live yet. After the merge, the owner turns on GitHub Pages; the address will be https://pradipdj432.github.io/portfolio/ |
+| **Branches** | `main` has the docs and résumé (PR #1). `working` has the website, in PR #2. All new work starts on `working` (D-002). |
+| **Blocked on** | The owner's review of PR #2. |
+| **Next step** | Owner: review the screenshots, say "merge", then turn on GitHub Pages. Full list in `backlog.md` → "Next up". |
 
 ## Where we are
-- **Website:** nothing built yet.
-- **Repo:** rules and project docs (`CLAUDE.md`, `README.md`, `profile.md`, `decisions.md`, `backlog.md`, this file) and the résumé in `resume/`.
-- **Facts:** `profile.md` holds everything from the résumé (name, headline, about, contact, skills, work, projects, certificates, education, LeetCode, courses), confirmed by the owner. Open questions are at its bottom.
-- **Proposed, not confirmed:** plain HTML/CSS/JS (D-003) and GitHub Pages at `pradipdj432.github.io/portfolio` (D-004).
+- **Website:** one page with intro, about, experience, projects, skills, credentials and contact. Dark by default with a light theme. "Download résumé" buttons, link previews, a 404 page, and Google search data.
+- **Projects shown:** DK-Engineer and Aara Culture (live, with screenshots), Parking Management System, Bulldozer Price Prediction, Cricket Score Management System.
+- **Facts:** everything on the page comes from `profile.md` (the résumé and the owner's answers). Two bits of wording are first drafts for the owner to check (`profile.md` → "On the site as a first draft").
+- **Repo:** website files, the résumé in `resume/`, and the project docs.
 
 ## Pull requests
 | PR | What | Merged |
 |---|---|---|
 | — | Setup: rules and project docs. Committed straight to `main`, because the repo was empty (D-002) | 2026-10-04 |
-| #1 | Résumé added; `profile.md` filled from it (D-005) | Open |
+| #1 | Résumé added; `profile.md` filled from it (D-005) | 2026-10-04 |
+| #2 | First version of the website: one page, "modern premium" design, dark and light (D-006 to D-008) | Open |
 
 ## Log
 
@@ -37,4 +38,11 @@ Where the project stands right now, and a dated log of what was done. Update thi
 - Saved the résumé unchanged as `resume/Pradipkumar-Jaliya-Resume.pdf`, with `resume/README.md` (SHA-256, steps for a new résumé) and an `archive/` folder (D-005). Added the résumé rule to `CLAUDE.md`.
 - Filled `profile.md` from the résumé: name, headline, about, contact (email, phone, LinkedIn, GitHub, LeetCode), skills, work at Dhitech Solutions (Gift Card Management System, Call Clutch, Drive PG), projects, 4 certificates, education, competitive coding and courses. Fixed obvious typos in `profile.md` only; the PDF is unchanged.
 - Found that the résumé's company (Dhitech Solutions) differs from the GitHub profile's (Optimum Fitech). Kept the résumé's and asked the owner.
-- Opened [PR #1](https://github.com/PradipDj432/portfolio/pull/1) from `working` into `main`; waiting for the owner's OK to merge.
+- Opened [PR #1](https://github.com/PradipDj432/portfolio/pull/1) from `working` into `main`.
+- The owner answered: Dhitech Solutions is the current company; yes to showing the DK-Engineer and Aara Culture websites; yes to plain HTML/CSS/JS and the `pradipdj432.github.io/portfolio` address (D-003, D-004 now Accepted); yes to merging PR #1. **PR #1 merged.** Asked for a "solid, modern, premium" portfolio.
+- Built the website on `working`: one page (`index.html`) with intro, about, experience, projects, skills, credentials and contact (D-007). "Modern premium" design: near-black with a warm orange accent, Geist / Geist Mono / Instrument Serif, a code-style profile card, a moving technology row, cards that light up under the pointer, fade-in on scroll, and a light theme with a switch button (D-006). Contact details, links and the résumé file come from `js/config.js`.
+- Took screenshots of the DK-Engineer and Aara Culture home pages from their `main` branches (served locally, because this environment's network blocks `*.github.io`) for the project cards (D-008). Made the link-preview image, the favicon and the home-screen icon.
+- Added `404.html`, `robots.txt`, `sitemap.xml`, `.nojekyll` and schema.org `Person` data.
+- Tested in Chromium at 390px and 1280px, in dark and light: no horizontal scrolling, no script errors, no failed requests, no broken images, every link and anchor goes somewhere real, fonts load, the menu opens and closes, the theme choice is remembered after a reload, and the 404 page works. Fixed what the screenshots showed: the email icon in the intro showed the full address as text, "Contact" was highlighted in the menu at the top of the page, and the three titles broke awkwardly on phones.
+- Updated `CLAUDE.md` (design and code rules), `README.md` (how it works, editing guide, turning on Pages), `profile.md`, `decisions.md` (D-006 to D-008), `backlog.md`.
+- Opened [PR #2](https://github.com/PradipDj432/portfolio/pull/2) from `working` into `main`; waiting for the owner's OK to merge.
