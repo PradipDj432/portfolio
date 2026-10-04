@@ -8,14 +8,13 @@ Everything still to do, newest ideas at the bottom of each section. When work st
 ## Next up
 The few things to do next, in order. Keep this list short and current.
 
-1. **Owner:** look at the changes (screenshots in PR #3) and say "merge".
-2. **Owner:** the month you left Dhitech (the site shows "Jul 2024 – 2026"), and the tech you used for HFSS, if you want it shown.
+1. **Owner:** open the live site on your phone and share the link on WhatsApp once to check the preview.
+2. **Owner:** confirm "4+ years" (your work on the site starts March 2023), and the tech you used for HFSS, if you want it shown.
 3. **Owner:** send an updated resume; the one visitors download still says 3 years and doesn't list Eagerminds or Optimum.
-4. **Owner:** open the live site on your phone and share the link on WhatsApp once to check the preview.
 
 ## Waiting on the owner
 - [ ] **P2 · Owner** HFSS: the tech used, if it should be shown (the site describes the product from hfss.ch).
-- [ ] **P2 · Owner** The month you left Dhitech Solutions (the site shows "Jul 2024 – 2026").
+- [ ] **P2 · Owner** Confirm "4+ years": the work history on the site starts March 2023 (about 3.5 years). Keep 4+ or change to 3+.
 - [ ] **P2 · Owner** An updated resume PDF to replace `resume/Pradip-Jaliya-Resume.pdf` (fix the small typos such as "Predication" and "Linklist" too).
 - [ ] **P2 · Owner** Company name style: "Eagerminds" or "EagerMinds"?
 - [ ] **P1 · Owner** Check the live site on a real phone (menu, light/dark button, resume download, contact links) and the WhatsApp link preview.
@@ -28,7 +27,7 @@ The few things to do next, in order. Keep this list short and current.
 
 ## To build
 - [ ] **P2 · Dev** Open the live site, the 404 page and the link preview from an environment that can reach `github.io` (this one can't). The deploy itself succeeded.
-- [ ] **P2 · Dev** Fill in the Dhitech end month and the HFSS tech once the owner answers.
+- [ ] **P2 · Dev** Add the HFSS tech once the owner answers.
 - [ ] **P2 · Dev** Swap in the updated resume when it arrives (steps in `resume/README.md`).
 - [ ] **P2 · Dev** Add a photo to the intro once the owner sends one.
 - [ ] **P3 · Dev** Retake the DK-Engineer and Aara Culture screenshots when those sites change a lot.
@@ -51,6 +50,9 @@ The few things to do next, in order. Keep this list short and current.
 - [x] **P2 · Owner** "Claude Native" wording: replaced by the owner's own line, "I use Claude Code and Codex to improve and deliver faster" (D-010). PR #3.
 - [x] **P1 · Owner** Job titles: Senior Software Architect at Eagerminds, Senior Software Engineer at Dhitech. PR #3.
 - [x] **P2 · Owner** Professional Cloud Architect year: 2026. PR #3.
+- [x] **P1 · Owner** Merge PR #3: yes, merged and live.
+- [x] **P1 · Owner** First title is "Cloud & DevOps", not "Claude"; Claude Code and Codex go with AI (D-013).
+- [x] **P2 · Owner** Dhitech end month: March 2026. Company links: dhitech.solutions, optimumfintech.com, jmfinancialmf.com.
 - [x] **P2 · Owner** Plain "resume" spelling everywhere, and Credly only with the contact links (D-012). PR #3.
 - [x] **P1 · Owner** Headline: "Claude Native · DevOps & AI Engineer · Full Stack Developer". PR #1.
 - [x] **P1 · Owner** Resume PDF sent; name, bio, skills, work, projects, certificates, education and contact details all taken from it (D-005). PR #1.
@@ -70,3 +72,4 @@ The few things to do next, in order. Keep this list short and current.
 - [x] **P3 · Dev** Dark mode: dark by default, light theme, switch button that remembers the choice (D-006). PR #2.
 - [x] **P1 · Dev** Owner's changes: name, headline and About cards, three companies with live project links, fifth certificate and Credly, new numbers, Claude Code and Codex, new link-preview image; resume file renamed and older CV archived (D-009 to D-011). PR #3.
 - [x] **P1 · Dev** HFSS described from hfss.ch's own pages (Helvetia Financial Services, Zurich: payments, crypto exchange, custody, currency exchange, debit cards). PR #3.
+- [x] **P1 · Dev** Headline changed to "Cloud & DevOps · AI Engineer · Full Stack Developer" everywhere; Claude Code and Codex moved to the AI card and skills; company and project links; Dhitech dates; smaller name in the intro; footer line removed; whole page read through so every place says the same thing (D-013).

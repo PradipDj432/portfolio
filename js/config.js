@@ -3,7 +3,7 @@
 
 const PROFILE = {
   name: "Pradip Jaliya",
-  headline: "Claude & DevOps · AI Engineer · Full Stack Developer",
+  headline: "Cloud & DevOps · AI Engineer · Full Stack Developer",
   jobTitle: "Senior Software Architect",
   company: "Eagerminds",
 

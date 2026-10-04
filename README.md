@@ -1,6 +1,6 @@
 # Portfolio — Website
 
-The personal portfolio website of **Pradip Jaliya** ([PradipDj432](https://github.com/PradipDj432) on GitHub): Claude & DevOps · AI Engineer · Full Stack Developer. It introduces the owner, shows their work, projects, skills and certificates, offers the resume as a download, and makes it easy to get in touch.
+The personal portfolio website of **Pradip Jaliya** ([PradipDj432](https://github.com/PradipDj432) on GitHub): Cloud & DevOps · AI Engineer · Full Stack Developer. It introduces the owner, shows their work, projects, skills and certificates, offers the resume as a download, and makes it easy to get in touch.
 
 **Live:** https://pradipdj432.github.io/portfolio/ · Where the project stands: `progress.md`. What's next: `backlog.md` → "Next up".
 
