@@ -19,8 +19,9 @@ A log of choices made for the portfolio website and why. Add new decisions at th
 | D-010 | Headline: "Claude & DevOps · AI Engineer · Full Stack Developer" | Replaced by D-013 |
 | D-011 | Three companies on the site, and the owner's numbers in the intro | Accepted (Credly placement changed by D-012; its open facts answered later) |
 | D-012 | Plain "resume" spelling, and Credly only with the contact links | Accepted |
-| D-013 | Headline: "Cloud & DevOps · AI Engineer · Full Stack Developer"; Claude Code and Codex go with AI | Accepted |
+| D-013 | Headline: "Cloud & DevOps · AI Engineer · Full Stack Developer"; Claude Code and Codex go with AI | Accepted (intro wording replaced by D-015) |
 | D-014 | After a merge, the notes update rides along with the next pull request | Proposed |
+| D-015 | Intro and About texts cover cloud and full stack only; Python and machine learning stay in the AI card, Skills and projects | Accepted |
 
 When you add a decision, add a row here too.
 
@@ -137,3 +138,11 @@ When you add a decision, add a row here too.
 - **Decision:** After a merge, sync `working` with `main`, then commit the notes about that merge on `working`. They reach `main` with the next pull request. A pull request only for notes is opened when the owner asks for the docs to be brought up to date.
 - **Alternatives considered:** A separate notes pull request after every merge; committing notes straight to `main`.
 - **Consequences:** Between pull requests, `working` can be one small notes commit ahead of `main`. The steps are in `CLAUDE.md` → "Branches and pull requests".
+
+## D-015 — Intro and About texts cover cloud and full stack only; Python and machine learning stay in the AI card, Skills and projects
+- **Date:** 2026-10-04
+- **Status:** Accepted
+- **Context:** The owner found the intro, About and Projects texts unclear: they mixed cloud, AI, Python and full stack in long sentences. The owner asked to take Python and the things around it out, keep cloud and full stack, and make the texts clear. Asked where Python should go, the owner chose "only these 3 texts", and approved the new wording.
+- **Decision:** The intro says what the owner does in short, separate sentences: builds web apps and runs them in the cloud (4+ years), works with Angular, React and Node.js, deploys on AWS, GCP and Azure, and the Claude Code and Codex line. The About text goes step by step through a full stack app (front end, APIs, databases), then infrastructure, CI/CD and the cloud, then the three companies; the "problem-solving" and "eager to learn" words are dropped. The Projects text counts what's shown: two live business websites, two full stack apps and one machine learning model. Aara Culture's label becomes "Business website · Live", the same as DK ENGINEER'S. Python, machine learning and Kaggle stay in the AI Engineer card, the Skills section, the tech strip and the Bulldozer project. Replaces D-013's "the intro follows the three titles in order".
+- **Alternatives considered:** Remove Python and machine learning from the whole site, including the Bulldozer project.
+- **Consequences:** The headline above the intro still names all three titles; the AI title is covered by the AI Engineer card, the Claude Code and Codex line and the GenAI Leader certificate. The new texts are in `profile.md` → "Wording on the site".
