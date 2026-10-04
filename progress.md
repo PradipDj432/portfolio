@@ -5,11 +5,11 @@ Where the project stands right now, and a dated log of what was done. Update thi
 ## Current status
 | | |
 |---|---|
-| **Phase** | Live. Four pull requests merged (#1–#4); the owner's three rounds of changes are on the site. |
-| **Live site** | https://pradipdj432.github.io/portfolio/ GitHub Pages publishes every merge to `main` (Actions → "pages build and deployment"). Every deploy so far has succeeded, the latest for PR #4 (`f96abe2`). |
-| **Branches** | `working` is ahead of `main` with PR #5 (docs brought in sync; no website change). All new work starts on `working` (D-002). |
+| **Phase** | Live. Five pull requests merged (#1–#5): the owner's three rounds of changes are on the site, and every doc matches it. |
+| **Live site** | https://pradipdj432.github.io/portfolio/ GitHub Pages publishes every merge to `main` (Actions → "pages build and deployment"). Every deploy so far has succeeded, the latest for PR #5 (`2de9a51`). |
+| **Branches** | `working` matches `main`, plus these merge notes for PR #5, which go into `main` with the next pull request (D-014). All new work starts on `working` (D-002). |
 | **Blocked on** | Nothing. A few small checks are waiting on the owner ("4+ years", HFSS tech, an updated resume). |
-| **Next step** | Owner: say "merge" for PR #5, check the live site on a phone, and answer the small checks. Full list in `backlog.md` → "Next up". |
+| **Next step** | Owner: check the live site on a phone and answer the small checks. Full list in `backlog.md` → "Next up". |
 
 ## Where we are
 What's on the live site today:
@@ -31,7 +31,7 @@ What's on the live site today:
 | #2 | First version of the website: one page, "modern premium" design, dark and light (D-006 to D-008) | 2026-10-04 |
 | #3 | Notes after going live, plus the owner's first and second rounds: name, headline, three companies, HFSS, job titles, new numbers, plain "resume" (D-009 to D-012) | 2026-10-04 |
 | #4 | Third round: headline "Cloud & DevOps", Claude Code and Codex with AI, company links, Dhitech dates, consistency pass (D-013) | 2026-10-04 |
-| #5 | Every `.md` file brought in sync with the site and code (D-014) | Open |
+| #5 | Every `.md` file brought in sync with the site and code (D-014) | 2026-10-04 |
 
 ## Log
 
@@ -78,4 +78,4 @@ What's on the live site today:
   - `backlog.md`: "Done" regrouped by pull request, with notes where a later change replaced something; "Next up" and the open items brought up to date.
   - `progress.md`: this file, with the status refreshed and the log split by round.
   - `resume/README.md`: says which sources feed `profile.md`.
-- Opened PR #5; waiting for the owner's OK to merge.
+- Opened [PR #5](https://github.com/PradipDj432/portfolio/pull/5). The owner said "merge". **PR #5 merged** (`2de9a51`); the deploy succeeded.

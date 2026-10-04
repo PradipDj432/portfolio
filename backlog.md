@@ -8,10 +8,9 @@ Everything still to do, newest ideas at the bottom of each section. When work st
 ## Next up
 The few things to do next, in order. Keep this list short and current.
 
-1. **Owner:** say "merge" for PR #5 (docs brought in sync; no website change).
-2. **Owner:** open the live site on your phone and share the link on WhatsApp once to check the preview.
-3. **Owner:** confirm "4+ years" (your work on the site starts March 2023), and the tech you used for HFSS, if you want it shown.
-4. **Owner:** send an updated resume; the one visitors download still says 3 years and doesn't list Eagerminds or Optimum.
+1. **Owner:** open the live site on your phone and share the link on WhatsApp once to check the preview.
+2. **Owner:** confirm "4+ years" (your work on the site starts March 2023), and the tech you used for HFSS, if you want it shown.
+3. **Owner:** send an updated resume; the one visitors download still says 3 years and doesn't list Eagerminds or Optimum.
 
 ## Waiting on the owner
 - [ ] **P1 · Owner** Check the live site on a real phone (menu, light/dark button, resume download, contact links) and the WhatsApp link preview.
@@ -82,3 +81,4 @@ Grouped by pull request, oldest first. Where a later change replaced something, 
 
 ### PR #5 (docs brought in sync)
 - [x] **P1 · Dev** Every `.md` file checked against the site and the code: rules, README guide and folder tree, decision statuses (D-006 and D-008 accepted after the owner's "looks good"; D-014 added), `profile.md` with the exact wording the site uses, this backlog regrouped by pull request, and the progress log split by round. PR #5.
+- [x] **P1 · Owner** Merge PR #5: yes, merged and live.
