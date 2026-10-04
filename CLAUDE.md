@@ -34,11 +34,12 @@ Never commit straight to `main`, and don't create other branches unless the owne
 ## Facts about the owner
 - Never invent facts: name, job title, employer, dates, years of experience, skills, education, certificates, project results or numbers, client names. If a fact isn't confirmed in `profile.md`, ask the owner and list it in `backlog.md` under "Waiting on the owner".
 - The name on the site is **Pradip Jaliya** everywhere (D-009), and the headline is **Claude & DevOps · AI Engineer · Full Stack Developer**; keep DevOps and AI as separate titles (D-010).
-- The facts in `profile.md` come from the résumé, `resume/Pradip-Jaliya-Resume.pdf` (D-005), the older CV in `resume/archive/` for work history, and the owner's own answers (D-011); `profile.md` → "Sources" says which wins. Visitors download only the main résumé. When the owner sends a new résumé, move the old PDF into `resume/archive/` (never delete it), save the new one under the same name, and update `resume/README.md`, `profile.md` and the website together (steps in `resume/README.md`). Don't edit the PDF itself.
-- Show only the projects in `profile.md` (the résumé's, plus any the owner adds). Describe a project from the résumé, its repo and the owner's own words; don't claim features its code doesn't have.
-- Show only the contact details in `profile.md` → "Contact".
+- The facts in `profile.md` come from the resume, `resume/Pradip-Jaliya-Resume.pdf` (D-005), the older CV in `resume/archive/` for work history, and the owner's own answers (D-011); `profile.md` → "Sources" says which wins. Visitors download only the main resume. When the owner sends a new resume, move the old PDF into `resume/archive/` (never delete it), save the new one under the same name, and update `resume/README.md`, `profile.md` and the website together (steps in `resume/README.md`). Don't edit the PDF itself.
+- Show only the projects in `profile.md` (the resume's, plus any the owner adds). Describe a project from the resume, its repo and the owner's own words; don't claim features its code doesn't have.
+- Show only the contact details in `profile.md` → "Contact". Credly goes with the contact links (intro icons and contact list), not in the certificates section (D-012).
+- Write "resume" in plain English letters, with no accents on the e, on the site and in the docs (D-012).
 - Don't add social media links, testimonials or reviews until real ones exist.
-- Contact links, social links and the résumé link live in one place, `js/config.js`. Don't hard-code them in the pages.
+- Contact links, social links and the resume link live in one place, `js/config.js`. Don't hard-code them in the pages.
 
 ## Design ("modern premium", D-006)
 - Dark by default (`#09090b` background), with a light theme (`#fbfaf8`). The first visit follows the device setting; the button in the header switches and remembers the choice. Every change must look right in **both** themes.

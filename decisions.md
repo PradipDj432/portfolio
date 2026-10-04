@@ -11,13 +11,14 @@ A log of choices made for the portfolio website and why. Add new decisions at th
 | D-002 | All work on one `working` branch, merged to `main` by pull request | Accepted |
 | D-003 | Plain HTML/CSS/JavaScript with no build step | Accepted |
 | D-004 | Host on GitHub Pages from `main`, repo root, on the free address | Accepted |
-| D-005 | The résumé PDF is kept in the repo and is the source for the site's facts | Accepted (file renamed by D-009, headline replaced by D-010) |
+| D-005 | The resume PDF is kept in the repo and is the source for the site's facts | Accepted (file renamed by D-009, headline replaced by D-010) |
 | D-006 | "Modern premium" design: dark by default, with a light theme | Proposed |
 | D-007 | One page; text written in `index.html`, contact links in `js/config.js` | Proposed |
-| D-008 | Projects: the two live websites first, then the résumé projects | Proposed |
+| D-008 | Projects: the two live websites first, then the resume projects | Proposed |
 | D-009 | The name on the site is "Pradip Jaliya" everywhere | Accepted |
 | D-010 | Headline: "Claude & DevOps · AI Engineer · Full Stack Developer" | Accepted |
 | D-011 | Three companies on the site, and the owner's numbers in the intro | Accepted |
+| D-012 | Plain "resume" spelling, and Credly only with the contact links | Accepted |
 
 When you add a decision, add a row here too.
 
@@ -55,19 +56,19 @@ When you add a decision, add a row here too.
 - **Alternatives considered:** Rename this repo to `PradipDj432.github.io` (GitHub's special name for a personal site) to get the shorter address `pradipdj432.github.io`; buy a custom domain.
 - **Consequences:** The owner turns Pages on once, after the first page is merged (steps in `README.md`). If the repo is renamed or a domain is added later, the site's address changes, so decide on the address before sharing the link widely.
 
-## D-005 — The résumé PDF is kept in the repo and is the source for the site's facts
+## D-005 — The resume PDF is kept in the repo and is the source for the site's facts
 - **Date:** 2026-10-04
 - **Status:** Accepted (the file name changed with D-009; the headline was replaced by D-010)
-- **Context:** The owner sent their résumé (`PRADIP_JALIYA_PROFILE_2026.pdf`, 2 pages, April 2026), asked to add it to the repo, and said everything the site needs, apart from the headline, is in it.
-- **Decision:** Save it unchanged as `resume/Pradipkumar-Jaliya-Resume.pdf`, with its SHA-256 in `resume/README.md`. Copy its facts into `profile.md` and treat them as confirmed. The site will offer it as "Download résumé". When a new résumé arrives, move the old one into `resume/archive/` and save the new one under the same name, so links never break. The headline is the owner's own words: "Claude Native · DevOps & AI Engineer · Full Stack Developer".
+- **Context:** The owner sent their resume (`PRADIP_JALIYA_PROFILE_2026.pdf`, 2 pages, April 2026), asked to add it to the repo, and said everything the site needs, apart from the headline, is in it.
+- **Decision:** Save it unchanged as `resume/Pradipkumar-Jaliya-Resume.pdf`, with its SHA-256 in `resume/README.md`. Copy its facts into `profile.md` and treat them as confirmed. The site will offer it as "Download resume". When a new resume arrives, move the old one into `resume/archive/` and save the new one under the same name, so links never break. The headline is the owner's own words: "Claude Native · DevOps & AI Engineer · Full Stack Developer".
 - **Alternatives considered:** Only copy the facts and leave the PDF out of the repo; a new file name for each version (download links would break).
-- **Consequences:** The repo is public, so the PDF, with its phone number and email, can be opened by anyone. Obvious typos in the résumé are fixed in `profile.md` and on the site (for example "Predication" → "Prediction", "Linklist" → "linked lists", "MsSQL" → "MS SQL"); the PDF stays as the owner sent it. Where the résumé and the GitHub profile disagree (company name), the site follows the résumé until the owner says otherwise.
+- **Consequences:** The repo is public, so the PDF, with its phone number and email, can be opened by anyone. Obvious typos in the resume are fixed in `profile.md` and on the site (for example "Predication" → "Prediction", "Linklist" → "linked lists", "MsSQL" → "MS SQL"); the PDF stays as the owner sent it. Where the resume and the GitHub profile disagree (company name), the site follows the resume until the owner says otherwise.
 
 ## D-006 — "Modern premium" design: dark by default, with a light theme
 - **Date:** 2026-10-04
 - **Status:** Proposed (the owner asked for a "solid, modern, premium" portfolio; confirm once they've seen it)
 - **Context:** The owner works in cloud, DevOps and AI, and wanted the site to look and feel modern and premium. A design-options round (as done for Aara Culture) was skipped because the owner asked to build straight away.
-- **Decision:** Near-black background with one warm orange accent (`#ff8a4c`; `#c2410c` in light mode), thin borders, large type and lots of space. Fonts: Geist for text, Geist Mono for small labels and code, Instrument Serif italic for one accent phrase in each heading (Google Fonts). The intro shows the name very large, the three titles, a code-style "profile.yaml" card and four numbers from the résumé. Subtle touches: a faint grid and glow behind the intro, a moving row of technologies, a soft light that follows the pointer on cards, and sections that fade in on scroll. A button switches between dark and light; the first visit follows the device setting. People who turn off animations on their device get none.
+- **Decision:** Near-black background with one warm orange accent (`#ff8a4c`; `#c2410c` in light mode), thin borders, large type and lots of space. Fonts: Geist for text, Geist Mono for small labels and code, Instrument Serif italic for one accent phrase in each heading (Google Fonts). The intro shows the name very large, the three titles, a code-style "profile.yaml" card and four numbers from the resume. Subtle touches: a faint grid and glow behind the intro, a moving row of technologies, a soft light that follows the pointer on cards, and sections that fade in on scroll. A button switches between dark and light; the first visit follows the device setting. People who turn off animations on their device get none.
 - **Alternatives considered:** A light, minimal "editorial" look (calm, but less of a tech feel); a bright, colourful gradient look (flashier, ages faster); showing 2–3 styles first.
 - **Consequences:** The colours and fonts are set once at the top of `css/style.css`. If the owner prefers another accent colour or a light-first look, it's a small change there.
 
@@ -75,25 +76,25 @@ When you add a decision, add a row here too.
 - **Date:** 2026-10-04
 - **Status:** Proposed (technical; confirm only if the owner wants a say)
 - **Context:** A portfolio is read top to bottom, often on a phone, and Google reads plain HTML best. The rules keep contact links in one place.
-- **Decision:** One page (`index.html`) with sections: intro, about, experience, projects, skills, credentials, contact. The text is written straight into the HTML, matching `profile.md`. Email, phone, profile links, the résumé link and the live address live only in `js/config.js`; `js/common.js` fills them in and adds the Google search data (schema.org `Person`). A `404.html` page, `robots.txt`, `sitemap.xml` and a link-preview image (`images/og-image.jpg`) are included.
+- **Decision:** One page (`index.html`) with sections: intro, about, experience, projects, skills, credentials, contact. The text is written straight into the HTML, matching `profile.md`. Email, phone, profile links, the resume link and the live address live only in `js/config.js`; `js/common.js` fills them in and adds the Google search data (schema.org `Person`). A `404.html` page, `robots.txt`, `sitemap.xml` and a link-preview image (`images/og-image.jpg`) are included.
 - **Alternatives considered:** Several pages (more clicks on a phone); a `profile.json` data file drawn by JavaScript (a typo would blank the page, and Google reads it less reliably).
 - **Consequences:** Changing a phone number or link is a one-line edit in `js/config.js`. Changing page text means editing `index.html` and keeping `profile.md` in step. The live address appears in `index.html` (link preview tags), `robots.txt`, `sitemap.xml` and `js/config.js`; change all four if the address changes.
 
-## D-008 — Projects: the two live websites first, then the résumé projects
+## D-008 — Projects: the two live websites first, then the resume projects
 - **Date:** 2026-10-04
 - **Status:** Proposed
-- **Context:** The owner chose to show the DK-Engineer and Aara Culture websites as well as the résumé's three projects, but didn't set an order.
+- **Context:** The owner chose to show the DK-Engineer and Aara Culture websites as well as the resume's three projects, but didn't set an order.
 - **Decision:** Show the two live websites first, large, with real screenshots in a browser frame (taken from each repo's `main` branch), then Parking Management System, Bulldozer Price Prediction and Cricket Score Management System as smaller cards with drawn covers.
-- **Alternatives considered:** Résumé projects first; all five the same size.
+- **Alternatives considered:** Resume projects first; all five the same size.
 - **Consequences:** Live, clickable work is the first thing visitors see. When either live site changes a lot, retake its screenshot (`images/projects/`, 1200 × 750 JPEG under 250 KB).
 
 ## D-009 — The name on the site is "Pradip Jaliya" everywhere
 - **Date:** 2026-10-04
 - **Status:** Accepted
-- **Context:** The résumé says "Pradipkumar Jaliya". The owner asked for "Pradip" in every place on the website.
+- **Context:** The resume says "Pradipkumar Jaliya". The owner asked for "Pradip" in every place on the website.
 - **Decision:** Show "Pradip Jaliya" everywhere: page title, header, intro, footer, link previews (`images/og-image.jpg`), Google search data, the 404 page and `js/config.js`. The download file is renamed to `resume/Pradip-Jaliya-Resume.pdf`, and visitors save it as `Pradip-Jaliya-Resume.pdf`. The PDF itself is unchanged, so it still says "Pradipkumar Jaliya" inside. Replaces the file name in D-005.
 - **Alternatives considered:** Keep "Pradipkumar" on the site; show both names.
-- **Consequences:** `profile.md` keeps the full name as a fact. Old résumés in `resume/archive/` keep their original names.
+- **Consequences:** `profile.md` keeps the full name as a fact. Old resumes in `resume/archive/` keep their original names.
 
 ## D-010 — Headline: "Claude & DevOps · AI Engineer · Full Stack Developer"
 - **Date:** 2026-10-04
@@ -106,7 +107,15 @@ When you add a decision, add a row here too.
 ## D-011 — Three companies on the site, and the owner's numbers in the intro
 - **Date:** 2026-10-04
 - **Status:** Accepted
-- **Context:** The owner sent an older CV (March 2026) that lists Optimum Financial Solutions (March 2023 – June 2024) and Dhitech Solutions from July 2024, and said they've worked at Eagerminds since April 2026. The main résumé (April 2026) shows only Dhitech, from March 2023. The owner also gave new numbers for the intro.
-- **Decision:** Show three companies, newest first: Eagerminds (HFSS, hfss.ch), Dhitech Solutions (Gift Card Management System at rbsgift.com, Call Clutch at callclutch.ai, Drive PG at drivepg.com) and Optimum Financial Solutions (JM Financial Mutual Fund). Work history follows the older CV and the owner's answers. Visitors still download the main résumé, not the older CV. The older CV is kept in `resume/archive/` as the source. The intro numbers are the owner's: 4+ years, 5+ certifications, 12+ projects, 800+ LeetCode problems. "3 clouds" was removed. The new Professional Cloud Architect certificate and a Credly link were added.
-- **Alternatives considered:** Offer the older CV for download; keep the résumé's numbers (3 years, 4 certificates, 700+).
-- **Consequences:** The downloadable résumé is now behind the website (it still says 3 years, 700+ LeetCode, four certificates and Dhitech from March 2023). When the owner sends an updated résumé, replace it (steps in `resume/README.md`). Unknowns are left out rather than guessed: the Eagerminds role, what HFSS is, the Dhitech end month and the year of the new certificate.
+- **Context:** The owner sent an older CV (March 2026) that lists Optimum Financial Solutions (March 2023 – June 2024) and Dhitech Solutions from July 2024, and said they've worked at Eagerminds since April 2026. The main resume (April 2026) shows only Dhitech, from March 2023. The owner also gave new numbers for the intro.
+- **Decision:** Show three companies, newest first: Eagerminds (HFSS, hfss.ch), Dhitech Solutions (Gift Card Management System at rbsgift.com, Call Clutch at callclutch.ai, Drive PG at drivepg.com) and Optimum Financial Solutions (JM Financial Mutual Fund). Work history follows the older CV and the owner's answers. Visitors still download the main resume, not the older CV. The older CV is kept in `resume/archive/` as the source. The intro numbers are the owner's: 4+ years, 5+ certifications, 12+ projects, 800+ LeetCode problems. "3 clouds" was removed. The new Professional Cloud Architect certificate and a Credly link were added.
+- **Alternatives considered:** Offer the older CV for download; keep the resume's numbers (3 years, 4 certificates, 700+).
+- **Consequences:** The downloadable resume is now behind the website (it still says 3 years, 700+ LeetCode, four certificates and Dhitech from March 2023). When the owner sends an updated resume, replace it (steps in `resume/README.md`). Unknowns are left out rather than guessed: the Eagerminds role, what HFSS is, the Dhitech end month and the year of the new certificate.
+
+## D-012 — Plain "resume" spelling, and Credly only with the contact links
+- **Date:** 2026-10-04
+- **Status:** Accepted
+- **Context:** The owner asked for plain English letters instead of the accented spelling of "resume", and for Credly to sit with the phone, LinkedIn, LeetCode and email links rather than in the certificates section.
+- **Decision:** Write "resume" (no accents) everywhere: the website, the code and the docs. Show Credly only in the intro icons and the contact list. The certificates section has no Credly links, and every certificate card shows its year, so the cards line up. Professional Cloud Architect shows 2026.
+- **Alternatives considered:** Keep the accented spelling; keep the "See all my badges on Credly" link under the certificates.
+- **Consequences:** The Credly address lives in `js/config.js` like the other profile links.

@@ -16,7 +16,7 @@ function escapeHtml(text) {
 //   data-email        email link (text filled in if the element has no text or icon)
 //   data-phone        call link (text filled in if the element has no text or icon)
 //   data-link="name"  link to PROFILE.links[name]; with data-show-handle, the handle is shown as its text
-//   data-resume       download link to the résumé PDF
+//   data-resume       download link to the resume PDF
 //   data-year         the current year
 function fillProfile() {
   document.querySelectorAll("[data-email]").forEach((el) => {
@@ -192,7 +192,8 @@ function addPersonData() {
     "@context": "https://schema.org",
     "@type": "Person",
     name: PROFILE.name,
-    jobTitle: PROFILE.headline,
+    jobTitle: PROFILE.jobTitle,
+    description: PROFILE.headline,
     url: PROFILE.siteUrl,
     image: new URL("images/og-image.jpg", PROFILE.siteUrl).href,
     email: "mailto:" + PROFILE.email,

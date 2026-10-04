@@ -4,6 +4,7 @@
 const PROFILE = {
   name: "Pradip Jaliya",
   headline: "Claude & DevOps · AI Engineer · Full Stack Developer",
+  jobTitle: "Senior Software Architect",
   company: "Eagerminds",
 
   email: "pradipjaliya9802@gmail.com",
@@ -19,7 +20,7 @@ const PROFILE = {
     credly: { url: "https://www.credly.com/users/pradipdj432/badges/credly", handle: "pradipdj432" },
   },
 
-  // The résumé PDF. Keep this file name when a new résumé arrives (see resume/README.md).
+  // The resume PDF. Keep this file name when a new resume arrives (see resume/README.md).
   resume: "resume/Pradip-Jaliya-Resume.pdf",
 
   // The live address, used for the Google search data. Change it if the address changes (D-004).

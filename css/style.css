@@ -1389,55 +1389,9 @@ h2 em {
   font-size: 14px;
 }
 
-.cert p span:last-child,
-.cert p a {
+.cert p span:last-child {
   font-family: var(--font-mono);
   color: var(--text);
-}
-
-.cert p a {
-  display: inline-flex;
-  align-items: center;
-  gap: 2px;
-  transition: color 0.2s;
-}
-
-.cert p a:hover {
-  color: var(--accent);
-}
-
-.cert p a .icon {
-  width: 14px;
-  height: 14px;
-}
-
-.certs-more {
-  margin-top: 18px;
-}
-
-.certs-more a {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  font-weight: 600;
-  font-size: 15px;
-  border-bottom: 1px solid var(--border-strong);
-  padding-bottom: 2px;
-  transition: color 0.2s, border-color 0.2s;
-}
-
-.certs-more a:hover {
-  color: var(--accent);
-  border-color: var(--accent);
-}
-
-.certs-more .icon {
-  width: 16px;
-  height: 16px;
-}
-
-.certs-more .icon:first-child {
-  color: var(--accent);
 }
 
 .learning {

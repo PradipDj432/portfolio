@@ -3,22 +3,23 @@
 Facts about the owner, for the portfolio. This file holds facts only. Technical details go in `README.md`, choices go in `decisions.md`.
 
 **Sources:**
-1. The main résumé, `resume/Pradip-Jaliya-Resume.pdf` (made April 2026, added 2026-10-04). This is the file visitors download.
+1. The main resume, `resume/Pradip-Jaliya-Resume.pdf` (made April 2026, added 2026-10-04). This is the file visitors download.
 2. An older CV, `resume/archive/Pradipkumar-Jaliya-CV-2026-03.pdf` (made March 2026, sent 2026-10-04). The owner said to take the work history from it: Optimum Financial Solutions, then Dhitech Solutions from July 2024. It isn't offered for download.
-3. The owner's own answers on 2026-10-04: the name to show, the headline, the new job at Eagerminds, the live project links, the new certificate, Credly, Claude Code and Codex, and the numbers in the intro.
+3. The owner's own answers on 2026-10-04: the name to show, the headline, the new job at Eagerminds and the job titles, the live project links, the new certificate and its year, Credly, Claude Code and Codex, and the numbers in the intro.
+4. For HFSS only: hfss.ch's own pages, read through web search on 2026-10-04 (this environment can't open the site directly). The owner asked for HFSS to be described from its landing page and static pages.
 
-Where these disagree, the owner's latest answer wins, then the older CV for work history, then the main résumé. When a new résumé comes in, update this file to match (steps in `resume/README.md`). Open questions are under "Still to confirm".
+Where these disagree, the owner's latest answer wins, then the older CV for work history, then the main resume. When a new resume comes in, update this file to match (steps in `resume/README.md`). Open questions are under "Still to confirm".
 
 ## At a glance
 | | |
 |---|---|
-| **Name on the website** | **Pradip Jaliya**, everywhere (owner, 2026-10-04; D-009). Full name on the résumé: Pradipkumar Jaliya |
+| **Name on the website** | **Pradip Jaliya**, everywhere (owner, 2026-10-04; D-009). Full name on the resume: Pradipkumar Jaliya |
 | **Headline** | Claude & DevOps · AI Engineer · Full Stack Developer (owner, 2026-10-04; DevOps and AI kept apart; D-010) |
 | **Experience** | 4+ years (owner). Work started March 2023 |
-| **Current job** | Eagerminds (https://www.eagerminds.in/), since April 2026. Role still to confirm |
+| **Current job** | Senior Software Architect at Eagerminds (https://www.eagerminds.in/), since April 2026 (owner) |
 | **Companies** | 3: Optimum Financial Solutions → Dhitech Solutions → Eagerminds |
 | **How they work** | Uses Claude Code and Codex "to improve and deliver faster" (owner's words) |
-| **Résumé (download)** | `resume/Pradip-Jaliya-Resume.pdf` |
+| **Resume (download)** | `resume/Pradip-Jaliya-Resume.pdf` |
 | **Website** | https://pradipdj432.github.io/portfolio/ (live) |
 
 ## Numbers in the intro
@@ -31,10 +32,10 @@ Given by the owner on 2026-10-04 (D-011).
 | Projects built | 12+ |
 | LeetCode problems solved | 800+ |
 
-## About (from the résumé)
+## About (from the resume)
 > Cloud DevOps–oriented Full Stack Developer with 3 years of overall experience, working with AWS, GCP, and Azure for application deployment, cloud infrastructure support, CI/CD pipelines, and container-based workflows. Strong Full Stack experience in building and maintaining scalable web applications using Angular, React, Node.js, MSSQL, and MySQL, including Single Page Applications (SPAs) and RESTful APIs. Good problem-solving skills, eager to learn, with basic knowledge of data science and machine learning concepts using Python.
 
-(The site says 4+ years, as the owner asked, not the résumé's 3.)
+(The site says 4+ years, as the owner asked, not the resume's 3.)
 
 ## Contact
 | Channel | Detail |
@@ -61,14 +62,20 @@ Given by the owner on 2026-10-04 (D-011).
 ## Work experience
 Newest first.
 
-### Eagerminds (April 2026 – now)
-https://www.eagerminds.in/ · Role: still to confirm.
+### Eagerminds — Senior Software Architect (April 2026 – now)
+https://www.eagerminds.in/ · Title from the owner, 2026-10-04.
 
-**HFSS** (https://hfss.ch/)
-- Built by the owner at Eagerminds (owner's words: "in which I build this project"). What it is and the tech used: still to confirm.
+**HFSS: Helvetia Financial Services** (https://hfss.ch/)
+Built by the owner at Eagerminds (owner's words: "in which I build this project"). What HFSS is, from its own pages (source 4):
+- A Zurich, Switzerland fintech platform: "one platform for Payments, Crypto Exchange, Digital Custody, Currency Exchange and Debit Cards", described as "the financial backbone for modern finance".
+- Payments: SEPA, SEPA Instant, TARGET2 and SWIFT, with an IBAN dedicated to payment processing; internal transfers.
+- Crypto: fiat/crypto and crypto/crypto exchange, and a crypto wallet to store, send and receive.
+- Currency exchange 24/7 for the top 10 currencies; dedicated debit card accounts with real-time status and automated reconciliation.
+- Security and compliance: certified HSMs, segregated funds, fraud monitoring, geo-redundant backups in Switzerland, AML/KYC/KYB/KYT and Travel Rule support, sanctions screening, accountant access with limited rights, REST APIs and webhooks, 99.99% uptime.
+- The tech stack the owner used: still to confirm.
 
-### Dhitech Solutions — Software Developer (July 2024 – 2026)
-Start date from the older CV. End month still to confirm (the owner moved to Eagerminds in April 2026). The main résumé says "March 2023 – Current"; the owner said to use the older CV's dates.
+### Dhitech Solutions — Senior Software Engineer (July 2024 – 2026)
+Title from the owner, 2026-10-04 (both resumes say "Software Developer"). Start date from the older CV. End month still to confirm (the owner moved to Eagerminds in April 2026). The main resume says "March 2023 – Current"; the owner said to use the older CV's dates.
 
 **Gift Card Management System** (Angular, Node.js, MySQL, AWS) · live at http://rbsgift.com/
 - Built a gift card management system with role-based access (Merchant, Admin, etc.).
@@ -97,22 +104,22 @@ From the older CV.
 - Integrated microservice APIs and optimised data synchronisation for better processing and reporting.
 
 ## Projects
-Personal and freelance projects (work projects are under "Work experience"). The owner confirmed on 2026-10-04 that the DK-Engineer and Aara Culture websites are shown too. The other three come from the résumé.
+Personal and freelance projects (work projects are under "Work experience"). The owner confirmed on 2026-10-04 that the DK-Engineer and Aara Culture websites are shown too. The other three come from the resume.
 
 | Project | Type | Built with | What it does | Links |
 |---|---|---|---|---|
 | DK ENGINEER'S website | Business website, live | HTML, CSS, JavaScript, GitHub Pages, Claude Code | Website for an industrial hardware manufacturer and supplier in Vapi: a 14-section catalogue from their printed PDF, an inquiry form that opens email or WhatsApp, mobile-first | [Live](https://pradipdj432.github.io/DK-Engineer/), [Code](https://github.com/PradipDj432/DK-Engineer) |
 | Aara Culture website | Fashion catalog, live | HTML, CSS, JavaScript, JSON, GitHub Pages, Claude Code | Catalog for a women's clothing brand: shop with category and size filters, product pages, WhatsApp orders with a ready message, "minimal luxury" design, products in one JSON file | [Live](https://pradipdj432.github.io/aara-culture/), [Code](https://github.com/PradipDj432/aara-culture) |
-| Parking Management System | Full stack | Angular, ASP.NET, MS SQL | Pre-booking of parking slots and admin management of parking allocations; real-time monitoring for watchmen to track entries and exits; live parking availability | [SQL](https://github.com/PradipDj432/Parking-Management-System-SQL) (the résumé's link), [UI](https://github.com/PradipDj432/Parking-Management-System-UI), [API](https://github.com/PradipDj432/Parking-Management-System-API) |
-| Cricket Score Management System | Full stack | Angular, ASP.NET, MS SQL | Admins update live cricket scores and manage match details; users see real-time scores and match information; validation for data integrity | No link on the résumé |
+| Parking Management System | Full stack | Angular, ASP.NET, MS SQL | Pre-booking of parking slots and admin management of parking allocations; real-time monitoring for watchmen to track entries and exits; live parking availability | [SQL](https://github.com/PradipDj432/Parking-Management-System-SQL) (the resume's link), [UI](https://github.com/PradipDj432/Parking-Management-System-UI), [API](https://github.com/PradipDj432/Parking-Management-System-API) |
+| Cricket Score Management System | Full stack | Angular, ASP.NET, MS SQL | Admins update live cricket scores and manage match details; users see real-time scores and match information; validation for data integrity | No link on the resume |
 | Bulldozer Price Prediction | Data science & ML | Python, NumPy, Pandas, Matplotlib, Scikit-learn, Jupyter, Conda | Random Forest regression model that predicts bulldozer prices; 92% accuracy using bagging and boosting | [Code](https://github.com/PradipDj432/Bulldozer-price-prediction) |
 
 ## Certificates
-All badges: https://www.credly.com/users/pradipdj432/badges/credly
+All badges are on Credly (link under "Contact"). The site shows Credly only with the contact links, not in the certificates section (D-012).
 
 | Certificate | From | Year |
 |---|---|---|
-| Professional Cloud Architect | Google | Still to confirm (new, added by the owner on 2026-10-04) |
+| Professional Cloud Architect | Google | 2026 (owner) |
 | Generative AI Leader | Google | 2026 |
 | Associate Cloud Engineer | Google | 2025 |
 | Microsoft Certified: Azure Fundamentals | Microsoft | 2025 |
@@ -126,7 +133,7 @@ All badges: https://www.credly.com/users/pradipdj432/badges/credly
 | Belur Vidhyalaya, Bhavnagar | Secondary School Certificate (SSC) | 2015 – 2017 | 82/100 |
 
 ## Competitive coding
-- **LeetCode:** 800+ DSA and SQL problems solved (owner, 2026-10-04; the résumé says 700+) (https://leetcode.com/Dj432/).
+- **LeetCode:** 800+ DSA and SQL problems solved (owner, 2026-10-04; the resume says 700+) (https://leetcode.com/Dj432/).
 - **Kaggle:** uses Kaggle datasets for machine learning models.
 
 ## Courses
@@ -137,7 +144,7 @@ All badges: https://www.credly.com/users/pradipdj432/badges/credly
 | MERN full stack development | 2024 |
 
 ## Other repos on GitHub
-Public repos not on the résumé and not on the site (from GitHub, 2026-10-04). Shown only if the owner picks them.
+Public repos not on the resume and not on the site (from GitHub, 2026-10-04). Shown only if the owner picks them.
 
 | Repo | What it is | Last update |
 |---|---|---|
@@ -152,17 +159,15 @@ Public repos not on the résumé and not on the site (from GitHub, 2026-10-04). 
 ## Still to confirm
 Tracked in `backlog.md`. Until answered, the site shows only what's known (no role, no year).
 
-- **Role at Eagerminds:** the job title to show.
-- **HFSS:** one line on what hfss.ch is, and the tech used.
 - **Dhitech end month:** the site shows "Jul 2024 – 2026".
-- **Professional Cloud Architect:** the year earned (the site links to Credly instead).
+- **HFSS tech stack:** what the owner used to build it (the site shows the product areas instead).
 - **Company name style:** "Eagerminds", or another spelling such as "EagerMinds"?
-- **Cricket Score Management System:** is there a repo or live link? The résumé has none.
-- **Location:** the résumé doesn't give one; GitHub says Ahmedabad. Show it or not?
+- **Cricket Score Management System:** is there a repo or live link? The resume has none.
+- **Location:** the resume doesn't give one; GitHub says Ahmedabad. Show it or not?
 - **Photo** of the owner, if wanted.
 
 ## On the site as a first draft
 Written from the facts above, already on the site; the owner should check the wording.
 
-- **First-person text:** the About text and the intro are the résumé summary rewritten in the first person ("I deploy and run applications…").
+- **First-person text:** the About text and the intro are the resume summary rewritten in the first person ("I deploy and run applications…").
 - **Projects order:** the two live websites first (D-008).
