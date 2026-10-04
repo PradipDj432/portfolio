@@ -2,9 +2,7 @@
 
 The personal portfolio website of **Pradipkumar Jaliya** ([PradipDj432](https://github.com/PradipDj432) on GitHub): Claude Native · DevOps & AI Engineer · Full Stack Developer. It introduces the owner, shows their work, projects, skills and certificates, offers the résumé as a download, and makes it easy to get in touch.
 
-**Status:** Built. The first version is in a pull request; it goes live once it's merged and GitHub Pages is turned on (see "How changes go live"). Where the project stands: `progress.md`. What's next: `backlog.md` → "Next up".
-
-**Address (once live):** https://pradipdj432.github.io/portfolio/
+**Live:** https://pradipdj432.github.io/portfolio/ · Where the project stands: `progress.md`. What's next: `backlog.md` → "Next up".
 
 ## Project docs
 | File | What's in it |
@@ -85,9 +83,9 @@ Make a 1200 × 750 JPEG under about 250 KB, upload it to `images/projects/` with
 Follow the steps in `resume/README.md`: move the old PDF into `resume/archive/`, upload the new one with the same name, then update `profile.md` and the page text.
 
 ## How changes go live
-**First time only:** after the first version is merged into `main`, turn on GitHub Pages: **Settings → Pages → Build and deployment → Deploy from a branch → `main` / `(root)` → Save**. The site appears at https://pradipdj432.github.io/portfolio/ about a minute later.
+GitHub Pages is **on**: it serves the `main` branch from the repo root at https://pradipdj432.github.io/portfolio/. Every merge into `main` goes live in a minute or two. To check a deploy, open the repo's **Actions** tab and look for the latest **"pages build and deployment"** run (green tick = live).
 
-After that, every merge into `main` goes live in a minute or two. To check a deploy, open the repo's **Actions** tab and look for the latest **"pages build and deployment"** run (green tick = live).
+If GitHub Pages is ever turned off: **Settings → Pages → Build and deployment → Deploy from a branch → `main` / `(root)` → Save**.
 
 ### Adding a custom domain later
 Settings → Pages → **Custom domain**, then follow GitHub's DNS steps. Then change the address in `index.html` (the `og:` and `canonical` tags), `js/config.js` (`siteUrl`), `robots.txt` and `sitemap.xml` (D-004).

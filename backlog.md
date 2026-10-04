@@ -8,15 +8,13 @@ Everything still to do, newest ideas at the bottom of each section. When work st
 ## Next up
 The few things to do next, in order. Keep this list short and current.
 
-1. **Owner:** look at the first version (screenshots in PR #2) and say "merge" or what to change.
-2. **Owner:** after the merge, turn on GitHub Pages (steps in `README.md` → "How changes go live").
-3. **Owner:** open the live site on your phone; share the link on WhatsApp once to check the preview.
-4. **Owner:** check the wording of the "Claude Native & AI" card and the first-person text (`profile.md` → "On the site as a first draft").
-5. **Dev:** after it's live, add the website link to the GitHub profile and LinkedIn (owner's accounts, so the owner does this or shares access).
+1. **Owner:** open https://pradipdj432.github.io/portfolio/ on your phone; try the menu, the light/dark button and "Download résumé".
+2. **Owner:** share the link on WhatsApp once to check the preview picture.
+3. **Owner:** check the wording of the "Claude Native & AI" card and the first-person text (`profile.md` → "On the site as a first draft").
+4. **Owner:** add the portfolio link to your GitHub profile and LinkedIn.
 
 ## Waiting on the owner
-- [ ] **P1 · Owner** Review the first version and say "merge" (PR #2).
-- [ ] **P1 · Owner** Turn on GitHub Pages after the merge (steps in `README.md`).
+- [ ] **P1 · Owner** Check the live site on a real phone (menu, light/dark button, résumé download, contact links) and the WhatsApp link preview.
 - [ ] **P2 · Owner** Check the "Claude Native & AI" card wording and the first-person text (`profile.md`).
 - [ ] **P2 · Owner** Confirm the design (D-006) and the project order (D-008), or say what to change.
 - [ ] **P2 · Owner** Cricket Score Management System: is there a repo or live link? The résumé has none.
@@ -27,7 +25,7 @@ The few things to do next, in order. Keep this list short and current.
 - [ ] **P3 · Owner** Custom domain, if wanted (for example `pradipjaliya.in`).
 
 ## To build
-- [ ] **P2 · Dev** After GitHub Pages is on: check the live site, the 404 page and the link preview.
+- [ ] **P2 · Dev** Open the live site, the 404 page and the link preview from an environment that can reach `github.io` (this one can't). The deploy itself succeeded.
 - [ ] **P2 · Dev** Add a photo to the intro once the owner sends one.
 - [ ] **P3 · Dev** Retake the DK-Engineer and Aara Culture screenshots when those sites change a lot.
 - [ ] **P3 · Dev** Free, privacy-friendly visitor counter (for example GoatCounter), if the owner wants to see visits.
@@ -40,6 +38,8 @@ The few things to do next, in order. Keep this list short and current.
 - [x] **P1 · Owner** Company name: Dhitech Solutions is current.
 - [x] **P2 · Owner** Show the DK-Engineer and Aara Culture websites as projects: yes.
 - [x] **P1 · Owner** Merge PR #1: yes, merged.
+- [x] **P1 · Owner** Review the first version: "merge". PR #2 merged.
+- [x] **P1 · Owner** Turn on GitHub Pages: done; the site is live (D-004).
 - [x] **P1 · Owner** Headline: "Claude Native · DevOps & AI Engineer · Full Stack Developer". PR #1.
 - [x] **P1 · Owner** Résumé PDF sent; name, bio, skills, work, projects, certificates, education and contact details all taken from it (D-005). PR #1.
 

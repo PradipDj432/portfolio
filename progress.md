@@ -5,11 +5,11 @@ Where the project stands right now, and a dated log of what was done. Update thi
 ## Current status
 | | |
 |---|---|
-| **Phase** | First version built: a one-page portfolio in a "modern premium" design, dark and light. In a pull request (#2), waiting for the owner's OK to merge. |
-| **Live site** | Not live yet. After the merge, the owner turns on GitHub Pages; the address will be https://pradipdj432.github.io/portfolio/ |
-| **Branches** | `main` has the docs and résumé (PR #1). `working` has the website, in PR #2. All new work starts on `working` (D-002). |
-| **Blocked on** | The owner's review of PR #2. |
-| **Next step** | Owner: review the screenshots, say "merge", then turn on GitHub Pages. Full list in `backlog.md` → "Next up". |
+| **Phase** | Live. The first version (PR #2) is merged and published by GitHub Pages. |
+| **Live site** | https://pradipdj432.github.io/portfolio/ GitHub Pages publishes every merge to `main` (Actions → "pages build and deployment"); the deploy of PR #2 succeeded. |
+| **Branches** | `working` and `main` hold the same site; this notes update is in PR #3. All new work starts on `working` (D-002). |
+| **Blocked on** | Nothing. A few small checks are waiting on the owner (see `backlog.md` → "Waiting on the owner"). |
+| **Next step** | Owner: open the live site on a phone, share the link on WhatsApp once, and check the two first-draft lines. Full list in `backlog.md` → "Next up". |
 
 ## Where we are
 - **Website:** one page with intro, about, experience, projects, skills, credentials and contact. Dark by default with a light theme. "Download résumé" buttons, link previews, a 404 page, and Google search data.
@@ -22,7 +22,8 @@ Where the project stands right now, and a dated log of what was done. Update thi
 |---|---|---|
 | — | Setup: rules and project docs. Committed straight to `main`, because the repo was empty (D-002) | 2026-10-04 |
 | #1 | Résumé added; `profile.md` filled from it (D-005) | 2026-10-04 |
-| #2 | First version of the website: one page, "modern premium" design, dark and light (D-006 to D-008) | Open |
+| #2 | First version of the website: one page, "modern premium" design, dark and light (D-006 to D-008) | 2026-10-04 |
+| #3 | Notes brought up to date after going live | Open |
 
 ## Log
 
@@ -45,4 +46,6 @@ Where the project stands right now, and a dated log of what was done. Update thi
 - Added `404.html`, `robots.txt`, `sitemap.xml`, `.nojekyll` and schema.org `Person` data.
 - Tested in Chromium at 390px and 1280px, in dark and light: no horizontal scrolling, no script errors, no failed requests, no broken images, every link and anchor goes somewhere real, fonts load, the menu opens and closes, the theme choice is remembered after a reload, and the 404 page works. Fixed what the screenshots showed: the email icon in the intro showed the full address as text, "Contact" was highlighted in the menu at the top of the page, and the three titles broke awkwardly on phones.
 - Updated `CLAUDE.md` (design and code rules), `README.md` (how it works, editing guide, turning on Pages), `profile.md`, `decisions.md` (D-006 to D-008), `backlog.md`.
-- Opened [PR #2](https://github.com/PradipDj432/portfolio/pull/2) from `working` into `main`; waiting for the owner's OK to merge.
+- Opened [PR #2](https://github.com/PradipDj432/portfolio/pull/2) from `working` into `main`.
+- The owner said "merge". **PR #2 merged.** The owner turned on GitHub Pages; GitHub's "pages build and deployment" ran for the merge of PR #2 (commit `c80b909`) and succeeded, so the site is live at https://pradipdj432.github.io/portfolio/. (The run for PR #1 was cancelled because the newer one replaced it.) This environment's network blocks `*.github.io`, so the live pages themselves weren't opened from here; the same files were tested locally before the merge.
+- Synced `working` with `main` again and opened [PR #3](https://github.com/PradipDj432/portfolio/pull/3) with this notes update.
