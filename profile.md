@@ -2,22 +2,40 @@
 
 Facts about the owner, for the portfolio. This file holds facts only. Technical details go in `README.md`, choices go in `decisions.md`.
 
-**Source:** the owner's résumé, `resume/Pradipkumar-Jaliya-Resume.pdf` (made April 2026, added 2026-10-04), plus the headline the owner gave on 2026-10-04. The owner said everything else for the site is in the résumé, so the facts below are confirmed. When a new résumé comes in, update this file to match (steps in `resume/README.md`). Open questions are under "Still to confirm".
+**Sources:**
+1. The main resume, `resume/Pradip-Jaliya-Resume.pdf` (made April 2026, added 2026-10-04). This is the file visitors download.
+2. An older CV, `resume/archive/Pradipkumar-Jaliya-CV-2026-03.pdf` (made March 2026, sent 2026-10-04). The owner said to take the work history from it: Optimum Financial Solutions, then Dhitech Solutions from July 2024. It isn't offered for download.
+3. The owner's own answers on 2026-10-04: the name to show, the headline, the new job at Eagerminds and the job titles, the live project links, the new certificate and its year, Credly, Claude Code and Codex, and the numbers in the intro.
+4. For HFSS only: hfss.ch's own pages, read through web search on 2026-10-04 (this environment can't open the site directly). The owner asked for HFSS to be described from its landing page and static pages.
+
+Where these disagree, the owner's latest answer wins, then the older CV for work history, then the main resume. When a new resume comes in, update this file to match (steps in `resume/README.md`). Open questions are under "Still to confirm".
 
 ## At a glance
 | | |
 |---|---|
-| **Name** | Pradipkumar Jaliya (as on the résumé). GitHub shows "Pradip Jaliya" |
-| **Headline** | Claude Native · DevOps & AI Engineer · Full Stack Developer |
-| **Experience** | Software Developer since March 2023 (the résumé, from April 2026, says "3 years of overall experience") |
-| **Current job** | Software Developer, Dhitech Solutions (March 2023 – now). Confirmed by the owner on 2026-10-04 (the GitHub profile still shows "Optimum Fitech") |
-| **Résumé** | `resume/Pradipkumar-Jaliya-Resume.pdf` |
-| **Website** | Not live yet (this repo, `PradipDj432/portfolio`) |
+| **Name on the website** | **Pradip Jaliya**, everywhere (owner, 2026-10-04; D-009). Full name on the resume: Pradipkumar Jaliya |
+| **Headline** | Claude & DevOps · AI Engineer · Full Stack Developer (owner, 2026-10-04; DevOps and AI kept apart; D-010) |
+| **Experience** | 4+ years (owner). Work started March 2023 |
+| **Current job** | Senior Software Architect at Eagerminds (https://www.eagerminds.in/), since April 2026 (owner) |
+| **Companies** | 3: Optimum Financial Solutions → Dhitech Solutions → Eagerminds |
+| **How they work** | Uses Claude Code and Codex "to improve and deliver faster" (owner's words) |
+| **Resume (download)** | `resume/Pradip-Jaliya-Resume.pdf` |
+| **Website** | https://pradipdj432.github.io/portfolio/ (live) |
 
-The headline in the owner's words: "Claude native & DevOps and AI engineer & full stack developer".
+## Numbers in the intro
+Given by the owner on 2026-10-04 (D-011).
 
-## About (from the résumé)
+| Number | Shown as |
+|---|---|
+| Years of experience | 4+ |
+| Cloud & AI certifications | 5+ |
+| Projects built | 12+ |
+| LeetCode problems solved | 800+ |
+
+## About (from the resume)
 > Cloud DevOps–oriented Full Stack Developer with 3 years of overall experience, working with AWS, GCP, and Azure for application deployment, cloud infrastructure support, CI/CD pipelines, and container-based workflows. Strong Full Stack experience in building and maintaining scalable web applications using Angular, React, Node.js, MSSQL, and MySQL, including Single Page Applications (SPAs) and RESTful APIs. Good problem-solving skills, eager to learn, with basic knowledge of data science and machine learning concepts using Python.
+
+(The site says 4+ years, as the owner asked, not the resume's 3.)
 
 ## Contact
 | Channel | Detail |
@@ -27,57 +45,85 @@ The headline in the owner's words: "Claude native & DevOps and AI engineer & ful
 | LinkedIn | https://www.linkedin.com/in/pradipjaliya/ |
 | GitHub | https://github.com/PradipDj432 |
 | LeetCode | https://leetcode.com/Dj432/ |
+| Credly | https://www.credly.com/users/pradipdj432/badges/credly |
 
 ## Skills
 | Area | Skills |
 |---|---|
 | Cloud & DevOps | AWS, GCP, Azure (Terraform, CI/CD pipelines, Docker, Kubernetes) |
-| Backend | Node.js, NestJS (Express.js, REST APIs, microservices, schedulers) |
+| Backend | Node.js, NestJS (Express.js, REST APIs, microservices, schedulers); ASP.NET and SSO from the Optimum work |
 | Database | MySQL, MS SQL, DynamoDB (RDBMS, NoSQL, SQL) |
 | Frontend | Angular, React (HTML, CSS, TypeScript, JavaScript, jQuery) |
 | AI & ML | Python (GenAI, LLMs, NumPy, Matplotlib, Pandas, Scikit-learn) |
+| AI coding tools | Claude Code, Codex |
 | DSA | C++ (arrays, linked lists, stacks, queues, trees, heaps, sorting, searching) |
 | Tools | Git, GitHub, Bitbucket, Sourcetree, Postman, Jira, Confluence, Visual Studio, VS Code |
 
 ## Work experience
+Newest first.
 
-### Dhitech Solutions — Software Developer (March 2023 – now)
+### Eagerminds — Senior Software Architect (April 2026 – now)
+https://www.eagerminds.in/ · Title from the owner, 2026-10-04.
 
-**Gift Card Management System** (Angular, Node.js, MySQL, AWS)
+**HFSS: Helvetia Financial Services** (https://hfss.ch/)
+Built by the owner at Eagerminds (owner's words: "in which I build this project"). What HFSS is, from its own pages (source 4):
+- A Zurich, Switzerland fintech platform: "one platform for Payments, Crypto Exchange, Digital Custody, Currency Exchange and Debit Cards", described as "the financial backbone for modern finance".
+- Payments: SEPA, SEPA Instant, TARGET2 and SWIFT, with an IBAN dedicated to payment processing; internal transfers.
+- Crypto: fiat/crypto and crypto/crypto exchange, and a crypto wallet to store, send and receive.
+- Currency exchange 24/7 for the top 10 currencies; dedicated debit card accounts with real-time status and automated reconciliation.
+- Security and compliance: certified HSMs, segregated funds, fraud monitoring, geo-redundant backups in Switzerland, AML/KYC/KYB/KYT and Travel Rule support, sanctions screening, accountant access with limited rights, REST APIs and webhooks, 99.99% uptime.
+- The tech stack the owner used: still to confirm.
+
+### Dhitech Solutions — Senior Software Engineer (July 2024 – 2026)
+Title from the owner, 2026-10-04 (both resumes say "Software Developer"). Start date from the older CV. End month still to confirm (the owner moved to Eagerminds in April 2026). The main resume says "March 2023 – Current"; the owner said to use the older CV's dates.
+
+**Gift Card Management System** (Angular, Node.js, MySQL, AWS) · live at http://rbsgift.com/
 - Built a gift card management system with role-based access (Merchant, Admin, etc.).
 - AWS Cognito for sign-in, S3 for storage, and OTP-based security for user login.
 - Gift card purchase, redemption, transfer (future or instant) and expiry management.
 - Improved backend performance and the data flow between frontend and backend.
 - Deployed on AWS using ECS, with CI/CD pipelines and cloud infrastructure managed in Terraform.
 
-**Call Clutch** (React, Python, AWS Connect, AWS Lambda, API Gateway, DynamoDB)
+**Call Clutch** (React, Python, AWS Connect, AWS Lambda, API Gateway, DynamoDB) · live at https://callclutch.ai/ (app: https://app.callclutch.ai/)
 - Led the development of a call tracking and management system using AWS Connect, React and Python Serverless.
 - Migrated from DynamoDB to an RDBMS, from AWS Lambda and API Gateway to Node.js, and added AWS QuickSight for data visualisation.
 - Built call forwarding, campaign creation and phone number assignment, with a focus on scalability and high availability.
 
-**Drive PG** (AWS, S3, Lambda, Step Functions, SES, QuickSight)
+**Drive PG** (AWS, S3, Lambda, Step Functions, SES, QuickSight) · live at https://drivepg.com/
 - Built a data analytics dashboard for AWS Marketing Cloud using AWS Athena, QuickSight and S3.
 - Automated data extraction and storage with AWS Lambda, EventBridge and Step Functions.
 - Automated email workflows with AWS SES, and fed marketing campaign data into the React dashboard for real-time updates.
 
+### Optimum Financial Solutions — Junior Software Developer and Intern (March 2023 – June 2024)
+From the older CV.
+
+**JM Financial Mutual Fund** (Angular, ASP.NET, MS SQL)
+- Completed extensive training in Angular, the ASP.NET Framework and MS SQL, and applied it to the real-time mutual fund application.
+- Developed, tested and maintained the mutual fund application with Angular, ASP.NET and MS SQL; integrated microservice APIs, managed databases, and used data binding for smooth data synchronisation.
+- Built modules for single sign-on (SSO) login, schedulers, bulk insertion, brokerage calculations and report generation.
+- Integrated microservice APIs and optimised data synchronisation for better processing and reporting.
+
 ## Projects
-The owner confirmed on 2026-10-04 that the DK-Engineer and Aara Culture websites are shown too. The other three come from the résumé.
+Personal and freelance projects (work projects are under "Work experience"). The owner confirmed on 2026-10-04 that the DK-Engineer and Aara Culture websites are shown too. The other three come from the resume.
 
 | Project | Type | Built with | What it does | Links |
 |---|---|---|---|---|
 | DK ENGINEER'S website | Business website, live | HTML, CSS, JavaScript, GitHub Pages, Claude Code | Website for an industrial hardware manufacturer and supplier in Vapi: a 14-section catalogue from their printed PDF, an inquiry form that opens email or WhatsApp, mobile-first | [Live](https://pradipdj432.github.io/DK-Engineer/), [Code](https://github.com/PradipDj432/DK-Engineer) |
 | Aara Culture website | Fashion catalog, live | HTML, CSS, JavaScript, JSON, GitHub Pages, Claude Code | Catalog for a women's clothing brand: shop with category and size filters, product pages, WhatsApp orders with a ready message, "minimal luxury" design, products in one JSON file | [Live](https://pradipdj432.github.io/aara-culture/), [Code](https://github.com/PradipDj432/aara-culture) |
-| Parking Management System | Full stack | Angular, ASP.NET, MS SQL | Pre-booking of parking slots and admin management of parking allocations; real-time monitoring for watchmen to track entries and exits; live parking availability | [SQL](https://github.com/PradipDj432/Parking-Management-System-SQL) (the résumé's link), [UI](https://github.com/PradipDj432/Parking-Management-System-UI), [API](https://github.com/PradipDj432/Parking-Management-System-API) |
-| Cricket Score Management System | Full stack | Angular, ASP.NET, MS SQL | Admins update live cricket scores and manage match details; users see real-time scores and match information; validation for data integrity | No link on the résumé |
+| Parking Management System | Full stack | Angular, ASP.NET, MS SQL | Pre-booking of parking slots and admin management of parking allocations; real-time monitoring for watchmen to track entries and exits; live parking availability | [SQL](https://github.com/PradipDj432/Parking-Management-System-SQL) (the resume's link), [UI](https://github.com/PradipDj432/Parking-Management-System-UI), [API](https://github.com/PradipDj432/Parking-Management-System-API) |
+| Cricket Score Management System | Full stack | Angular, ASP.NET, MS SQL | Admins update live cricket scores and manage match details; users see real-time scores and match information; validation for data integrity | No link on the resume |
 | Bulldozer Price Prediction | Data science & ML | Python, NumPy, Pandas, Matplotlib, Scikit-learn, Jupyter, Conda | Random Forest regression model that predicts bulldozer prices; 92% accuracy using bagging and boosting | [Code](https://github.com/PradipDj432/Bulldozer-price-prediction) |
 
 ## Certificates
+All badges are on Credly (link under "Contact"). The site shows Credly only with the contact links, not in the certificates section (D-012).
+
 | Certificate | From | Year |
 |---|---|---|
-| AWS Certified Cloud Practitioner | AWS | 2025 |
-| Microsoft Certified: Azure Fundamentals | Microsoft | 2025 |
-| Associate Cloud Engineer | Google | 2025 |
+| Professional Cloud Architect | Google | 2026 (owner) |
 | Generative AI Leader | Google | 2026 |
+| Associate Cloud Engineer | Google | 2025 |
+| Microsoft Certified: Azure Fundamentals | Microsoft | 2025 |
+| AWS Certified Cloud Practitioner | AWS | 2025 |
 
 ## Education
 | School | Course | Years | Result |
@@ -87,7 +133,7 @@ The owner confirmed on 2026-10-04 that the DK-Engineer and Aara Culture websites
 | Belur Vidhyalaya, Bhavnagar | Secondary School Certificate (SSC) | 2015 – 2017 | 82/100 |
 
 ## Competitive coding
-- **LeetCode:** 700+ DSA and SQL problems solved (https://leetcode.com/Dj432/).
+- **LeetCode:** 800+ DSA and SQL problems solved (owner, 2026-10-04; the resume says 700+) (https://leetcode.com/Dj432/).
 - **Kaggle:** uses Kaggle datasets for machine learning models.
 
 ## Courses
@@ -98,7 +144,7 @@ The owner confirmed on 2026-10-04 that the DK-Engineer and Aara Culture websites
 | MERN full stack development | 2024 |
 
 ## Other repos on GitHub
-Public repos not on the résumé and not on the site (from GitHub, 2026-10-04). Shown only if the owner picks them.
+Public repos not on the resume and not on the site (from GitHub, 2026-10-04). Shown only if the owner picks them.
 
 | Repo | What it is | Last update |
 |---|---|---|
@@ -111,14 +157,17 @@ Public repos not on the résumé and not on the site (from GitHub, 2026-10-04). 
 | [DataAnalysisProjects](https://github.com/PradipDj432/DataAnalysisProjects) | A fork of someone else's repo | 2022-10 |
 
 ## Still to confirm
-Tracked in `backlog.md`. Don't put these on the website until the owner confirms them.
+Tracked in `backlog.md`. Until answered, the site shows only what's known (no role, no year).
 
-- **Cricket Score Management System:** is there a repo or live link? The résumé has none.
-- **Location:** the résumé doesn't give one; GitHub says Ahmedabad. Show it or not?
+- **Dhitech end month:** the site shows "Jul 2024 – 2026".
+- **HFSS tech stack:** what the owner used to build it (the site shows the product areas instead).
+- **Company name style:** "Eagerminds", or another spelling such as "EagerMinds"?
+- **Cricket Score Management System:** is there a repo or live link? The resume has none.
+- **Location:** the resume doesn't give one; GitHub says Ahmedabad. Show it or not?
 - **Photo** of the owner, if wanted.
 
 ## On the site as a first draft
 Written from the facts above, already on the site; the owner should check the wording.
 
-- **"Claude Native & AI" card:** "I work AI-first, planning, building and shipping with Claude Code." Based on the owner's headline and on how the DK-Engineer, Aara Culture and portfolio sites were built (with Claude Code).
-- **First-person text:** the About text and the intro are the résumé summary rewritten in the first person ("I deploy and run applications…"). The years of experience show as "3+" (work started March 2023).
+- **First-person text:** the About text and the intro are the resume summary rewritten in the first person ("I deploy and run applications…").
+- **Projects order:** the two live websites first (D-008).
