@@ -42,7 +42,7 @@ Given by the owner on 2026-10-04 (D-011).
 |---|---|
 | Email | pradipjaliya9802@gmail.com |
 | Phone | +91 63524 65074 |
-| WhatsApp | +91 63524 65074, the same number as the phone (used for the WhatsApp buttons; the owner to confirm it's on WhatsApp) |
+| WhatsApp | +91 63524 65074, the same number as the phone (owner, 2026-10-05; used for the WhatsApp buttons) |
 | LinkedIn | https://www.linkedin.com/in/pradipjaliya/ |
 | GitHub | https://github.com/PradipDj432 |
 | LeetCode | https://leetcode.com/Dj432/ |
@@ -57,7 +57,8 @@ The owner's answers on 2026-10-05 (D-017):
 | **Services** | Cloud & DevOps; business websites; full stack web apps; AI features |
 | **Clients** | Businesses in India and abroad; work is remote |
 | **Prices** | Not shown. Clients ask for a free quote |
-| **How to reach** | Email or WhatsApp, both from `js/config.js` |
+| **How to reach** | Email or WhatsApp (+91 63524 65074, confirmed 2026-10-05), both from `js/config.js` |
+| **Promises** | The "How I work" steps: share progress regularly, and help with fixes after launch (the owner said "merge" with them on 2026-10-05) |
 
 ## Skills
 | Area | Skills |
@@ -176,8 +177,6 @@ Tracked in `backlog.md`. Until answered, nothing about these goes on the site, e
 - **Cricket Score Management System:** is there a repo or live link? The resume has none.
 - **Location:** the resume doesn't give one; GitHub says Ahmedabad. Show it or not?
 - **Photo** of the owner, if wanted.
-- **WhatsApp:** is +91 63524 65074 (the phone number) the owner's WhatsApp number? The WhatsApp buttons use it.
-- **"How I work" steps:** the owner to check the promises in them ("share progress regularly", "help with fixes after launch").
 
 ## Wording on the site
 The main lines as the site writes them, built from the facts above. The owner reviewed the live site on 2026-10-04 ("looks good"). When a fact changes, change these lines and the matching text in `index.html` together, so every place says the same thing.

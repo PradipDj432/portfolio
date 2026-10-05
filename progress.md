@@ -5,17 +5,17 @@ Where the project stands right now, and a dated log of what was done. Update thi
 ## Current status
 | | |
 |---|---|
-| **Phase** | Live. Seven pull requests merged (#1–#7). PR #8 adds freelance services (D-017). |
-| **Live site** | https://pradipdj432.github.io/portfolio/ GitHub Pages publishes every merge to `main` (Actions → "pages build and deployment"). Every deploy so far has succeeded, the latest for PR #7 (`d59ff47`). |
-| **Branches** | `working` is ahead of `main` with PR #8 (freelance services), which also carries the merge notes for PR #7 (D-014). All new work starts on `working` (D-002). |
-| **Blocked on** | PR #8 needs the owner to confirm the WhatsApp number before it goes live. Other small checks are waiting on the owner ("4+ years", HFSS tech, an updated resume). |
-| **Next step** | Owner: confirm the WhatsApp number and the "How I work" wording, then say "merge" for PR #8; check the live site on a phone and answer the small checks. Full list in `backlog.md` → "Next up". |
+| **Phase** | Live. Eight pull requests merged (#1–#8); the site now offers freelance services (D-017). |
+| **Live site** | https://pradipdj432.github.io/portfolio/ GitHub Pages publishes every merge to `main` (Actions → "pages build and deployment"). Every deploy so far has succeeded, the latest for PR #8 (`b5e0ee2`). |
+| **Branches** | `working` matches `main`, plus these merge notes for PR #8, which go into `main` with the next pull request (D-014). All new work starts on `working` (D-002). |
+| **Blocked on** | Nothing. A few small checks are waiting on the owner ("4+ years", HFSS tech, an updated resume). |
+| **Next step** | Owner: check the live site on a phone (try the WhatsApp button), set up LinkedIn "Providing services" and a freelance profile, and answer the small checks. Full list in `backlog.md` → "Next up". |
 
 ## Where we are
 What's on the live site today:
 - **Page:** one page with intro, about, experience, projects, skills, credentials and contact, plus a "page not found" page. Dark by default with a light theme and a switch button. "Download resume" buttons, link previews for WhatsApp and LinkedIn, and Google search data (D-006, D-007).
 - **Intro, About and Projects texts:** the owner's own words. The intro is about cloud-native development, DevOps and AI-assisted engineering; the About text has three paragraphs (the application stack, the cloud and AI tools, the three companies). Python and machine learning stay out of the intro and About texts; they're in the AI Engineer card, Skills and the Bulldozer project (D-015, D-016).
-- **Freelance (PR #8, not live yet):** an "Available for freelance work" badge, a Services section with four services and "How I work" steps, WhatsApp buttons, and free quotes instead of prices (D-017).
+- **Freelance:** an "Available for freelance work" badge, a Services section with four services and "How I work" steps, WhatsApp buttons, and free quotes instead of prices (D-017).
 - **Name and titles:** "Pradip Jaliya", "Cloud & DevOps Engineer · AI Engineer · Full Stack Developer", badge "Senior Software Architect at Eagerminds" (D-009, D-016).
 - **Experience:** Senior Software Architect at Eagerminds (since April 2026: HFSS, Helvetia Financial Services); Senior Software Engineer at Dhitech Solutions (July 2024 – March 2026: gift card system, Call Clutch, Drive PG, each with its live link); Junior Software Developer and Intern at Optimum Financial Solutions (March 2023 – June 2024: JM Financial Mutual Fund) (D-011).
 - **Projects:** DK-Engineer and Aara Culture (live, with screenshots), then Parking Management System, Bulldozer Price Prediction and Cricket Score Management System (D-008).
@@ -36,7 +36,7 @@ What's on the live site today:
 | #5 | Every `.md` file brought in sync with the site and code (D-014) | 2026-10-04 |
 | #6 | Clearer intro, About and Projects texts, about cloud and full stack only (D-015) | 2026-10-04 |
 | #7 | The owner's own intro, About and Projects texts; headline "Cloud & DevOps Engineer" (D-016) | 2026-10-05 |
-| #8 | Freelance on the side: badge, Services section, "How I work", WhatsApp, free quotes (D-017) | Open |
+| #8 | Freelance on the side: badge, Services section, "How I work", WhatsApp, free quotes (D-017) | 2026-10-05 |
 
 ## Log
 
@@ -109,4 +109,4 @@ What's on the live site today:
 - Made the link-preview image again with the "Available for freelance work" badge, and added freelance work to the search and preview descriptions.
 - Updated `profile.md` (new "Freelance" section, WhatsApp in "Contact", the new wording, two new open questions), `CLAUDE.md` (section order), `README.md` (sections, WhatsApp setting, a guide to change or pause the freelance offer) and `decisions.md` (D-017).
 - Tested at 390px and 1280px in dark and light: no script errors, no failed requests, no sideways scrolling. The header menu still fits at 900–1200px with the extra "Services" link.
-- Opened PR #8. Waiting for the owner to confirm the WhatsApp number and the "How I work" wording, then say "merge".
+- Opened [PR #8](https://github.com/PradipDj432/portfolio/pull/8). The owner confirmed that WhatsApp uses the same number as the phone, and said "merge" (so the "How I work" wording stays). **PR #8 merged** (`b5e0ee2`); the deploy succeeded.

@@ -8,15 +8,12 @@ Everything still to do, newest ideas at the bottom of each section. When work st
 ## Next up
 The few things to do next, in order. Keep this list short and current.
 
-1. **Owner:** confirm your WhatsApp number (the site uses +91 63524 65074) and the "How I work" wording, then say "merge" for PR #8 (freelance services).
+1. **Owner:** open the live site on your phone, try the WhatsApp button, and share the link on WhatsApp once to check the new preview.
 2. **Owner:** turn on "Providing services" on LinkedIn, and make an Upwork or Contra profile if you want one; send the link to add it.
-3. **Owner:** open the live site on your phone and share the link on WhatsApp once to check the preview.
-4. **Owner:** confirm "4+ years" (your work on the site starts March 2023), and the tech you used for HFSS, if you want it shown.
-5. **Owner:** send an updated resume; the one visitors download still says 3 years and doesn't list Eagerminds or Optimum.
+3. **Owner:** confirm "4+ years" (your work on the site starts March 2023), and the tech you used for HFSS, if you want it shown.
+4. **Owner:** send an updated resume; the one visitors download still says 3 years and doesn't list Eagerminds or Optimum.
 
 ## Waiting on the owner
-- [ ] **P1 · Owner** WhatsApp: is +91 63524 65074 your WhatsApp number? The new WhatsApp buttons use it (PR #8).
-- [ ] **P1 · Owner** Check the "How I work" promises: "share progress regularly" and "help with fixes after launch" (PR #8).
 - [ ] **P2 · Owner** Freelance outside the site: LinkedIn "Providing services", an Upwork or Contra profile, and a check that your job contract allows side work.
 - [ ] **P2 · Owner** Were DK ENGINEER'S and Aara Culture paid client work? If yes, the site can call them clients.
 - [ ] **P1 · Owner** Check the live site on a real phone (menu, light/dark button, resume download, contact links) and the WhatsApp link preview.
@@ -103,4 +100,6 @@ Grouped by pull request, oldest first. Where a later change replaced something, 
 
 ### PR #8 (freelance services)
 - [x] **P1 · Owner** Freelance on the side; services: Cloud & DevOps, business websites, full stack web apps, AI features; clients in India and abroad; free quotes, no prices (D-017). PR #8.
-- [x] **P1 · Dev** "Available for freelance work" badge, Services section with "How I work", WhatsApp buttons and contact row, new link-preview image, docs updated (D-017). PR #8.
+- [x] **P1 · Dev** "Available for freelance work" badge, Services section with "How I work", WhatsApp buttons and contact row, new link-preview image, docs updated (D-017). PR #8.- [x] **P1 · Owner** WhatsApp number: the same as the phone, +91 63524 65074. PR #8.
+- [x] **P1 · Owner** "How I work" wording: kept as is (the owner said "merge"). PR #8.
+- [x] **P1 · Owner** Merge PR #8: yes, merged and live.
