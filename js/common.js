@@ -27,6 +27,10 @@ function fillProfile() {
     el.href = "tel:" + PROFILE.phone.number;
     if (!el.children.length && !el.textContent.trim()) el.textContent = PROFILE.phone.display;
   });
+  document.querySelectorAll("[data-whatsapp]").forEach((el) => {
+    el.href = "https://wa.me/" + PROFILE.whatsapp.number + "?text=" + encodeURIComponent(PROFILE.whatsapp.message);
+    if (!el.children.length && !el.textContent.trim()) el.textContent = PROFILE.whatsapp.display;
+  });
   document.querySelectorAll("[data-link]").forEach((el) => {
     const link = PROFILE.links[el.dataset.link];
     if (!link) {

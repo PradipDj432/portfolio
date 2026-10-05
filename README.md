@@ -20,11 +20,11 @@ These are the same docs as the DK-Engineer and Aara Culture repos. `profile.md` 
 ## How it works
 - A static website: plain **HTML, CSS and JavaScript**. No framework and no build step (D-003).
 - Hosted free on **GitHub Pages** from the `main` branch, repo root (D-004).
-- **One page**, `index.html`, with these sections: intro, about, experience, projects, skills, credentials, contact. The text is written straight into the HTML and matches `profile.md` (D-007).
-- **Contact details and links** (email, phone, GitHub, LinkedIn, LeetCode, Credly, the resume file and the live address) are in **one file, `js/config.js`**. `js/common.js` fills them into the page and adds the details Google shows in search results (schema.org `Person`: name, job title, company, headline, links).
+- **One page**, `index.html`, with these sections: intro, about, services (freelance, D-017), experience, projects, skills, credentials, contact. The text is written straight into the HTML and matches `profile.md` (D-007).
+- **Contact details and links** (email, phone, WhatsApp, GitHub, LinkedIn, LeetCode, Credly, the resume file and the live address) are in **one file, `js/config.js`**. `js/common.js` fills them into the page and adds the details Google shows in search results (schema.org `Person`: name, job title, company, headline, links).
 - **Design:** "modern premium", dark by default with a light theme. The button in the header switches between them; the first visit follows the phone or computer setting (D-006).
 - **Resume:** the "Download resume" buttons link to `resume/Pradip-Jaliya-Resume.pdf` (D-005).
-- **Link previews:** when the address is shared on WhatsApp or LinkedIn, it shows `images/og-image.jpg`. The picture has the name, headline, current job and numbers drawn into it, so it has to be remade when any of those change.
+- **Link previews:** when the address is shared on WhatsApp or LinkedIn, it shows `images/og-image.jpg`. The picture has the name, headline, the freelance badge, current job and numbers drawn into it, so it has to be remade when any of those change.
 
 ## How we work (branches)
 All changes are made on the **`working`** branch, one feature at a time: sync `working` with `main` → build the feature → open a pull request from `working` into `main` → merge it when the owner says so → sync `working` with `main` again. The exact steps are in `CLAUDE.md` → "Branches and pull requests" (D-002).
@@ -69,6 +69,7 @@ All changes go through the `working` branch (D-002). On GitHub, pick **`working`
 Open `js/config.js` → pencil icon (✏️) → change the value inside the quotes → **Commit changes**. It updates everywhere on the page.
 
 - `phone`: `number` is for the call link (`+91` and the number, no spaces); `display` is what people see.
+- `whatsapp`: `number` is for the chat link (`91` and the number, no `+` or spaces); `display` is what people see; `message` is the text that's ready to send when someone opens the chat.
 - `links`: GitHub, LinkedIn, LeetCode and Credly. `url` is the full address; `handle` is the short text shown in the contact section.
 - `name`, `headline`, `jobTitle` and `company` are only used for the Google search data. The same words are also written in `index.html` (and drawn into `images/og-image.jpg`), so change them there too.
 
@@ -80,6 +81,9 @@ In `index.html`, find the `<!-- Projects -->` section. Copy a whole small card, 
 
 ### Change a job or a work project
 In `index.html`, find the `<!-- Experience: newest company first -->` section. Each company is one `<article class="job">` with its name, title and dates at the top. Each work project inside it is one `<li class="timeline-item">`: copy one, paste it under the last, and change the name, the link, the tags and the bullet points. Then update `profile.md` → "Work experience".
+
+### Change or pause the freelance offer
+The freelance parts are the "Available for freelance work" badge at the top of the intro, the `<!-- Services -->` section (four service cards and the "How I work" steps), the "freelance" line in the profile card, the WhatsApp buttons and the first sentence of the Contact section. To change a service, edit its `<article class="card">`; to pause freelance work, ask for the badge and the Services section to come off, and the link-preview image to be made again (D-017). Then update `profile.md` → "Freelance".
 
 ### Replace a project screenshot
 Make a 1200 × 750 JPEG under about 250 KB, upload it to `images/projects/` with the **same file name** (for example `dk-engineer.jpg`), and commit.

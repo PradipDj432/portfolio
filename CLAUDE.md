@@ -53,7 +53,7 @@ Never commit straight to `main`, and don't create other branches unless the owne
 ## Code
 - Plain HTML, CSS and JavaScript only. No framework, no build step, no `npm` (D-003).
 - Hosted free on GitHub Pages from `main`, repo root, at `https://pradipdj432.github.io/portfolio/` (D-004). If the address changes, update it in `index.html` (link preview tags), `js/config.js`, `robots.txt` and `sitemap.xml`.
-- One page, `index.html`. Its text is written in the HTML and must match `profile.md` (D-007). Keep the section order: intro, about, experience, projects, skills, credentials, contact.
+- One page, `index.html`. Its text is written in the HTML and must match `profile.md` (D-007). Keep the section order: intro, about, services, experience, projects, skills, credentials, contact (D-017).
 - `404.html` must load its own files through the script in its `<head>`, because GitHub Pages shows it at any wrong address, at any folder depth.
 - Mobile first: check every change at phone width (390px) with no horizontal scrolling.
 - Before every pull request, test with a local server (`python3 -m http.server 8000`) at phone (390px) and desktop (1280px) widths, in dark and light: no script errors, no broken images or links.

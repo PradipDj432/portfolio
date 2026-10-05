@@ -8,12 +8,17 @@ Everything still to do, newest ideas at the bottom of each section. When work st
 ## Next up
 The few things to do next, in order. Keep this list short and current.
 
-1. **Owner:** say "merge" for PR #7 (your own texts and the new headline).
-2. **Owner:** open the live site on your phone and share the link on WhatsApp once to check the preview.
-3. **Owner:** confirm "4+ years" (your work on the site starts March 2023), and the tech you used for HFSS, if you want it shown.
-4. **Owner:** send an updated resume; the one visitors download still says 3 years and doesn't list Eagerminds or Optimum.
+1. **Owner:** confirm your WhatsApp number (the site uses +91 63524 65074) and the "How I work" wording, then say "merge" for PR #8 (freelance services).
+2. **Owner:** turn on "Providing services" on LinkedIn, and make an Upwork or Contra profile if you want one; send the link to add it.
+3. **Owner:** open the live site on your phone and share the link on WhatsApp once to check the preview.
+4. **Owner:** confirm "4+ years" (your work on the site starts March 2023), and the tech you used for HFSS, if you want it shown.
+5. **Owner:** send an updated resume; the one visitors download still says 3 years and doesn't list Eagerminds or Optimum.
 
 ## Waiting on the owner
+- [ ] **P1 · Owner** WhatsApp: is +91 63524 65074 your WhatsApp number? The new WhatsApp buttons use it (PR #8).
+- [ ] **P1 · Owner** Check the "How I work" promises: "share progress regularly" and "help with fixes after launch" (PR #8).
+- [ ] **P2 · Owner** Freelance outside the site: LinkedIn "Providing services", an Upwork or Contra profile, and a check that your job contract allows side work.
+- [ ] **P2 · Owner** Were DK ENGINEER'S and Aara Culture paid client work? If yes, the site can call them clients.
 - [ ] **P1 · Owner** Check the live site on a real phone (menu, light/dark button, resume download, contact links) and the WhatsApp link preview.
 - [ ] **P2 · Owner** Confirm "4+ years": the work history on the site starts March 2023 (about 3.5 years). Keep 4+ or change to 3+.
 - [ ] **P2 · Owner** HFSS: the tech used, if it should be shown (the site describes the product from hfss.ch).
@@ -23,13 +28,15 @@ The few things to do next, in order. Keep this list short and current.
 - [ ] **P2 · Owner** A photo of yourself, if wanted.
 - [ ] **P3 · Owner** Company name style: "Eagerminds" (as on the site) or "EagerMinds"? The company's own pages use both.
 - [ ] **P3 · Owner** Update the GitHub profile's company (it still says "Optimum Fitech", the old company) and add the portfolio link to GitHub and LinkedIn.
-- [ ] **P3 · Owner** Custom domain, if wanted (for example `pradipjaliya.in`).
+- [ ] **P2 · Owner** Custom domain, if wanted (for example `pradipjaliya.in`), with an email on it (for example `hello@pradipjaliya.in`); it looks more professional to freelance clients.
 
 ## To build
 - [ ] **P2 · Dev** Open the live site, the 404 page and the link preview from an environment that can reach `github.io` (this one can't). Every deploy so far has succeeded.
 - [ ] **P2 · Dev** Add the HFSS tech once the owner answers.
 - [ ] **P2 · Dev** Swap in the updated resume when it arrives (steps in `resume/README.md`), then check the site still matches it.
 - [ ] **P2 · Dev** Add a photo to the intro once the owner sends one.
+- [ ] **P2 · Dev** Add the Upwork, Contra or other freelance profile link to the contact links once it exists.
+- [ ] **P2 · Dev** Work case studies (for example HFSS or Call Clutch: the problem, a simple architecture drawing, what the owner did, the result), once the owner says what can be shared.
 - [ ] **P3 · Dev** Retake the DK-Engineer and Aara Culture screenshots when those sites change a lot.
 - [ ] **P3 · Dev** Free, privacy-friendly visitor counter (for example GoatCounter), if the owner wants to see visits.
 - [ ] **P3 · Dev** Connect a custom domain once bought.
@@ -92,3 +99,8 @@ Grouped by pull request, oldest first. Where a later change replaced something, 
 ### PR #7 (the owner's own texts and the new headline)
 - [x] **P1 · Owner** Own wording for the intro, About and Projects texts, and the headline "Cloud & DevOps Engineer · AI Engineer · Full Stack Developer" (D-016). PR #7.
 - [x] **P1 · Dev** Texts put in word for word; first title changed everywhere, including the link-preview image; `profile.md`, `CLAUDE.md` and `README.md` updated (D-016). PR #7.
+- [x] **P1 · Owner** Merge PR #7: yes, merged and live.
+
+### PR #8 (freelance services)
+- [x] **P1 · Owner** Freelance on the side; services: Cloud & DevOps, business websites, full stack web apps, AI features; clients in India and abroad; free quotes, no prices (D-017). PR #8.
+- [x] **P1 · Dev** "Available for freelance work" badge, Services section with "How I work", WhatsApp buttons and contact row, new link-preview image, docs updated (D-017). PR #8.
