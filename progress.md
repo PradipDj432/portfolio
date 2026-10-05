@@ -7,15 +7,15 @@ Where the project stands right now, and a dated log of what was done. Update thi
 |---|---|
 | **Phase** | Live. Six pull requests merged (#1–#6): the owner's rounds of changes are on the site, and every doc matches it. |
 | **Live site** | https://pradipdj432.github.io/portfolio/ GitHub Pages publishes every merge to `main` (Actions → "pages build and deployment"). Every deploy so far has succeeded, the latest for PR #6 (`3f57fb2`). |
-| **Branches** | `working` matches `main`, plus these merge notes for PR #6, which go into `main` with the next pull request (D-014). All new work starts on `working` (D-002). |
+| **Branches** | `working` is ahead of `main` with PR #7 (the owner's own texts and the new headline), which also carries the merge notes for PR #6 (D-014). All new work starts on `working` (D-002). |
 | **Blocked on** | Nothing. A few small checks are waiting on the owner ("4+ years", HFSS tech, an updated resume). |
-| **Next step** | Owner: check the live site on a phone and answer the small checks. Full list in `backlog.md` → "Next up". |
+| **Next step** | Owner: say "merge" for PR #7, check the live site on a phone and answer the small checks. Full list in `backlog.md` → "Next up". |
 
 ## Where we are
 What's on the live site today:
 - **Page:** one page with intro, about, experience, projects, skills, credentials and contact, plus a "page not found" page. Dark by default with a light theme and a switch button. "Download resume" buttons, link previews for WhatsApp and LinkedIn, and Google search data (D-006, D-007).
-- **Intro and About:** short, clear texts about building web apps and running them in the cloud; Python and machine learning are in the AI Engineer card, Skills and the Bulldozer project only (D-015).
-- **Name and titles:** "Pradip Jaliya", "Cloud & DevOps · AI Engineer · Full Stack Developer", badge "Senior Software Architect at Eagerminds" (D-009, D-013).
+- **Intro and About:** short, clear texts about building web apps and running them in the cloud; Python and machine learning are in the AI Engineer card, Skills and the Bulldozer project only (D-015). PR #7 swaps in the owner's own texts (D-016).
+- **Name and titles:** "Pradip Jaliya", "Cloud & DevOps · AI Engineer · Full Stack Developer", badge "Senior Software Architect at Eagerminds" (D-009, D-013). PR #7 changes the first title to "Cloud & DevOps Engineer" (D-016).
 - **Experience:** Senior Software Architect at Eagerminds (since April 2026: HFSS, Helvetia Financial Services); Senior Software Engineer at Dhitech Solutions (July 2024 – March 2026: gift card system, Call Clutch, Drive PG, each with its live link); Junior Software Developer and Intern at Optimum Financial Solutions (March 2023 – June 2024: JM Financial Mutual Fund) (D-011).
 - **Projects:** DK-Engineer and Aara Culture (live, with screenshots), then Parking Management System, Bulldozer Price Prediction and Cricket Score Management System (D-008).
 - **Numbers:** 4+ years, 5+ certifications, 12+ projects, 800+ LeetCode problems (the owner's).
@@ -34,6 +34,7 @@ What's on the live site today:
 | #4 | Third round: headline "Cloud & DevOps", Claude Code and Codex with AI, company links, Dhitech dates, consistency pass (D-013) | 2026-10-04 |
 | #5 | Every `.md` file brought in sync with the site and code (D-014) | 2026-10-04 |
 | #6 | Clearer intro, About and Projects texts, about cloud and full stack only (D-015) | 2026-10-04 |
+| #7 | The owner's own intro, About and Projects texts; headline "Cloud & DevOps Engineer" (D-016) | Open |
 
 ## Log
 
@@ -89,3 +90,13 @@ What's on the live site today:
 - Updated `profile.md` → "Wording on the site" (checked word for word against the page) and the Aara Culture type.
 - Tested at 390px and 1280px in dark and light: no script errors, no failed requests, no sideways scrolling.
 - Opened [PR #6](https://github.com/PradipDj432/portfolio/pull/6). The owner said "merge". **PR #6 merged** (`3f57fb2`); the deploy succeeded.
+
+### 2026-10-05
+
+#### PR #7 (the owner's own texts and the new headline)
+- The owner sent their own wording for the intro, the About text (three paragraphs) and the Projects text, and the headline "Cloud & DevOps Engineer · AI Engineer · Full Stack Developer" (D-016).
+- Put the texts in word for word. Changed the first title everywhere it's shown as a title: page title, link-preview tags, intro, profile card, the first About card, `js/config.js`, and the link-preview image (made again). The Skills group keeps the name "Cloud & DevOps".
+- Kept the "—" in the Projects text on the same line as the word before it, so it doesn't start a line on phones.
+- Updated `profile.md` (headline and "Wording on the site", checked word for word against the page), `CLAUDE.md` and `README.md`.
+- Tested at 390px and 1280px in dark and light: no script errors, no failed requests, no sideways scrolling; the longer title and profile card wrap cleanly on phones.
+- Opened PR #7; waiting for the owner's OK to merge.

@@ -19,9 +19,10 @@ A log of choices made for the portfolio website and why. Add new decisions at th
 | D-010 | Headline: "Claude & DevOps · AI Engineer · Full Stack Developer" | Replaced by D-013 |
 | D-011 | Three companies on the site, and the owner's numbers in the intro | Accepted (Credly placement changed by D-012; its open facts answered later) |
 | D-012 | Plain "resume" spelling, and Credly only with the contact links | Accepted |
-| D-013 | Headline: "Cloud & DevOps · AI Engineer · Full Stack Developer"; Claude Code and Codex go with AI | Accepted (intro wording replaced by D-015) |
+| D-013 | Headline: "Cloud & DevOps · AI Engineer · Full Stack Developer"; Claude Code and Codex go with AI | Replaced by D-016 |
 | D-014 | After a merge, the notes update rides along with the next pull request | Proposed |
-| D-015 | Intro and About texts cover cloud and full stack only; Python and machine learning stay in the AI card, Skills and projects | Accepted |
+| D-015 | Intro and About texts cover cloud and full stack only; Python and machine learning stay in the AI card, Skills and projects | Accepted (wording replaced by D-016) |
+| D-016 | Headline "Cloud & DevOps Engineer · AI Engineer · Full Stack Developer", and the owner's own intro, About and Projects texts | Accepted |
 
 When you add a decision, add a row here too.
 
@@ -125,7 +126,7 @@ When you add a decision, add a row here too.
 
 ## D-013 — Headline: "Cloud & DevOps · AI Engineer · Full Stack Developer"; Claude Code and Codex go with AI
 - **Date:** 2026-10-04
-- **Status:** Accepted
+- **Status:** Replaced by D-016
 - **Context:** The owner asked to move Claude Code and Codex out of the first About card into the AI card. That left the "Claude & DevOps" card talking only about AWS, GCP, Azure, Terraform and Kubernetes. Asked whether the first title meant "Cloud" or "Claude", the owner chose "Cloud & DevOps", which matches the resume's "Cloud & DevOps" skill group. The owner also asked that every place on the site say the same thing.
 - **Decision:** Headline "Cloud & DevOps · AI Engineer · Full Stack Developer" everywhere: page title, link preview tags and image, intro, profile card, About card and `js/config.js`. Claude Code and Codex move to the AI Engineer card and to the "AI & ML" skills group. The intro is rewritten to follow the three titles in order. The line "I use Claude Code and Codex to improve and deliver faster" is word-for-word the same wherever it appears. Other changes from the same request: links for Dhitech Solutions (dhitech.solutions), Optimum Financial Solutions (optimumfintech.com) and JM Financial Mutual Fund (jmfinancialmf.com); Dhitech dates "Jul 2024 – Mar 2026"; the name in the intro a little smaller; the "Built with…" line removed from the footer. Replaces D-010.
 - **Alternatives considered:** Keep "Claude & DevOps" with a cloud-only card; four separate titles.
@@ -141,8 +142,16 @@ When you add a decision, add a row here too.
 
 ## D-015 — Intro and About texts cover cloud and full stack only; Python and machine learning stay in the AI card, Skills and projects
 - **Date:** 2026-10-04
-- **Status:** Accepted
+- **Status:** Accepted (wording replaced by D-016)
 - **Context:** The owner found the intro, About and Projects texts unclear: they mixed cloud, AI, Python and full stack in long sentences. The owner asked to take Python and the things around it out, keep cloud and full stack, and make the texts clear. Asked where Python should go, the owner chose "only these 3 texts", and approved the new wording.
 - **Decision:** The intro says what the owner does in short, separate sentences: builds web apps and runs them in the cloud (4+ years), works with Angular, React and Node.js, deploys on AWS, GCP and Azure, and the Claude Code and Codex line. The About text goes step by step through a full stack app (front end, APIs, databases), then infrastructure, CI/CD and the cloud, then the three companies; the "problem-solving" and "eager to learn" words are dropped. The Projects text counts what's shown: two live business websites, two full stack apps and one machine learning model. Aara Culture's label becomes "Business website · Live", the same as DK ENGINEER'S. Python, machine learning and Kaggle stay in the AI Engineer card, the Skills section, the tech strip and the Bulldozer project. Replaces D-013's "the intro follows the three titles in order".
 - **Alternatives considered:** Remove Python and machine learning from the whole site, including the Bulldozer project.
 - **Consequences:** The headline above the intro still names all three titles; the AI title is covered by the AI Engineer card, the Claude Code and Codex line and the GenAI Leader certificate. The new texts are in `profile.md` → "Wording on the site".
+
+## D-016 — Headline "Cloud & DevOps Engineer · AI Engineer · Full Stack Developer", and the owner's own intro, About and Projects texts
+- **Date:** 2026-10-05
+- **Status:** Accepted
+- **Context:** The owner sent their own wording for the intro, the About text and the Projects text, and a new headline with "Engineer" after "Cloud & DevOps".
+- **Decision:** Headline "Cloud & DevOps Engineer · AI Engineer · Full Stack Developer" everywhere it's shown as titles: page title, link-preview tags and image, intro, profile card, the first About card and `js/config.js`. The Skills group keeps the name "Cloud & DevOps", because it's a group of skills, not a title. The intro, the About text (now three paragraphs: the application stack, the cloud and AI tools, then the three companies) and the Projects text use the owner's words exactly. Claude Code and Codex stay with AI in the About cards and Skills; the About text names them in the owner's own words ("to accelerate coding, debugging, and delivery"), which means the same as the AI card's "to improve and deliver faster". Python and machine learning still stay out of the intro and About texts (D-015). Replaces D-013 and the wording in D-015.
+- **Alternatives considered:** Keep "Cloud & DevOps" without "Engineer"; keep the shorter texts from D-015.
+- **Consequences:** The intro no longer says "4+ years"; the number stays in the stats row and the link preview. The new texts are in `profile.md` → "Wording on the site".
