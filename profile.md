@@ -14,7 +14,7 @@ Where these disagree, the owner's latest answer wins, then the older CV for work
 | | |
 |---|---|
 | **Name on the website** | **Pradip Jaliya**, everywhere (owner, 2026-10-04; D-009). Full name on the resume: Pradipkumar Jaliya |
-| **Headline** | Cloud & DevOps · AI Engineer · Full Stack Developer (owner, 2026-10-04; "Cloud", the cloud, not "Claude"; DevOps and AI kept apart; D-013) |
+| **Headline** | Cloud & DevOps Engineer · AI Engineer · Full Stack Developer (owner, 2026-10-05; "Cloud", the cloud, not "Claude"; DevOps and AI kept apart; D-016) |
 | **Experience** | 4+ years (owner). Work started March 2023 |
 | **Current job** | Senior Software Architect at Eagerminds (https://www.eagerminds.in/), since April 2026 (owner) |
 | **Companies** | 3: Optimum Financial Solutions → Dhitech Solutions → Eagerminds |
@@ -172,13 +172,15 @@ The main lines as the site writes them, built from the facts above. The owner re
 |---|---|
 | Intro badge | Senior Software Architect at Eagerminds |
 | Name | Pradip Jaliya |
-| Titles | Cloud & DevOps · AI Engineer · Full Stack Developer |
-| Intro | I build web apps and run them in the cloud, with 4+ years of experience. I work with Angular, React and Node.js, and deploy on AWS, GCP and Azure. I use Claude Code and Codex to improve and deliver faster. |
-| About | I build full stack apps from start to finish: the front end with Angular and React, REST APIs with Node.js and ASP.NET, and databases with MS SQL and MySQL. Then I set up the infrastructure and CI/CD, and deploy and run the apps on AWS, GCP and Azure. Today I'm a Senior Software Architect at Eagerminds, after Dhitech Solutions and Optimum Financial Solutions. |
-| Card: Cloud & DevOps | I deploy and run apps on AWS, GCP and Azure: infrastructure as code with Terraform, CI/CD pipelines, Docker and Kubernetes, and serverless workflows with Lambda and Step Functions. Certified on AWS, Azure and Google Cloud, including Google Professional Cloud Architect. |
+| Titles | Cloud & DevOps Engineer · AI Engineer · Full Stack Developer |
+| Intro | I'm a software engineer focused on cloud-native application development, DevOps, and AI-assisted engineering. I build scalable backend systems, modern web applications, APIs, and cloud infrastructure, working across the full development lifecycle from architecture and implementation to deployment and production. I enjoy solving complex engineering problems and using modern cloud and AI tools to build reliable software faster. |
+| About, paragraph 1 | My technical experience covers the full application and cloud stack. I work with Node.js, NestJS, Express.js, ASP.NET, Angular, React, and TypeScript to build APIs and web applications, along with MySQL, MS SQL, and DynamoDB for data-driven systems. |
+| About, paragraph 2 | I have hands-on experience across AWS, GCP, and Azure, including cloud infrastructure, serverless applications, containers, CI/CD, and infrastructure as code with Terraform. I also work with Docker, Kubernetes, Lambda, ECS, and Step Functions, and use AI development tools such as Claude Code and Codex to accelerate coding, debugging, and delivery. |
+| About, paragraph 3 | I currently work as a Senior Software Architect at Eagerminds. Before that, I worked at Dhitech Solutions and Optimum Financial Solutions, where I gained experience building and supporting software across different products and technical environments. |
+| Card: Cloud & DevOps Engineer | I deploy and run apps on AWS, GCP and Azure: infrastructure as code with Terraform, CI/CD pipelines, Docker and Kubernetes, and serverless workflows with Lambda and Step Functions. Certified on AWS, Azure and Google Cloud, including Google Professional Cloud Architect. |
 | Card: AI Engineer | I use Claude Code and Codex to improve and deliver faster. In Python I work on machine learning and GenAI with NumPy, Pandas, Scikit-learn and LLMs, and build models from Kaggle datasets. Google-certified Generative AI Leader. |
 | Card: Full Stack Developer | I build scalable single-page apps with Angular and React, and REST APIs and microservices with Node.js, NestJS and ASP.NET, on MySQL, MS SQL and DynamoDB. |
 | Experience intro | Three companies, across Swiss fintech, call tracking, gift cards, marketing analytics and mutual funds. |
-| Projects intro | Two live websites for real businesses, two full stack apps and one machine learning model. |
+| Projects intro | Built and delivered production websites for real businesses, along with full stack applications and a machine learning solution — covering everything from frontend and backend development to deployment and practical AI/ML implementation. |
 | Numbers | 4+ years of experience · 5+ cloud & AI certifications · 12+ projects built · 800+ LeetCode problems solved |
-| Link preview | "Pradip Jaliya. Cloud & DevOps · AI Engineer · Full Stack Developer", badge "Senior Software Architect at Eagerminds", "4+ yrs · 5+ certifications · 12+ projects" |
+| Link preview | "Pradip Jaliya. Cloud & DevOps Engineer · AI Engineer · Full Stack Developer", badge "Senior Software Architect at Eagerminds", "4+ yrs · 5+ certifications · 12+ projects" |

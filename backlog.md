@@ -8,7 +8,7 @@ Everything still to do, newest ideas at the bottom of each section. When work st
 ## Next up
 The few things to do next, in order. Keep this list short and current.
 
-1. **Owner:** say "merge" for PR #6 (clearer intro, About and Projects texts).
+1. **Owner:** say "merge" for PR #7 (your own texts and the new headline).
 2. **Owner:** open the live site on your phone and share the link on WhatsApp once to check the preview.
 3. **Owner:** confirm "4+ years" (your work on the site starts March 2023), and the tech you used for HFSS, if you want it shown.
 4. **Owner:** send an updated resume; the one visitors download still says 3 years and doesn't list Eagerminds or Optimum.
@@ -87,3 +87,8 @@ Grouped by pull request, oldest first. Where a later change replaced something, 
 ### PR #6 (clearer intro, About and Projects texts)
 - [x] **P1 · Owner** Python and machine learning out of the intro, About and Projects texts only; they stay in the AI card, Skills and the Bulldozer project. New wording approved (D-015). PR #6.
 - [x] **P1 · Dev** Intro, About and Projects texts rewritten to be short and clear; Aara Culture labelled "Business website · Live" like DK ENGINEER'S; `profile.md` wording updated (D-015). PR #6.
+- [x] **P1 · Owner** Merge PR #6: yes, merged and live.
+
+### PR #7 (the owner's own texts and the new headline)
+- [x] **P1 · Owner** Own wording for the intro, About and Projects texts, and the headline "Cloud & DevOps Engineer · AI Engineer · Full Stack Developer" (D-016). PR #7.
+- [x] **P1 · Dev** Texts put in word for word; first title changed everywhere, including the link-preview image; `profile.md`, `CLAUDE.md` and `README.md` updated (D-016). PR #7.
