@@ -42,10 +42,22 @@ Given by the owner on 2026-10-04 (D-011).
 |---|---|
 | Email | pradipjaliya9802@gmail.com |
 | Phone | +91 63524 65074 |
+| WhatsApp | +91 63524 65074, the same number as the phone (used for the WhatsApp buttons; the owner to confirm it's on WhatsApp) |
 | LinkedIn | https://www.linkedin.com/in/pradipjaliya/ |
 | GitHub | https://github.com/PradipDj432 |
 | LeetCode | https://leetcode.com/Dj432/ |
 | Credly | https://www.credly.com/users/pradipdj432/badges/credly |
+
+## Freelance
+The owner's answers on 2026-10-05 (D-017):
+
+| | |
+|---|---|
+| **Status** | Freelance on the side, while working at Eagerminds. The site shows both: "Available for freelance work" and "Senior Software Architect at Eagerminds" |
+| **Services** | Cloud & DevOps; business websites; full stack web apps; AI features |
+| **Clients** | Businesses in India and abroad; work is remote |
+| **Prices** | Not shown. Clients ask for a free quote |
+| **How to reach** | Email or WhatsApp, both from `js/config.js` |
 
 ## Skills
 | Area | Skills |
@@ -164,13 +176,15 @@ Tracked in `backlog.md`. Until answered, nothing about these goes on the site, e
 - **Cricket Score Management System:** is there a repo or live link? The resume has none.
 - **Location:** the resume doesn't give one; GitHub says Ahmedabad. Show it or not?
 - **Photo** of the owner, if wanted.
+- **WhatsApp:** is +91 63524 65074 (the phone number) the owner's WhatsApp number? The WhatsApp buttons use it.
+- **"How I work" steps:** the owner to check the promises in them ("share progress regularly", "help with fixes after launch").
 
 ## Wording on the site
 The main lines as the site writes them, built from the facts above. The owner reviewed the live site on 2026-10-04 ("looks good"). When a fact changes, change these lines and the matching text in `index.html` together, so every place says the same thing.
 
 | Where | Text |
 |---|---|
-| Intro badge | Senior Software Architect at Eagerminds |
+| Intro badges | Available for freelance work · Senior Software Architect at Eagerminds |
 | Name | Pradip Jaliya |
 | Titles | Cloud & DevOps Engineer · AI Engineer · Full Stack Developer |
 | Intro | I'm a software engineer focused on cloud-native application development, DevOps, and AI-assisted engineering. I build scalable backend systems, modern web applications, APIs, and cloud infrastructure, working across the full development lifecycle from architecture and implementation to deployment and production. I enjoy solving complex engineering problems and using modern cloud and AI tools to build reliable software faster. |
@@ -180,7 +194,14 @@ The main lines as the site writes them, built from the facts above. The owner re
 | Card: Cloud & DevOps Engineer | I deploy and run apps on AWS, GCP and Azure: infrastructure as code with Terraform, CI/CD pipelines, Docker and Kubernetes, and serverless workflows with Lambda and Step Functions. Certified on AWS, Azure and Google Cloud, including Google Professional Cloud Architect. |
 | Card: AI Engineer | I use Claude Code and Codex to improve and deliver faster. In Python I work on machine learning and GenAI with NumPy, Pandas, Scikit-learn and LLMs, and build models from Kaggle datasets. Google-certified Generative AI Leader. |
 | Card: Full Stack Developer | I build scalable single-page apps with Angular and React, and REST APIs and microservices with Node.js, NestJS and ASP.NET, on MySQL, MS SQL and DynamoDB. |
+| Services intro | Available for freelance work, remotely, for businesses in India and abroad. Tell me what you need, and I'll send you a free quote. |
+| Service: Cloud & DevOps | Set up, move or improve your apps on AWS, GCP or Azure: infrastructure as code with Terraform, CI/CD pipelines, Docker and Kubernetes, and serverless with Lambda. Track record: Certified on AWS, Azure and Google Cloud, including Google Professional Cloud Architect. |
+| Service: Business websites | A fast, mobile-first website for your business: your products or services, an inquiry form, orders on WhatsApp, and a design that fits your brand. Track record: DK ENGINEER'S and Aara Culture, both live. |
+| Service: Full stack web apps | Custom web apps, dashboards and REST APIs: Angular or React on the front end, and Node.js, NestJS or ASP.NET on the back end, with MySQL, MS SQL or DynamoDB. Track record: Built at work for Swiss fintech, call tracking, gift cards, marketing analytics and mutual funds. |
+| Service: AI features | Add AI to your product, like chatbots and LLM features, and automate repetitive work. Track record: Google-certified Generative AI Leader. I use Claude Code and Codex to improve and deliver faster. |
+| How I work | 1 Tell me about it: Send me your idea by email or WhatsApp: what you need, and by when. · 2 Free quote: I reply with a plan, a timeline and a quote. · 3 Build: I build it and share progress regularly, so you can see it and give feedback. · 4 Launch & support: I put it live, hand everything over, and help with fixes after launch. |
 | Experience intro | Three companies, across Swiss fintech, call tracking, gift cards, marketing analytics and mutual funds. |
 | Projects intro | Built and delivered production websites for real businesses, along with full stack applications and a machine learning solution — covering everything from frontend and backend development to deployment and practical AI/ML implementation. |
 | Numbers | 4+ years of experience · 5+ cloud & AI certifications · 12+ projects built · 800+ LeetCode problems solved |
-| Link preview | "Pradip Jaliya. Cloud & DevOps Engineer · AI Engineer · Full Stack Developer", badge "Senior Software Architect at Eagerminds", "4+ yrs · 5+ certifications · 12+ projects" |
+| Contact intro | Have a project in mind? Tell me what you need, and I'll send you a free quote. For a role or a question, email me or reach out on LinkedIn. |
+| Link preview | "Pradip Jaliya. Cloud & DevOps Engineer · AI Engineer · Full Stack Developer", badges "Available for freelance work" and "Senior Software Architect at Eagerminds", "4+ yrs · 5+ certifications · 12+ projects" |

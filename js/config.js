@@ -12,6 +12,10 @@ const PROFILE = {
   // "number" is for the call link (with +91, no spaces), "display" is what people see.
   phone: { number: "+916352465074", display: "+91 63524 65074" },
 
+  // WhatsApp chat link. "number" has the country code and no "+" or spaces; "message" is the
+  // text that's ready to send when a visitor opens the chat (D-017).
+  whatsapp: { number: "916352465074", display: "+91 63524 65074", message: "Hi Pradip, I'd like to talk about a project." },
+
   // Profile links. "handle" is the short text shown in the contact section.
   links: {
     github: { url: "https://github.com/PradipDj432", handle: "PradipDj432" },

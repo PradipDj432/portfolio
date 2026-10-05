@@ -23,6 +23,7 @@ A log of choices made for the portfolio website and why. Add new decisions at th
 | D-014 | After a merge, the notes update rides along with the next pull request | Proposed |
 | D-015 | Intro and About texts cover cloud and full stack only; Python and machine learning stay in the AI card, Skills and projects | Accepted (wording replaced by D-016) |
 | D-016 | Headline "Cloud & DevOps Engineer · AI Engineer · Full Stack Developer", and the owner's own intro, About and Projects texts | Accepted |
+| D-017 | Freelance on the side: an "Available for freelance work" badge, a Services section, WhatsApp, and free quotes instead of prices | Accepted |
 
 When you add a decision, add a row here too.
 
@@ -155,3 +156,11 @@ When you add a decision, add a row here too.
 - **Decision:** Headline "Cloud & DevOps Engineer · AI Engineer · Full Stack Developer" everywhere it's shown as titles: page title, link-preview tags and image, intro, profile card, the first About card and `js/config.js`. The Skills group keeps the name "Cloud & DevOps", because it's a group of skills, not a title. The intro, the About text (now three paragraphs: the application stack, the cloud and AI tools, then the three companies) and the Projects text use the owner's words exactly. Claude Code and Codex stay with AI in the About cards and Skills; the About text names them in the owner's own words ("to accelerate coding, debugging, and delivery"), which means the same as the AI card's "to improve and deliver faster". Python and machine learning still stay out of the intro and About texts (D-015). Replaces D-013 and the wording in D-015.
 - **Alternatives considered:** Keep "Cloud & DevOps" without "Engineer"; keep the shorter texts from D-015.
 - **Consequences:** The intro no longer says "4+ years"; the number stays in the stats row and the link preview. The new texts are in `profile.md` → "Wording on the site".
+
+## D-017 — Freelance on the side: an "Available for freelance work" badge, a Services section, WhatsApp, and free quotes instead of prices
+- **Date:** 2026-10-05
+- **Status:** Accepted
+- **Context:** The owner wants to start freelancing. Asked how, the owner chose: freelance on the side while working at Eagerminds; four services (Cloud & DevOps, business websites, full stack web apps, AI features); clients in India and abroad; and no prices on the site, only a free quote.
+- **Decision:** The intro gets two badges, "Available for freelance work" (green dot) first and "Senior Software Architect at Eagerminds" second, and its main button becomes "Start a project". A new Services section goes between About and Experience: four service cards, each with what the client gets, a "Track record" line taken from facts already on the site, and its tools; then four "How I work" steps (tell me about it, free quote, build, launch & support); then "Get a free quote" and "WhatsApp me" buttons. The Contact section leads with projects and gets a WhatsApp button and a WhatsApp row. The WhatsApp link (with a ready-to-send message) lives in `js/config.js` with the other contact details and uses the phone number until the owner confirms another. The profile card gets a "freelance: available" line; the link-preview image and the search and preview descriptions mention freelance work. DK ENGINEER'S and Aara Culture are called "live" business websites, not "clients", until the owner says they were clients.
+- **Alternatives considered:** Full-time freelance (Eagerminds moved to work history); starting prices or an hourly rate; a contact form (needs an outside service and an account).
+- **Consequences:** The section order is now intro, about, services, experience, projects, skills, credentials, contact, and the section numbers move up by one after About. Outside the site, the owner can turn on "Providing services" on LinkedIn and make an Upwork or Contra profile; those links go on the site only once they exist.
