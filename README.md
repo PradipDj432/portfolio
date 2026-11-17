@@ -1,6 +1,6 @@
 # Portfolio — Website
 
-The personal portfolio website of **Pradip Jaliya** ([PradipDj432](https://github.com/PradipDj432) on GitHub): Cloud & DevOps Engineer · AI Engineer · Full Stack Developer. It introduces the owner, shows their work, projects, skills and certificates, offers the resume as a download, and makes it easy to get in touch.
+The personal portfolio website of **Pradip Jaliya** ([PradipDj432](https://github.com/PradipDj432) on GitHub): Cloud-Native Full Stack Engineer, available for freelance projects. It introduces the owner, shows their work, projects, skills and certificates, offers the resume as a download, and makes it easy to get in touch.
 
 **Live:** https://pradipdj432.github.io/portfolio/ · Where the project stands: `progress.md`. What's next: `backlog.md` → "Next up".
 
@@ -24,7 +24,7 @@ These are the same docs as the DK-Engineer and Aara Culture repos. `profile.md` 
 - **Contact details and links** (email, phone, WhatsApp, GitHub, LinkedIn, LeetCode, Credly, the resume file and the live address) are in **one file, `js/config.js`**. `js/common.js` fills them into the page and adds the details Google shows in search results (schema.org `Person`: name, job title, company, headline, links).
 - **Design:** "modern premium", dark by default with a light theme. The button in the header switches between them; the first visit follows the phone or computer setting (D-006).
 - **Resume:** the "Download resume" buttons link to `resume/Pradip-Jaliya-Resume.pdf` (D-005).
-- **Link previews:** when the address is shared on WhatsApp or LinkedIn, it shows `images/og-image.jpg`. The picture has the name, headline, the freelance badge, current job and numbers drawn into it, so it has to be remade when any of those change.
+- **Link previews:** when the address is shared on WhatsApp or LinkedIn, it shows `images/og-image.jpg`. The picture has the name, headline, the freelance badge, the technology line and the numbers drawn into it, so it has to be remade when any of those change.
 
 ## How we work (branches)
 All changes are made on the **`working`** branch, one feature at a time: sync `working` with `main` → build the feature → open a pull request from `working` into `main` → merge it when the owner says so → sync `working` with `main` again. The exact steps are in `CLAUDE.md` → "Branches and pull requests" (D-002).
@@ -83,7 +83,7 @@ In `index.html`, find the `<!-- Projects -->` section. Copy a whole small card, 
 In `index.html`, find the `<!-- Experience: newest company first -->` section. Each company is one `<article class="job">` with its name, title and dates at the top. Each work project inside it is one `<li class="timeline-item">`: copy one, paste it under the last, and change the name, the link, the tags and the bullet points. Then update `profile.md` → "Work experience".
 
 ### Change or pause the freelance offer
-The freelance parts are the "Available for freelance work" badge at the top of the intro, the `<!-- Services -->` section (four service cards and the "How I work" steps), the "freelance" line in the profile card, the WhatsApp buttons and the first sentence of the Contact section. To change a service, edit its `<article class="card">`; to pause freelance work, ask for the badge and the Services section to come off, and the link-preview image to be made again (D-017). Then update `profile.md` → "Freelance".
+The freelance parts are the "Available for freelance projects" badge and the location badge at the top of the intro, the `<!-- Services -->` section (four service cards, each with what the client gets, and the "How I work" steps), the "freelance" line in the profile card, the WhatsApp buttons and the first sentence of the Contact section. To change a service, edit its `<article class="card">`; to pause freelance work, ask for the badge and the Services section to come off, and the link-preview image to be made again (D-017). Then update `profile.md` → "Freelance".
 
 ### Replace a project screenshot
 Make a 1200 × 750 JPEG under about 250 KB, upload it to `images/projects/` with the **same file name** (for example `dk-engineer.jpg`), and commit.

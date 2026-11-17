@@ -37,6 +37,7 @@ What's on the live site today:
 | #6 | Clearer intro, About and Projects texts, about cloud and full stack only (D-015) | 2026-10-04 |
 | #7 | The owner's own intro, About and Projects texts; headline "Cloud & DevOps Engineer" (D-016) | 2026-10-05 |
 | #8 | Freelance on the side: badge, Services section, "How I work", WhatsApp, free quotes (D-017) | 2026-10-05 |
+| #9 | Freelance positioning: one title, outcome-based services, tighter About and Skills, location (D-018) | Open |
 
 ## Log
 
@@ -110,3 +111,12 @@ What's on the live site today:
 - Updated `profile.md` (new "Freelance" section, WhatsApp in "Contact", the new wording, two new open questions), `CLAUDE.md` (section order), `README.md` (sections, WhatsApp setting, a guide to change or pause the freelance offer) and `decisions.md` (D-017).
 - Tested at 390px and 1280px in dark and light: no script errors, no failed requests, no sideways scrolling. The header menu still fits at 900–1200px with the extra "Services" link.
 - Opened [PR #8](https://github.com/PradipDj432/portfolio/pull/8). The owner confirmed that WhatsApp uses the same number as the phone, and said "merge" (so the "How I work" wording stays). **PR #8 merged** (`b5e0ee2`); the deploy succeeded.
+
+### 2026-11-17
+
+#### PR #9 (freelance positioning)
+- The owner shared a review of the site from a freelance-client point of view and asked to start improving it that way (D-018).
+- Changed on `working`: one title, "Cloud-Native Full Stack Engineer", everywhere (page title, preview tags and image, intro, profile card, `js/config.js`); a short intro with "Start a project" and "View projects"; badges for availability, location and the current job; About cut to two short paragraphs and three trust cards; four outcome-based services with a "You get" line; Skills regrouped (C++, data structures and IDE tools removed); school details removed from Education; LeetCode moved below Courses and out of the numbers row; a location row in Contact; Amazon Connect named in full; the gift card bullet written as an outcome.
+- Left out on purpose, because it needs the owner: the photo, a working inquiry form, case studies, certificate verification links, testimonials and any numbers. The Google Professional Cloud Architect certificate is flagged for the owner to verify.
+- Made the link-preview image again. Updated `profile.md`, `CLAUDE.md`, `README.md`, `decisions.md` (D-018) and `backlog.md`.
+- Tested at 390px and 1280px in dark and light: no script errors and no sideways scrolling.
