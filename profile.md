@@ -14,7 +14,7 @@ Where these disagree, the owner's latest answer wins, then the older CV for work
 | | |
 |---|---|
 | **Name on the website** | **Pradip Jaliya**, everywhere (owner, 2026-10-04; D-009). Full name on the resume: Pradipkumar Jaliya |
-| **Headline** | Cloud & DevOps Engineer · AI Engineer · Full Stack Developer (owner, 2026-10-05; "Cloud", the cloud, not "Claude"; DevOps and AI kept apart; D-016) |
+| **Headline** | Cloud-Native Full Stack Engineer (owner, 2026-11-17, from their freelance review; D-018). Replaces "Cloud & DevOps Engineer · AI Engineer · Full Stack Developer" (D-016) |
 | **Experience** | 4+ years (owner). Work started March 2023 |
 | **Current job** | Senior Software Architect at Eagerminds (https://www.eagerminds.in/), since April 2026 (owner) |
 | **Companies** | 3: Optimum Financial Solutions → Dhitech Solutions → Eagerminds |
@@ -30,7 +30,7 @@ Given by the owner on 2026-10-04 (D-011).
 | Years of experience | 4+ |
 | Cloud & AI certifications | 5+ |
 | Projects built | 12+ |
-| LeetCode problems solved | 800+ |
+| Companies worked with | 3 (counted from the work history; replaces LeetCode in the numbers row, D-018) |
 
 ## About (from the resume)
 > Cloud DevOps–oriented Full Stack Developer with 3 years of overall experience, working with AWS, GCP, and Azure for application deployment, cloud infrastructure support, CI/CD pipelines, and container-based workflows. Strong Full Stack experience in building and maintaining scalable web applications using Angular, React, Node.js, MSSQL, and MySQL, including Single Page Applications (SPAs) and RESTful APIs. Good problem-solving skills, eager to learn, with basic knowledge of data science and machine learning concepts using Python.
@@ -42,7 +42,7 @@ Given by the owner on 2026-10-04 (D-011).
 |---|---|
 | Email | pradipjaliya9802@gmail.com |
 | Phone | +91 63524 65074 |
-| WhatsApp | +91 63524 65074, the same number as the phone (used for the WhatsApp buttons; the owner to confirm it's on WhatsApp) |
+| WhatsApp | +91 63524 65074, the same number as the phone (owner, 2026-10-05; used for the WhatsApp buttons) |
 | LinkedIn | https://www.linkedin.com/in/pradipjaliya/ |
 | GitHub | https://github.com/PradipDj432 |
 | LeetCode | https://leetcode.com/Dj432/ |
@@ -54,21 +54,30 @@ The owner's answers on 2026-10-05 (D-017):
 | | |
 |---|---|
 | **Status** | Freelance on the side, while working at Eagerminds. The site shows both: "Available for freelance work" and "Senior Software Architect at Eagerminds" |
-| **Services** | Cloud & DevOps; business websites; full stack web apps; AI features |
+| **Services** | AWS Cloud & DevOps; Backend & Full Stack Development; AI Integration & Automation; Business Websites, each with a "You get" line (D-018) |
 | **Clients** | Businesses in India and abroad; work is remote |
 | **Prices** | Not shown. Clients ask for a free quote |
-| **How to reach** | Email or WhatsApp, both from `js/config.js` |
+| **Position** | One main title, "Cloud-Native Full Stack Engineer", with three services under it (Cloud & DevOps; Backend & Full Stack; AI Integration & Automation) plus business websites (owner, 2026-11-17; D-018) |
+| **Target clients** | Startups, small businesses and software teams (from the owner's review, 2026-11-17) |
+| **Location** | Ahmedabad, India, with remote work worldwide (owner's review, 2026-11-17; GitHub also says Ahmedabad) |
+| **How to reach** | Email or WhatsApp (+91 63524 65074, confirmed 2026-10-05), both from `js/config.js` |
+| **Promises** | The "How I work" steps: share progress regularly, and help with fixes after launch (the owner said "merge" with them on 2026-10-05) |
 
 ## Skills
-| Area | Skills |
+The site shows these groups (D-018). The longer list from the resume is kept below it.
+
+| Group on the site | Skills |
 |---|---|
-| Cloud & DevOps | AWS, GCP, Azure (Terraform, CI/CD pipelines, Docker, Kubernetes) |
-| Backend | Node.js, NestJS (Express.js, REST APIs, microservices, schedulers); ASP.NET and SSO from the Optimum work |
-| Database | MySQL, MS SQL, DynamoDB (RDBMS, NoSQL, SQL) |
-| Frontend | Angular, React (HTML, CSS, TypeScript, JavaScript, jQuery) |
-| AI & ML | Claude Code and Codex (AI coding tools, "to improve and deliver faster"); Python (GenAI, LLMs, NumPy, Matplotlib, Pandas, Scikit-learn) |
-| DSA | C++ (arrays, linked lists, stacks, queues, trees, heaps, sorting, searching) |
-| Tools | Git, GitHub, Bitbucket, Sourcetree, Postman, Jira, Confluence, Visual Studio, VS Code |
+| Cloud | AWS, GCP, Azure |
+| DevOps | Terraform, Docker, CI/CD, Kubernetes |
+| Backend | Node.js, TypeScript, NestJS, Express |
+| Frontend | React, Angular |
+| Database | MySQL, MS SQL, DynamoDB |
+| AI | LLMs, GenAI, Claude Code, Codex (Claude Code and Codex "to improve and deliver faster", owner's words) |
+| Integrations | REST APIs, AWS Lambda, Amazon Connect |
+| Also used | Python, Scikit-learn, ASP.NET, jQuery, Git, Postman, Jira |
+
+From the resume, no longer shown as skills on the site: HTML, CSS, JavaScript, SQL, RDBMS, NoSQL, microservices, schedulers, SSO, NumPy, Matplotlib, Pandas, C++ and data structures (arrays, linked lists, stacks, queues, trees, heaps, sorting, searching), Bitbucket, Sourcetree, Confluence, Visual Studio, VS Code. ASP.NET, Python and the data tools still appear in the Experience and Projects text, because they are part of the work history.
 
 ## Work experience
 Newest first.
@@ -89,14 +98,14 @@ Built by the owner at Eagerminds (owner's words: "in which I build this project"
 https://dhitech.solutions/ · Title and end date from the owner, 2026-10-04 (both resumes say "Software Developer"). Start date from the older CV. The main resume says "March 2023 – Current"; the owner said to use the older CV's dates.
 
 **Gift Card Management System** (Angular, Node.js, MySQL, AWS) · live at http://rbsgift.com/
-- Built a gift card management system with role-based access (Merchant, Admin, etc.).
+- Developed a multi-role gift card management platform for merchants and administrators, with role-based access (the site words it as covering purchase workflows, redemption, scheduled transfers and expiry management; D-018).
 - AWS Cognito for sign-in, S3 for storage, and OTP-based security for user login.
 - Gift card purchase, redemption, transfer (future or instant) and expiry management.
 - Improved backend performance and the data flow between frontend and backend.
 - Deployed on AWS using ECS, with CI/CD pipelines and cloud infrastructure managed in Terraform.
 
-**Call Clutch** (React, Python, AWS Connect, AWS Lambda, API Gateway, DynamoDB) · live at https://callclutch.ai/ (app: https://app.callclutch.ai/)
-- Led the development of a call tracking and management system using AWS Connect, React and Python Serverless.
+**Call Clutch** (React, Python, Amazon Connect, AWS Lambda, API Gateway, DynamoDB) · live at https://callclutch.ai/ (app: https://app.callclutch.ai/)
+- Led the development of a call tracking and management system using Amazon Connect, React and Python Serverless.
 - Migrated from DynamoDB to an RDBMS, from AWS Lambda and API Gateway to Node.js, and added AWS QuickSight for data visualisation.
 - Built call forwarding, campaign creation and phone number assignment, with a focus on scalability and high availability.
 
@@ -174,34 +183,35 @@ Tracked in `backlog.md`. Until answered, nothing about these goes on the site, e
 - **HFSS tech stack:** what the owner used to build it (the site shows the product areas instead).
 - **Company name style:** "Eagerminds", or another spelling such as "EagerMinds"?
 - **Cricket Score Management System:** is there a repo or live link? The resume has none.
-- **Location:** the resume doesn't give one; GitHub says Ahmedabad. Show it or not?
-- **Photo** of the owner, if wanted.
-- **WhatsApp:** is +91 63524 65074 (the phone number) the owner's WhatsApp number? The WhatsApp buttons use it.
-- **"How I work" steps:** the owner to check the promises in them ("share progress regularly", "help with fixes after launch").
+- **Photo** of the owner, for the intro.
+- **Google Professional Cloud Architect (2026):** please check it's earned and verifiable on Credly before the site presents it as completed. The review asked for this too. Also wanted: credential verification links for each certificate.
+- **Project inquiry form:** a form needs a free service that receives the messages (for example Formspree); the owner chooses and creates the account. Until then, "Start a project" goes to the Contact section (email and WhatsApp).
+- **Case studies** (problem, solution, architecture, results) for the main projects, and any numbers that can be verified (users, speed, cost, deploy time). Only the owner can supply and approve these, and only what the employer allows to be public.
+- **Testimonials or recommendations:** none exist yet, so none are shown.
+- **Response time and timezone** to promise visitors.
 
 ## Wording on the site
 The main lines as the site writes them, built from the facts above. The owner reviewed the live site on 2026-10-04 ("looks good"). When a fact changes, change these lines and the matching text in `index.html` together, so every place says the same thing.
 
 | Where | Text |
 |---|---|
-| Intro badges | Available for freelance work · Senior Software Architect at Eagerminds |
+| Intro badges | Available for freelance projects · Ahmedabad, India · Remote worldwide · Senior Software Architect at Eagerminds |
 | Name | Pradip Jaliya |
-| Titles | Cloud & DevOps Engineer · AI Engineer · Full Stack Developer |
-| Intro | I'm a software engineer focused on cloud-native application development, DevOps, and AI-assisted engineering. I build scalable backend systems, modern web applications, APIs, and cloud infrastructure, working across the full development lifecycle from architecture and implementation to deployment and production. I enjoy solving complex engineering problems and using modern cloud and AI tools to build reliable software faster. |
-| About, paragraph 1 | My technical experience covers the full application and cloud stack. I work with Node.js, NestJS, Express.js, ASP.NET, Angular, React, and TypeScript to build APIs and web applications, along with MySQL, MS SQL, and DynamoDB for data-driven systems. |
-| About, paragraph 2 | I have hands-on experience across AWS, GCP, and Azure, including cloud infrastructure, serverless applications, containers, CI/CD, and infrastructure as code with Terraform. I also work with Docker, Kubernetes, Lambda, ECS, and Step Functions, and use AI development tools such as Claude Code and Codex to accelerate coding, debugging, and delivery. |
-| About, paragraph 3 | I currently work as a Senior Software Architect at Eagerminds. Before that, I worked at Dhitech Solutions and Optimum Financial Solutions, where I gained experience building and supporting software across different products and technical environments. |
-| Card: Cloud & DevOps Engineer | I deploy and run apps on AWS, GCP and Azure: infrastructure as code with Terraform, CI/CD pipelines, Docker and Kubernetes, and serverless workflows with Lambda and Step Functions. Certified on AWS, Azure and Google Cloud, including Google Professional Cloud Architect. |
-| Card: AI Engineer | I use Claude Code and Codex to improve and deliver faster. In Python I work on machine learning and GenAI with NumPy, Pandas, Scikit-learn and LLMs, and build models from Kaggle datasets. Google-certified Generative AI Leader. |
-| Card: Full Stack Developer | I build scalable single-page apps with Angular and React, and REST APIs and microservices with Node.js, NestJS and ASP.NET, on MySQL, MS SQL and DynamoDB. |
-| Services intro | Available for freelance work, remotely, for businesses in India and abroad. Tell me what you need, and I'll send you a free quote. |
-| Service: Cloud & DevOps | Set up, move or improve your apps on AWS, GCP or Azure: infrastructure as code with Terraform, CI/CD pipelines, Docker and Kubernetes, and serverless with Lambda. Track record: Certified on AWS, Azure and Google Cloud, including Google Professional Cloud Architect. |
-| Service: Business websites | A fast, mobile-first website for your business: your products or services, an inquiry form, orders on WhatsApp, and a design that fits your brand. Track record: DK ENGINEER'S and Aara Culture, both live. |
-| Service: Full stack web apps | Custom web apps, dashboards and REST APIs: Angular or React on the front end, and Node.js, NestJS or ASP.NET on the back end, with MySQL, MS SQL or DynamoDB. Track record: Built at work for Swiss fintech, call tracking, gift cards, marketing analytics and mutual funds. |
-| Service: AI features | Add AI to your product, like chatbots and LLM features, and automate repetitive work. Track record: Google-certified Generative AI Leader. I use Claude Code and Codex to improve and deliver faster. |
+| Title | Cloud-Native Full Stack Engineer |
+| Intro | Building scalable software, cloud infrastructure & AI-powered applications. I help businesses build, modernize and scale software products. From backend APIs and SaaS platforms to AWS infrastructure, CI/CD automation and AI integrations, I deliver solutions designed for real-world business needs. (Under it: AWS · Node.js · TypeScript · React · Terraform · GenAI) |
+| About, paragraph 1 | I'm a Cloud-Native Full Stack Engineer. I specialize in Node.js and TypeScript backends, AWS infrastructure with Terraform and CI/CD, and adding AI features to real products. |
+| About, paragraph 2 | I help businesses launch new products, move to the cloud, automate their deployments and bring AI into what they already have. |
+| About card: Real products, in production | 4+ years building business software: Swiss fintech, call tracking, gift cards, marketing analytics and mutual funds. I currently work as a Senior Software Architect at Eagerminds. |
+| About card: Certified cloud skills | Certified on AWS, Azure and Google Cloud, and a Google-certified Generative AI Leader. |
+| About card: End to end delivery | From architecture and APIs to deployment and production, I take care of the whole life of a product, so you deal with one person. |
+| Services intro | Freelance and remote, for startups, small businesses and software teams in India and abroad. Tell me what you need, and I'll send you a free quote. |
+| Service 01: AWS Cloud & DevOps | AWS infrastructure setup; Terraform automation; CI/CD pipeline implementation; Docker deployment; cloud migration and optimization. You get: a production-ready deployment, with infrastructure documentation. |
+| Service 02: Backend & Full Stack Development | SaaS application development; REST API development; admin dashboards; database architecture; third-party API integrations. You get: a working application, its source code and its deployment. |
+| Service 03: AI Integration & Automation | LLM API integration; AI-powered chatbots; business workflow automation; AI features in existing applications. You get: working AI features, with testing and documentation. |
+| Service 04: Business Websites | Responsive websites; product catalogues; landing pages; contact and WhatsApp integrations. You get: a live, mobile-friendly business website. |
 | How I work | 1 Tell me about it: Send me your idea by email or WhatsApp: what you need, and by when. · 2 Free quote: I reply with a plan, a timeline and a quote. · 3 Build: I build it and share progress regularly, so you can see it and give feedback. · 4 Launch & support: I put it live, hand everything over, and help with fixes after launch. |
 | Experience intro | Three companies, across Swiss fintech, call tracking, gift cards, marketing analytics and mutual funds. |
 | Projects intro | Built and delivered production websites for real businesses, along with full stack applications and a machine learning solution — covering everything from frontend and backend development to deployment and practical AI/ML implementation. |
-| Numbers | 4+ years of experience · 5+ cloud & AI certifications · 12+ projects built · 800+ LeetCode problems solved |
-| Contact intro | Have a project in mind? Tell me what you need, and I'll send you a free quote. For a role or a question, email me or reach out on LinkedIn. |
-| Link preview | "Pradip Jaliya. Cloud & DevOps Engineer · AI Engineer · Full Stack Developer", badges "Available for freelance work" and "Senior Software Architect at Eagerminds", "4+ yrs · 5+ certifications · 12+ projects" |
+| Numbers | 4+ years of experience · 5+ cloud & AI certifications · 12+ projects built · 3 companies worked with |
+| Contact intro | Have a project in mind? Tell me what you need, and I'll send you a free quote. I work remotely with clients in India and abroad. For a role or a question, email me or reach out on LinkedIn. |
+| Link preview | "Pradip Jaliya. Cloud-Native Full Stack Engineer", badges "Available for freelance projects" and "Remote · worldwide", "AWS · Node.js · TypeScript · React · Terraform · GenAI", "4+ yrs · 5+ certifications · 12+ projects" |

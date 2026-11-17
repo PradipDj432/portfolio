@@ -697,9 +697,27 @@ h2 em {
   transform: rotate(45deg);
 }
 
-.hero-lede {
+.hero-tagline {
   max-width: 560px;
   margin-top: 20px;
+  font-size: clamp(1.25rem, 1.05rem + 0.9vw, 1.6rem);
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: -0.03em;
+  text-wrap: balance;
+}
+
+.hero-tech {
+  margin-top: 22px;
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  letter-spacing: 0.04em;
+  color: var(--text-faint);
+}
+
+.hero-lede {
+  max-width: 560px;
+  margin-top: 14px;
   font-size: 17px;
   color: var(--text-muted);
   text-wrap: pretty;
@@ -1034,6 +1052,11 @@ h2 em {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--accent);
+}
+
+.services .card .points {
+  margin-top: 16px;
+  font-size: 15px;
 }
 
 .services .card .tags {
@@ -1488,6 +1511,7 @@ h2 em {
 
 .learning {
   display: grid;
+  align-items: start;
   gap: 16px;
   margin-top: 16px;
 }
@@ -1647,7 +1671,7 @@ h2 em {
   transition: color 0.2s;
 }
 
-.contact-value:hover {
+a.contact-value:hover {
   color: var(--accent);
 }
 

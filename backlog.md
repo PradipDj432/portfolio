@@ -8,15 +8,17 @@ Everything still to do, newest ideas at the bottom of each section. When work st
 ## Next up
 The few things to do next, in order. Keep this list short and current.
 
-1. **Owner:** confirm your WhatsApp number (the site uses +91 63524 65074) and the "How I work" wording, then say "merge" for PR #8 (freelance services).
-2. **Owner:** turn on "Providing services" on LinkedIn, and make an Upwork or Contra profile if you want one; send the link to add it.
-3. **Owner:** open the live site on your phone and share the link on WhatsApp once to check the preview.
-4. **Owner:** confirm "4+ years" (your work on the site starts March 2023), and the tech you used for HFSS, if you want it shown.
-5. **Owner:** send an updated resume; the one visitors download still says 3 years and doesn't list Eagerminds or Optimum.
+1. **Owner:** review PR #9 (the freelance-positioning changes, D-018) and say "merge" when it looks right.
+2. **Owner:** check on Credly that Google Professional Cloud Architect (2026) is earned and verifiable, and send a photo for the intro.
+3. **Owner:** choose a free service for the project inquiry form (for example Formspree), and pick the first project for a case study (cloud and CI/CD, or the SaaS backend) with what you can say publicly.
+4. **Owner:** open the live site on your phone, try the WhatsApp button, and share the link on WhatsApp once to check the new preview.
+5. **Owner:** confirm "4+ years", send an updated resume, and the HFSS tech if you want it shown.
 
 ## Waiting on the owner
-- [ ] **P1 · Owner** WhatsApp: is +91 63524 65074 your WhatsApp number? The new WhatsApp buttons use it (PR #8).
-- [ ] **P1 · Owner** Check the "How I work" promises: "share progress regularly" and "help with fixes after launch" (PR #8).
+- [ ] **P1 · Owner** Verify Google Professional Cloud Architect (2026) on Credly before it is shown as completed.
+- [ ] **P1 · Owner** Where project inquiries should go (a form service), and the budget and timeline options to offer.
+- [ ] **P2 · Owner** Case-study facts and any verified numbers (users, speed, cost, deploy time), and which employer projects may be shown in public.
+- [ ] **P2 · Owner** Response time and timezone to promise visitors; testimonials, if any exist.
 - [ ] **P2 · Owner** Freelance outside the site: LinkedIn "Providing services", an Upwork or Contra profile, and a check that your job contract allows side work.
 - [ ] **P2 · Owner** Were DK ENGINEER'S and Aara Culture paid client work? If yes, the site can call them clients.
 - [ ] **P1 · Owner** Check the live site on a real phone (menu, light/dark button, resume download, contact links) and the WhatsApp link preview.
@@ -24,13 +26,18 @@ The few things to do next, in order. Keep this list short and current.
 - [ ] **P2 · Owner** HFSS: the tech used, if it should be shown (the site describes the product from hfss.ch).
 - [ ] **P2 · Owner** An updated resume PDF to replace `resume/Pradip-Jaliya-Resume.pdf` (fix the small typos such as "Predication" and "Linklist" too).
 - [ ] **P2 · Owner** Cricket Score Management System: is there a repo or live link? The resume has none.
-- [ ] **P2 · Owner** Whether to show a location (GitHub says Ahmedabad; the resume has none).
 - [ ] **P2 · Owner** A photo of yourself, if wanted.
 - [ ] **P3 · Owner** Company name style: "Eagerminds" (as on the site) or "EagerMinds"? The company's own pages use both.
 - [ ] **P3 · Owner** Update the GitHub profile's company (it still says "Optimum Fitech", the old company) and add the portfolio link to GitHub and LinkedIn.
 - [ ] **P2 · Owner** Custom domain, if wanted (for example `pradipjaliya.in`), with an email on it (for example `hello@pradipjaliya.in`); it looks more professional to freelance clients.
 
 ## To build
+- [ ] **P1 · Dev** (PR #9, waiting for the merge) Freelance positioning from the owner's review: one title, new intro, outcome-based services, tighter About and Skills, LeetCode and school details moved or removed, location (D-018).
+- [ ] **P1 · Dev** Project inquiry form (name, business email, description, project type, budget, timeline) once the owner picks where messages go. It must really deliver; no form until then.
+- [ ] **P1 · Dev** Case study pages (problem, solution, architecture, technologies, challenges, results, links) for the main projects, from facts and permissions the owner gives. Start with a cloud and CI/CD project and a SaaS backend.
+- [ ] **P2 · Dev** Certificates: badge, issuer, year and a verification link for each, once the owner sends the links.
+- [ ] **P2 · Dev** Photo in the intro, and testimonials, once they exist.
+- [ ] **P3 · Dev** A privacy policy and basic SEO checks; a performance check on a real phone.
 - [ ] **P2 · Dev** Open the live site, the 404 page and the link preview from an environment that can reach `github.io` (this one can't). Every deploy so far has succeeded.
 - [ ] **P2 · Dev** Add the HFSS tech once the owner answers.
 - [ ] **P2 · Dev** Swap in the updated resume when it arrives (steps in `resume/README.md`), then check the site still matches it.
@@ -103,4 +110,6 @@ Grouped by pull request, oldest first. Where a later change replaced something, 
 
 ### PR #8 (freelance services)
 - [x] **P1 · Owner** Freelance on the side; services: Cloud & DevOps, business websites, full stack web apps, AI features; clients in India and abroad; free quotes, no prices (D-017). PR #8.
-- [x] **P1 · Dev** "Available for freelance work" badge, Services section with "How I work", WhatsApp buttons and contact row, new link-preview image, docs updated (D-017). PR #8.
+- [x] **P1 · Dev** "Available for freelance work" badge, Services section with "How I work", WhatsApp buttons and contact row, new link-preview image, docs updated (D-017). PR #8.- [x] **P1 · Owner** WhatsApp number: the same as the phone, +91 63524 65074. PR #8.
+- [x] **P1 · Owner** "How I work" wording: kept as is (the owner said "merge"). PR #8.
+- [x] **P1 · Owner** Merge PR #8: yes, merged and live.
