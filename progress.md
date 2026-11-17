@@ -38,6 +38,7 @@ What's on the live site today:
 | #7 | The owner's own intro, About and Projects texts; headline "Cloud & DevOps Engineer" (D-016) | 2026-10-05 |
 | #8 | Freelance on the side: badge, Services section, "How I work", WhatsApp, free quotes (D-017) | 2026-10-05 |
 | #9 | Freelance positioning: one title, outcome-based services, tighter About and Skills, location (D-018) | 2026-11-17 |
+| #10 | Project inquiry form (Formspree) and a Verify link on the Cloud Architect certificate (D-019) | Open |
 
 ## Log
 
@@ -121,3 +122,8 @@ What's on the live site today:
 - Made the link-preview image again. Updated `profile.md`, `CLAUDE.md`, `README.md`, `decisions.md` (D-018) and `backlog.md`.
 - Tested at 390px and 1280px in dark and light: no script errors and no sideways scrolling.
 - The owner said "merge". **PR #9 merged** (`0d4ddd1`); the deploy was started (check Actions → "pages build and deployment").
+
+#### PR #10 (inquiry form)
+- The owner went through the open questions one by one: the Cloud Architect certificate is real (Credly link sent, a Google Cloud badge in the owner's name), there is no professional photo, and the inquiry form should use Formspree. The owner made the form and sent its address.
+- Built the "Tell me about your project" form in Contact: name, business email, project type, budget, timeline and description, with checks, a spam trap and thank-you and error messages. Added a "Verify on Credly" link to the certificate (D-019).
+- Tested at 390px and 1280px in dark and light with a pretend Formspree: empty and wrong-email checks, a successful send, a failed send, no script errors and no sideways scrolling. No real message was sent to the owner's form.

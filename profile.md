@@ -61,6 +61,7 @@ The owner's answers on 2026-10-05 (D-017):
 | **Target clients** | Startups, small businesses and software teams (from the owner's review, 2026-11-17) |
 | **Location** | Ahmedabad, India, with remote work worldwide (owner's review, 2026-11-17; GitHub also says Ahmedabad) |
 | **How to reach** | Email or WhatsApp (+91 63524 65074, confirmed 2026-10-05), both from `js/config.js` |
+| **Inquiry form** | Formspree, made by the owner on 2026-11-17 (address in `js/config.js`); messages go to the owner's email (D-019) |
 | **Promises** | The "How I work" steps: share progress regularly, and help with fixes after launch (the owner said "merge" with them on 2026-10-05) |
 
 ## Skills
@@ -183,9 +184,9 @@ Tracked in `backlog.md`. Until answered, nothing about these goes on the site, e
 - **HFSS tech stack:** what the owner used to build it (the site shows the product areas instead).
 - **Company name style:** "Eagerminds", or another spelling such as "EagerMinds"?
 - **Cricket Score Management System:** is there a repo or live link? The resume has none.
-- **Photo** of the owner, for the intro.
-- **Google Professional Cloud Architect (2026):** please check it's earned and verifiable on Credly before the site presents it as completed. The review asked for this too. Also wanted: credential verification links for each certificate.
-- **Project inquiry form:** a form needs a free service that receives the messages (for example Formspree); the owner chooses and creates the account. Until then, "Start a project" goes to the Contact section (email and WhatsApp).
+- **Photo:** the owner has no professional photo (2026-11-17), so none is shown.
+- **Certificate verification links** for the other four certificates (the Cloud Architect one is done: the owner sent its Credly link on 2026-11-17, a Google Cloud badge issued to Pradipkumar Jaliya; the page shows no date, so 2026 is the owner's word).
+- **Inquiry form budget and timeline choices:** suggested by Claude (D-019); the owner can change them.
 - **Case studies** (problem, solution, architecture, results) for the main projects, and any numbers that can be verified (users, speed, cost, deploy time). Only the owner can supply and approve these, and only what the employer allows to be public.
 - **Testimonials or recommendations:** none exist yet, so none are shown.
 - **Response time and timezone** to promise visitors.

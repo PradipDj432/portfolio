@@ -16,6 +16,9 @@ const PROFILE = {
   // text that's ready to send when a visitor opens the chat (D-017).
   whatsapp: { number: "916352465074", display: "+91 63524 65074", message: "Hi Pradip, I'd like to talk about a project." },
 
+  // Project inquiry form: the Formspree address that receives the messages (D-019).
+  inquiryForm: "https://formspree.io/f/xbgooypj",
+
   // Profile links. "handle" is the short text shown in the contact section.
   links: {
     github: { url: "https://github.com/PradipDj432", handle: "PradipDj432" },
