@@ -26,6 +26,7 @@ A log of choices made for the portfolio website and why. Add new decisions at th
 | D-017 | Freelance on the side: an "Available for freelance work" badge, a Services section, WhatsApp, and free quotes instead of prices | Accepted (services and wording changed by D-018) |
 | D-018 | Freelance positioning: one title, "Cloud-Native Full Stack Engineer", outcome-based services, a tighter About and Skills | Accepted |
 | D-019 | A project inquiry form that sends to the owner's email through Formspree, and a Verify link on the Cloud Architect certificate | Proposed |
+| D-020 | Case study pages in `case-studies/`, starting with Call Clutch | Proposed |
 
 When you add a decision, add a row here too.
 
@@ -182,3 +183,11 @@ When you add a decision, add a row here too.
 - **Decision:** A "Tell me about your project" form sits under the Contact panel. Fields: name, business email, project type, estimated budget, expected timeline and project description. It sends to the Formspree address in `js/config.js` (`inquiryForm`) with JavaScript, shows a thank-you or an error message on the page, and has a hidden spam trap. Without JavaScript the form is hidden and the email and WhatsApp buttons remain. The budget choices are under $500, $500–$1,500, $1,500–$5,000 and $5,000 or more (set with the owner, who gave $15/hour and about $5,000 as the guide). The owner's rate stays off the site, in line with D-017 (no prices; free quotes), and the owner chose to keep it that way. The Cloud Architect card gets a "Verify on Credly" link.
 - **Alternatives considered:** No form (email and WhatsApp only); a form that opens the visitor's email app.
 - **Consequences:** The free Formspree plan has a monthly limit on messages. The first message sent asks the owner to confirm the email address, so the owner should send one test inquiry after the merge. If the Formspree address changes, change it in `js/config.js`.
+
+## D-020 — Case study pages in `case-studies/`, starting with Call Clutch
+- **Date:** 2026-11-17
+- **Status:** Proposed
+- **Context:** The freelance review asked for a case study page per major project (problem, solution, architecture, technologies, challenges, results, links). The owner chose Call Clutch first (Amazon Connect is the more specialised skill), then the gift card platform, and answered the questions one by one in the thread.
+- **Decision:** Each case study is its own page in `case-studies/`, using the site's styles and scripts, linked from the matching Experience item and listed in `sitemap.xml`. This is an exception to D-007's "one page". The Call Clutch page uses only the owner's own words and numbers: a call tracking platform with a dialer and lead management for sales teams (inbound and outbound calls); built entirely by the owner; the move from DynamoDB (hard and slow to join data across tables) to a relational database, and from Lambda and API Gateway to Node.js REST APIs (easy to scale, used by the front end), while Amazon Connect and Lambda stay for fast real-time call handling; 15 customers, 450+ calls a day, 80+ users and about 10,000 minutes a day. No screenshots, because the app shows customers' data.
+- **Alternatives considered:** Longer text inside the Experience section; waiting for more numbers.
+- **Consequences:** The owner must be sure the employer (Dhitech Solutions) is fine with the public description before this page goes live. The numbers are the owner's and carry no date; the owner should say if they describe a certain time. The gift card platform case study is next.

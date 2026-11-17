@@ -136,6 +136,17 @@ Personal and freelance projects (work projects are under "Work experience"). The
 | Cricket Score Management System | Full stack | Angular, ASP.NET, MS SQL | Admins update live cricket scores and manage match details; users see real-time scores and match information; validation for data integrity | No link on the resume |
 | Bulldozer Price Prediction | Data science & ML | Python, NumPy, Pandas, Matplotlib, Scikit-learn, Jupyter, Conda | Random Forest regression model that predicts bulldozer prices; 92% accuracy using bagging and boosting | [Code](https://github.com/PradipDj432/Bulldozer-price-prediction) |
 
+## Call Clutch case study
+The owner's own answers on 2026-11-17 (D-020). The site's page, `case-studies/call-clutch.html`, uses only these facts.
+
+| | |
+|---|---|
+| **What it is** | A call tracking platform with a dialer and lead management for sales teams; inbound and outbound calls |
+| **My part** | Everything, alone: "all things done by myself" |
+| **Why the changes** | Getting data from different DynamoDB tables was difficult and slow, so the data moved to a relational database. The APIs moved from Lambda and API Gateway to Node.js REST APIs because they are easy to scale and the front end uses them. Amazon Connect, Lambda and the other AWS resources stay for real-time calls, where fast invocation at run time matters |
+| **Scale** | 15 customers; 450+ calls a day; 80+ users; about 10,000 minutes a day (owner, undated) |
+| **Not shown** | Screenshots (customer data). Dhitech Solutions' permission to describe it in public: the owner to confirm |
+
 ## Certificates
 All badges are on Credly (link under "Contact"). The site shows Credly only with the contact links, not in the certificates section (D-012).
 
