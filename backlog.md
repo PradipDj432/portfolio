@@ -14,7 +14,6 @@ The few things to do next, in order. Keep this list short and current.
 4. **Owner:** confirm "4+ years", send an updated resume, and the HFSS tech if you want it shown.
 
 ## Waiting on the owner
-- [ ] **P2 · Owner** Look at the budget and timeline choices in the inquiry form and change any that don't fit.
 - [ ] **P2 · Owner** Case-study facts and any verified numbers (users, speed, cost, deploy time), and which employer projects may be shown in public.
 - [ ] **P2 · Owner** Response time and timezone to promise visitors; testimonials, if any exist.
 - [ ] **P2 · Owner** Freelance outside the site: LinkedIn "Providing services", an Upwork or Contra profile, and a check that your job contract allows side work.

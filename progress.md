@@ -127,3 +127,4 @@ What's on the live site today:
 - The owner went through the open questions one by one: the Cloud Architect certificate is real (Credly link sent, a Google Cloud badge in the owner's name), there is no professional photo, and the inquiry form should use Formspree. The owner made the form and sent its address.
 - Built the "Tell me about your project" form in Contact: name, business email, project type, budget, timeline and description, with checks, a spam trap and thank-you and error messages. Added a "Verify on Credly" link to the certificate (D-019).
 - Tested at 390px and 1280px in dark and light with a pretend Formspree: empty and wrong-email checks, a successful send, a failed send, no script errors and no sideways scrolling. No real message was sent to the owner's form.
+- Budget choices set with the owner: under $500, $500–$1,500, $1,500–$5,000, $5,000 or more. The owner's rate ($15/hour) stays off the site.

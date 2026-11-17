@@ -61,6 +61,7 @@ The owner's answers on 2026-10-05 (D-017):
 | **Target clients** | Startups, small businesses and software teams (from the owner's review, 2026-11-17) |
 | **Location** | Ahmedabad, India, with remote work worldwide (owner's review, 2026-11-17; GitHub also says Ahmedabad) |
 | **How to reach** | Email or WhatsApp (+91 63524 65074, confirmed 2026-10-05), both from `js/config.js` |
+| **Rate** | $15/hour (owner, 2026-11-17). Not shown on the site; for quotes only (D-017, D-019) |
 | **Inquiry form** | Formspree, made by the owner on 2026-11-17 (address in `js/config.js`); messages go to the owner's email (D-019) |
 | **Promises** | The "How I work" steps: share progress regularly, and help with fixes after launch (the owner said "merge" with them on 2026-10-05) |
 
@@ -186,7 +187,6 @@ Tracked in `backlog.md`. Until answered, nothing about these goes on the site, e
 - **Cricket Score Management System:** is there a repo or live link? The resume has none.
 - **Photo:** the owner has no professional photo (2026-11-17), so none is shown.
 - **Certificate verification links** for the other four certificates (the Cloud Architect one is done: the owner sent its Credly link on 2026-11-17, a Google Cloud badge issued to Pradipkumar Jaliya; the page shows no date, so 2026 is the owner's word).
-- **Inquiry form budget and timeline choices:** suggested by Claude (D-019); the owner can change them.
 - **Case studies** (problem, solution, architecture, results) for the main projects, and any numbers that can be verified (users, speed, cost, deploy time). Only the owner can supply and approve these, and only what the employer allows to be public.
 - **Testimonials or recommendations:** none exist yet, so none are shown.
 - **Response time and timezone** to promise visitors.
