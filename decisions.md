@@ -24,7 +24,9 @@ A log of choices made for the portfolio website and why. Add new decisions at th
 | D-015 | Intro and About texts cover cloud and full stack only; Python and machine learning stay in the AI card, Skills and projects | Accepted (wording replaced by D-016) |
 | D-016 | Headline "Cloud & DevOps Engineer · AI Engineer · Full Stack Developer", and the owner's own intro, About and Projects texts | Replaced by D-018 (headline and the intro and About texts) |
 | D-017 | Freelance on the side: an "Available for freelance work" badge, a Services section, WhatsApp, and free quotes instead of prices | Accepted (services and wording changed by D-018) |
-| D-018 | Freelance positioning: one title, "Cloud-Native Full Stack Engineer", outcome-based services, a tighter About and Skills | Proposed |
+| D-018 | Freelance positioning: one title, "Cloud-Native Full Stack Engineer", outcome-based services, a tighter About and Skills | Accepted |
+| D-019 | A project inquiry form that sends to the owner's email through Formspree, and a Verify link on the Cloud Architect certificate | Proposed |
+| D-020 | Case study pages in `case-studies/`, starting with Call Clutch | Proposed |
 
 When you add a decision, add a row here too.
 
@@ -168,8 +170,24 @@ When you add a decision, add a row here too.
 
 ## D-018 — Freelance positioning: one title, "Cloud-Native Full Stack Engineer", outcome-based services, a tighter About and Skills
 - **Date:** 2026-11-17
-- **Status:** Proposed
+- **Status:** Accepted
 - **Context:** The owner shared a review of the live site from a freelance-client point of view (7/10): three titles looked like three identities, the intro didn't say what business problems are solved, the services listed skills rather than what the client gets, and Skills, About and Credentials were cluttered like a job resume. The owner asked to start improving the site along those lines.
 - **Decision:** One title everywhere: **Cloud-Native Full Stack Engineer** (page title, link-preview tags and image, intro, profile card, `js/config.js`). The intro becomes a short value statement with two buttons, "Start a project" and "View projects", a technology line, and badges for availability, location (Ahmedabad, India, remote worldwide) and the current job. About is two short paragraphs plus three trust cards (real products, certified cloud skills, end to end delivery) instead of three identity cards. Services become four outcome-based cards, in this order: AWS Cloud & DevOps, Backend & Full Stack Development, AI Integration & Automation, Business Websites; each lists what's offered and a "You get" line, and the "Track record" lines are dropped. Skills are regrouped into Cloud, DevOps, Backend, Frontend, Database, AI, Integrations and a small "Also used" group; C++, data structures, Visual Studio and similar tools leave the site. ASP.NET leaves the headline, About and Services (it stays in the work history). Schools (HSC, SSC) leave Education, and LeetCode moves below Courses and out of the numbers row, which now ends with "3 companies worked with". Amazon Connect is named in full, and the gift card bullet reads as an outcome. Replaces D-016's headline and the intro and About wording, and D-017's four services.
 - **Alternatives considered:** Keep the three titles; rebuild the whole page around case studies at once.
 - **Consequences:** Not built yet, because each needs the owner: a photo, a working project inquiry form (it needs a service that receives the messages), case-study pages with verified results, verification links for the certificates, testimonials and a response time. The Google Professional Cloud Architect (2026) certificate must be checked on Credly. All of these are in `backlog.md` and `profile.md` → "Still to confirm". The section order stays as in D-017.
+
+## D-019 — A project inquiry form that sends to the owner's email through Formspree, and a Verify link on the Cloud Architect certificate
+- **Date:** 2026-11-17
+- **Status:** Proposed
+- **Context:** The freelance review asked for an inquiry form with budget and timeline that really delivers messages. The site has no server, so a form needs an outside service. The owner chose Formspree (free) and made the form. The owner also sent the Credly link for the Professional Cloud Architect badge, which shows a Google Cloud badge issued to Pradipkumar Jaliya (the page shows no date, so the year 2026 stays as the owner gave it). The owner has no professional photo, so none is shown.
+- **Decision:** A "Tell me about your project" form sits under the Contact panel. Fields: name, business email, project type, estimated budget, expected timeline and project description. It sends to the Formspree address in `js/config.js` (`inquiryForm`) with JavaScript, shows a thank-you or an error message on the page, and has a hidden spam trap. Without JavaScript the form is hidden and the email and WhatsApp buttons remain. The budget choices are under $500, $500–$1,500, $1,500–$5,000 and $5,000 or more (set with the owner, who gave $15/hour and about $5,000 as the guide). The owner's rate stays off the site, in line with D-017 (no prices; free quotes), and the owner chose to keep it that way. The Cloud Architect card gets a "Verify on Credly" link.
+- **Alternatives considered:** No form (email and WhatsApp only); a form that opens the visitor's email app.
+- **Consequences:** The free Formspree plan has a monthly limit on messages. The first message sent asks the owner to confirm the email address, so the owner should send one test inquiry after the merge. If the Formspree address changes, change it in `js/config.js`.
+
+## D-020 — Case study pages in `case-studies/`, starting with Call Clutch
+- **Date:** 2026-11-17
+- **Status:** Proposed
+- **Context:** The freelance review asked for a case study page per major project (problem, solution, architecture, technologies, challenges, results, links). The owner chose Call Clutch first (Amazon Connect is the more specialised skill), then the gift card platform, and answered the questions one by one in the thread.
+- **Decision:** Each case study is its own page in `case-studies/`, using the site's styles and scripts, linked from the matching Experience item and listed in `sitemap.xml`. This is an exception to D-007's "one page". The Call Clutch page uses only the owner's own words and numbers: a call tracking platform with a dialer and lead management for sales teams (inbound and outbound calls); built entirely by the owner; the move from DynamoDB (hard and slow to join data across tables) to a relational database, and from Lambda and API Gateway to Node.js REST APIs (easy to scale, used by the front end), while Amazon Connect and Lambda stay for fast real-time call handling; 15 customers, 450+ calls a day, 80+ users and about 10,000 minutes a day. No screenshots, because the app shows customers' data.
+- **Alternatives considered:** Longer text inside the Experience section; waiting for more numbers.
+- **Consequences:** The owner asked that the case study page not name the company (Dhitech Solutions) and use only "Call Clutch"; the owner also confirmed the numbers are current (2026-11-17). The Experience section still names Dhitech, as before. The gift card platform case study is next, and the same rule applies: ask the owner before naming a company on a case study page.

@@ -8,16 +8,13 @@ Everything still to do, newest ideas at the bottom of each section. When work st
 ## Next up
 The few things to do next, in order. Keep this list short and current.
 
-1. **Owner:** review PR #9 (the freelance-positioning changes, D-018) and say "merge" when it looks right.
-2. **Owner:** check on Credly that Google Professional Cloud Architect (2026) is earned and verifiable, and send a photo for the intro.
-3. **Owner:** choose a free service for the project inquiry form (for example Formspree), and pick the first project for a case study (cloud and CI/CD, or the SaaS backend) with what you can say publicly.
-4. **Owner:** open the live site on your phone, try the WhatsApp button, and share the link on WhatsApp once to check the new preview.
-5. **Owner:** confirm "4+ years", send an updated resume, and the HFSS tech if you want it shown.
+1. **Owner:** review PR #10 (the inquiry form), say "merge", then send one test inquiry from the live site and confirm the Formspree email.
+2. **Owner:** read the Call Clutch case study in PR #10 (it no longer names the company) and say "merge".
+3. **Owner:** open the live site on your phone, try the WhatsApp button, and share the link on WhatsApp once to check the new preview.
+4. **Owner:** confirm "4+ years", send an updated resume, and the HFSS tech if you want it shown.
 
 ## Waiting on the owner
-- [ ] **P1 · Owner** Verify Google Professional Cloud Architect (2026) on Credly before it is shown as completed.
-- [ ] **P1 · Owner** Where project inquiries should go (a form service), and the budget and timeline options to offer.
-- [ ] **P2 · Owner** Case-study facts and any verified numbers (users, speed, cost, deploy time), and which employer projects may be shown in public.
+- [ ] **P1 · Owner** Answer the questions for the gift card platform case study.
 - [ ] **P2 · Owner** Response time and timezone to promise visitors; testimonials, if any exist.
 - [ ] **P2 · Owner** Freelance outside the site: LinkedIn "Providing services", an Upwork or Contra profile, and a check that your job contract allows side work.
 - [ ] **P2 · Owner** Were DK ENGINEER'S and Aara Culture paid client work? If yes, the site can call them clients.
@@ -32,11 +29,12 @@ The few things to do next, in order. Keep this list short and current.
 - [ ] **P2 · Owner** Custom domain, if wanted (for example `pradipjaliya.in`), with an email on it (for example `hello@pradipjaliya.in`); it looks more professional to freelance clients.
 
 ## To build
-- [ ] **P1 · Dev** (PR #9, waiting for the merge) Freelance positioning from the owner's review: one title, new intro, outcome-based services, tighter About and Skills, LeetCode and school details moved or removed, location (D-018).
-- [ ] **P1 · Dev** Project inquiry form (name, business email, description, project type, budget, timeline) once the owner picks where messages go. It must really deliver; no form until then.
-- [ ] **P1 · Dev** Case study pages (problem, solution, architecture, technologies, challenges, results, links) for the main projects, from facts and permissions the owner gives. Start with a cloud and CI/CD project and a SaaS backend.
-- [ ] **P2 · Dev** Certificates: badge, issuer, year and a verification link for each, once the owner sends the links.
-- [ ] **P2 · Dev** Photo in the intro, and testimonials, once they exist.
+- [x] **P1 · Dev** (PR #9, merged 2026-11-17) Freelance positioning from the owner's review: one title, new intro, outcome-based services, tighter About and Skills, LeetCode and school details moved or removed, location (D-018).
+- [x] **P1 · Dev** Project inquiry form with Formspree (PR #10, waiting for the merge).
+- [x] **P1 · Dev** Case study: Call Clutch (PR #10, waiting for the merge).
+- [ ] **P1 · Dev** Case study: gift card platform (AWS ECS, Terraform, CI/CD), once the owner answers the questions.
+- [ ] **P2 · Dev** Verification links for the other four certificates, once the owner sends them (the Cloud Architect link is done, PR #10).
+- [ ] **P3 · Dev** Photo in the intro and testimonials, once they exist (the owner has no professional photo yet).
 - [ ] **P3 · Dev** A privacy policy and basic SEO checks; a performance check on a real phone.
 - [ ] **P2 · Dev** Open the live site, the 404 page and the link preview from an environment that can reach `github.io` (this one can't). Every deploy so far has succeeded.
 - [ ] **P2 · Dev** Add the HFSS tech once the owner answers.

@@ -33,6 +33,7 @@ All changes are made on the **`working`** branch, one feature at a time: sync `w
 ```
 portfolio/
 ├── index.html         The website (one page)
+├── case-studies/      One page per case study (D-020); `call-clutch.html` is the first
 ├── 404.html           "Page not found" (GitHub Pages shows it for any wrong address)
 ├── css/style.css      All styles; colours and fonts are set at the top (mobile first)
 ├── js/
@@ -83,7 +84,7 @@ In `index.html`, find the `<!-- Projects -->` section. Copy a whole small card, 
 In `index.html`, find the `<!-- Experience: newest company first -->` section. Each company is one `<article class="job">` with its name, title and dates at the top. Each work project inside it is one `<li class="timeline-item">`: copy one, paste it under the last, and change the name, the link, the tags and the bullet points. Then update `profile.md` → "Work experience".
 
 ### Change or pause the freelance offer
-The freelance parts are the "Available for freelance projects" badge and the location badge at the top of the intro, the `<!-- Services -->` section (four service cards, each with what the client gets, and the "How I work" steps), the "freelance" line in the profile card, the WhatsApp buttons and the first sentence of the Contact section. To change a service, edit its `<article class="card">`; to pause freelance work, ask for the badge and the Services section to come off, and the link-preview image to be made again (D-017). Then update `profile.md` → "Freelance".
+Case studies are pages in `case-studies/` that load the site's styles and scripts with `../` paths. Copy `call-clutch.html` for a new one, link it from the matching Experience item in `index.html`, and add it to `sitemap.xml`. The inquiry form (Contact section, D-019) sends to the Formspree address in `js/config.js` (`inquiryForm`); to change where messages go, change that one value, and its fields are in `index.html` under `id="inquiry"`. The freelance parts are the "Available for freelance projects" badge and the location badge at the top of the intro, the `<!-- Services -->` section (four service cards, each with what the client gets, and the "How I work" steps), the "freelance" line in the profile card, the WhatsApp buttons and the first sentence of the Contact section. To change a service, edit its `<article class="card">`; to pause freelance work, ask for the badge and the Services section to come off, and the link-preview image to be made again (D-017). Then update `profile.md` → "Freelance".
 
 ### Replace a project screenshot
 Make a 1200 × 750 JPEG under about 250 KB, upload it to `images/projects/` with the **same file name** (for example `dk-engineer.jpg`), and commit.

@@ -61,6 +61,8 @@ The owner's answers on 2026-10-05 (D-017):
 | **Target clients** | Startups, small businesses and software teams (from the owner's review, 2026-11-17) |
 | **Location** | Ahmedabad, India, with remote work worldwide (owner's review, 2026-11-17; GitHub also says Ahmedabad) |
 | **How to reach** | Email or WhatsApp (+91 63524 65074, confirmed 2026-10-05), both from `js/config.js` |
+| **Rate** | $15/hour (owner, 2026-11-17). Not shown on the site; for quotes only (D-017, D-019) |
+| **Inquiry form** | Formspree, made by the owner on 2026-11-17 (address in `js/config.js`); messages go to the owner's email (D-019) |
 | **Promises** | The "How I work" steps: share progress regularly, and help with fixes after launch (the owner said "merge" with them on 2026-10-05) |
 
 ## Skills
@@ -134,6 +136,17 @@ Personal and freelance projects (work projects are under "Work experience"). The
 | Cricket Score Management System | Full stack | Angular, ASP.NET, MS SQL | Admins update live cricket scores and manage match details; users see real-time scores and match information; validation for data integrity | No link on the resume |
 | Bulldozer Price Prediction | Data science & ML | Python, NumPy, Pandas, Matplotlib, Scikit-learn, Jupyter, Conda | Random Forest regression model that predicts bulldozer prices; 92% accuracy using bagging and boosting | [Code](https://github.com/PradipDj432/Bulldozer-price-prediction) |
 
+## Call Clutch case study
+The owner's own answers on 2026-11-17 (D-020). The site's page, `case-studies/call-clutch.html`, uses only these facts.
+
+| | |
+|---|---|
+| **What it is** | A call tracking platform with a dialer and lead management for sales teams; inbound and outbound calls |
+| **My part** | Everything, alone: "all things done by myself" |
+| **Why the changes** | Getting data from different DynamoDB tables was difficult and slow, so the data moved to a relational database. The APIs moved from Lambda and API Gateway to Node.js REST APIs because they are easy to scale and the front end uses them. Amazon Connect, Lambda and the other AWS resources stay for real-time calls, where fast invocation at run time matters |
+| **Scale** | 15 customers; 450+ calls a day; 80+ users; about 10,000 minutes a day (owner, undated) |
+| **Not shown** | Screenshots (customer data). The company name (Dhitech Solutions): the owner asked on 2026-11-17 for the case study page to say only "Call Clutch". The numbers are current as of 2026-11-17 (owner) |
+
 ## Certificates
 All badges are on Credly (link under "Contact"). The site shows Credly only with the contact links, not in the certificates section (D-012).
 
@@ -183,9 +196,8 @@ Tracked in `backlog.md`. Until answered, nothing about these goes on the site, e
 - **HFSS tech stack:** what the owner used to build it (the site shows the product areas instead).
 - **Company name style:** "Eagerminds", or another spelling such as "EagerMinds"?
 - **Cricket Score Management System:** is there a repo or live link? The resume has none.
-- **Photo** of the owner, for the intro.
-- **Google Professional Cloud Architect (2026):** please check it's earned and verifiable on Credly before the site presents it as completed. The review asked for this too. Also wanted: credential verification links for each certificate.
-- **Project inquiry form:** a form needs a free service that receives the messages (for example Formspree); the owner chooses and creates the account. Until then, "Start a project" goes to the Contact section (email and WhatsApp).
+- **Photo:** the owner has no professional photo (2026-11-17), so none is shown.
+- **Certificate verification links** for the other four certificates (the Cloud Architect one is done: the owner sent its Credly link on 2026-11-17, a Google Cloud badge issued to Pradipkumar Jaliya; the page shows no date, so 2026 is the owner's word).
 - **Case studies** (problem, solution, architecture, results) for the main projects, and any numbers that can be verified (users, speed, cost, deploy time). Only the owner can supply and approve these, and only what the employer allows to be public.
 - **Testimonials or recommendations:** none exist yet, so none are shown.
 - **Response time and timezone** to promise visitors.

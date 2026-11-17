@@ -211,6 +211,54 @@ function addPersonData() {
   document.head.appendChild(script);
 }
 
+// Project inquiry form: sends the answers to the Formspree address in PROFILE.inquiryForm.
+// Without JavaScript the form stays hidden, and the page shows the email and WhatsApp buttons.
+function initInquiryForm() {
+  const form = document.getElementById("inquiry-form");
+  if (!form || !PROFILE.inquiryForm) {
+    document.getElementById("inquiry")?.remove();
+    return;
+  }
+  form.action = PROFILE.inquiryForm;
+  const status = form.querySelector(".inquiry-status");
+  const button = form.querySelector("button[type=submit]");
+  const say = (text, kind) => {
+    status.textContent = text;
+    status.dataset.kind = kind || "";
+  };
+  form.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const email = form.elements.email;
+    const empty = ["name", "email", "project_type", "message"].find((n) => !form.elements[n].value.trim());
+    if (empty) {
+      form.elements[empty].focus();
+      say("Please fill in the name, email, project type and description.", "error");
+      return;
+    }
+    if (!email.checkValidity()) {
+      email.focus();
+      say("That email address doesn't look right.", "error");
+      return;
+    }
+    button.disabled = true;
+    say("Sending...", "");
+    try {
+      const response = await fetch(form.action, {
+        method: "POST",
+        headers: { Accept: "application/json" },
+        body: new FormData(form),
+      });
+      if (!response.ok) throw new Error("status " + response.status);
+      form.reset();
+      say("Thank you! I got your message and will reply by email.", "ok");
+    } catch (error) {
+      say("Sorry, that didn't send. Please email me or use WhatsApp instead.", "error");
+    } finally {
+      button.disabled = false;
+    }
+  });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   fillProfile();
   initThemeToggle();
@@ -221,5 +269,6 @@ document.addEventListener("DOMContentLoaded", () => {
   initSpotlight();
   initMarquee();
   initCopyButtons();
+  initInquiryForm();
   addPersonData();
 });
