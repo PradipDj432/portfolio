@@ -8,11 +8,10 @@ Everything still to do, newest ideas at the bottom of each section. When work st
 ## Next up
 The few things to do next, in order. Keep this list short and current.
 
-1. **Owner:** review PR #9 (the freelance-positioning changes, D-018) and say "merge" when it looks right.
-2. **Owner:** check on Credly that Google Professional Cloud Architect (2026) is earned and verifiable, and send a photo for the intro.
-3. **Owner:** choose a free service for the project inquiry form (for example Formspree), and pick the first project for a case study (cloud and CI/CD, or the SaaS backend) with what you can say publicly.
-4. **Owner:** open the live site on your phone, try the WhatsApp button, and share the link on WhatsApp once to check the new preview.
-5. **Owner:** confirm "4+ years", send an updated resume, and the HFSS tech if you want it shown.
+1. **Owner:** check on Credly that Google Professional Cloud Architect (2026) is earned and verifiable, and send a photo for the intro.
+2. **Owner:** choose a free service for the project inquiry form (for example Formspree), and pick the first project for a case study (cloud and CI/CD, or the SaaS backend) with what you can say publicly.
+3. **Owner:** open the live site on your phone, try the WhatsApp button, and share the link on WhatsApp once to check the new preview.
+4. **Owner:** confirm "4+ years", send an updated resume, and the HFSS tech if you want it shown.
 
 ## Waiting on the owner
 - [ ] **P1 · Owner** Verify Google Professional Cloud Architect (2026) on Credly before it is shown as completed.
@@ -32,7 +31,7 @@ The few things to do next, in order. Keep this list short and current.
 - [ ] **P2 · Owner** Custom domain, if wanted (for example `pradipjaliya.in`), with an email on it (for example `hello@pradipjaliya.in`); it looks more professional to freelance clients.
 
 ## To build
-- [ ] **P1 · Dev** (PR #9, waiting for the merge) Freelance positioning from the owner's review: one title, new intro, outcome-based services, tighter About and Skills, LeetCode and school details moved or removed, location (D-018).
+- [x] **P1 · Dev** (PR #9, merged 2026-11-17) Freelance positioning from the owner's review: one title, new intro, outcome-based services, tighter About and Skills, LeetCode and school details moved or removed, location (D-018).
 - [ ] **P1 · Dev** Project inquiry form (name, business email, description, project type, budget, timeline) once the owner picks where messages go. It must really deliver; no form until then.
 - [ ] **P1 · Dev** Case study pages (problem, solution, architecture, technologies, challenges, results, links) for the main projects, from facts and permissions the owner gives. Start with a cloud and CI/CD project and a SaaS backend.
 - [ ] **P2 · Dev** Certificates: badge, issuer, year and a verification link for each, once the owner sends the links.

@@ -24,7 +24,7 @@ A log of choices made for the portfolio website and why. Add new decisions at th
 | D-015 | Intro and About texts cover cloud and full stack only; Python and machine learning stay in the AI card, Skills and projects | Accepted (wording replaced by D-016) |
 | D-016 | Headline "Cloud & DevOps Engineer · AI Engineer · Full Stack Developer", and the owner's own intro, About and Projects texts | Replaced by D-018 (headline and the intro and About texts) |
 | D-017 | Freelance on the side: an "Available for freelance work" badge, a Services section, WhatsApp, and free quotes instead of prices | Accepted (services and wording changed by D-018) |
-| D-018 | Freelance positioning: one title, "Cloud-Native Full Stack Engineer", outcome-based services, a tighter About and Skills | Proposed |
+| D-018 | Freelance positioning: one title, "Cloud-Native Full Stack Engineer", outcome-based services, a tighter About and Skills | Accepted |
 
 When you add a decision, add a row here too.
 
@@ -168,7 +168,7 @@ When you add a decision, add a row here too.
 
 ## D-018 — Freelance positioning: one title, "Cloud-Native Full Stack Engineer", outcome-based services, a tighter About and Skills
 - **Date:** 2026-11-17
-- **Status:** Proposed
+- **Status:** Accepted
 - **Context:** The owner shared a review of the live site from a freelance-client point of view (7/10): three titles looked like three identities, the intro didn't say what business problems are solved, the services listed skills rather than what the client gets, and Skills, About and Credentials were cluttered like a job resume. The owner asked to start improving the site along those lines.
 - **Decision:** One title everywhere: **Cloud-Native Full Stack Engineer** (page title, link-preview tags and image, intro, profile card, `js/config.js`). The intro becomes a short value statement with two buttons, "Start a project" and "View projects", a technology line, and badges for availability, location (Ahmedabad, India, remote worldwide) and the current job. About is two short paragraphs plus three trust cards (real products, certified cloud skills, end to end delivery) instead of three identity cards. Services become four outcome-based cards, in this order: AWS Cloud & DevOps, Backend & Full Stack Development, AI Integration & Automation, Business Websites; each lists what's offered and a "You get" line, and the "Track record" lines are dropped. Skills are regrouped into Cloud, DevOps, Backend, Frontend, Database, AI, Integrations and a small "Also used" group; C++, data structures, Visual Studio and similar tools leave the site. ASP.NET leaves the headline, About and Services (it stays in the work history). Schools (HSC, SSC) leave Education, and LeetCode moves below Courses and out of the numbers row, which now ends with "3 companies worked with". Amazon Connect is named in full, and the gift card bullet reads as an outcome. Replaces D-016's headline and the intro and About wording, and D-017's four services.
 - **Alternatives considered:** Keep the three titles; rebuild the whole page around case studies at once.

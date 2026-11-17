@@ -37,7 +37,7 @@ What's on the live site today:
 | #6 | Clearer intro, About and Projects texts, about cloud and full stack only (D-015) | 2026-10-04 |
 | #7 | The owner's own intro, About and Projects texts; headline "Cloud & DevOps Engineer" (D-016) | 2026-10-05 |
 | #8 | Freelance on the side: badge, Services section, "How I work", WhatsApp, free quotes (D-017) | 2026-10-05 |
-| #9 | Freelance positioning: one title, outcome-based services, tighter About and Skills, location (D-018) | Open |
+| #9 | Freelance positioning: one title, outcome-based services, tighter About and Skills, location (D-018) | 2026-11-17 |
 
 ## Log
 
@@ -120,3 +120,4 @@ What's on the live site today:
 - Left out on purpose, because it needs the owner: the photo, a working inquiry form, case studies, certificate verification links, testimonials and any numbers. The Google Professional Cloud Architect certificate is flagged for the owner to verify.
 - Made the link-preview image again. Updated `profile.md`, `CLAUDE.md`, `README.md`, `decisions.md` (D-018) and `backlog.md`.
 - Tested at 390px and 1280px in dark and light: no script errors and no sideways scrolling.
+- The owner said "merge". **PR #9 merged** (`0d4ddd1`); the deploy was started (check Actions → "pages build and deployment").
