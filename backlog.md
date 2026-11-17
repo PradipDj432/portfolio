@@ -9,12 +9,12 @@ Everything still to do, newest ideas at the bottom of each section. When work st
 The few things to do next, in order. Keep this list short and current.
 
 1. **Owner:** review PR #10 (the inquiry form), say "merge", then send one test inquiry from the live site and confirm the Formspree email.
-2. **Owner:** read the Call Clutch case study in PR #10 and confirm that Dhitech Solutions is fine with it being public, and whether the numbers are as of today.
+2. **Owner:** read the Call Clutch case study in PR #10 (it no longer names the company) and say "merge".
 3. **Owner:** open the live site on your phone, try the WhatsApp button, and share the link on WhatsApp once to check the new preview.
 4. **Owner:** confirm "4+ years", send an updated resume, and the HFSS tech if you want it shown.
 
 ## Waiting on the owner
-- [ ] **P1 · Owner** Confirm Dhitech Solutions is fine with the Call Clutch case study being public, and answer the gift card platform questions.
+- [ ] **P1 · Owner** Answer the questions for the gift card platform case study.
 - [ ] **P2 · Owner** Response time and timezone to promise visitors; testimonials, if any exist.
 - [ ] **P2 · Owner** Freelance outside the site: LinkedIn "Providing services", an Upwork or Contra profile, and a check that your job contract allows side work.
 - [ ] **P2 · Owner** Were DK ENGINEER'S and Aara Culture paid client work? If yes, the site can call them clients.

@@ -145,7 +145,7 @@ The owner's own answers on 2026-11-17 (D-020). The site's page, `case-studies/ca
 | **My part** | Everything, alone: "all things done by myself" |
 | **Why the changes** | Getting data from different DynamoDB tables was difficult and slow, so the data moved to a relational database. The APIs moved from Lambda and API Gateway to Node.js REST APIs because they are easy to scale and the front end uses them. Amazon Connect, Lambda and the other AWS resources stay for real-time calls, where fast invocation at run time matters |
 | **Scale** | 15 customers; 450+ calls a day; 80+ users; about 10,000 minutes a day (owner, undated) |
-| **Not shown** | Screenshots (customer data). Dhitech Solutions' permission to describe it in public: the owner to confirm |
+| **Not shown** | Screenshots (customer data). The company name (Dhitech Solutions): the owner asked on 2026-11-17 for the case study page to say only "Call Clutch". The numbers are current as of 2026-11-17 (owner) |
 
 ## Certificates
 All badges are on Credly (link under "Contact"). The site shows Credly only with the contact links, not in the certificates section (D-012).
