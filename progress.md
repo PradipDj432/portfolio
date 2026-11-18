@@ -39,7 +39,7 @@ What's on the live site today:
 | #8 | Freelance on the side: badge, Services section, "How I work", WhatsApp, free quotes (D-017) | 2026-10-05 |
 | #9 | Freelance positioning: one title, outcome-based services, tighter About and Skills, location (D-018) | 2026-11-17 |
 | #10 | Project inquiry form (Formspree), a Verify link on the Cloud Architect certificate and the Call Clutch case study (D-019, D-020) | 2026-11-17 |
-| #11 | Gift card platform case study (D-020) | Open |
+| #11 | Gift card platform case study (D-020) | 2026-11-18 |
 
 ## Log
 
@@ -137,3 +137,4 @@ What's on the live site today:
 #### PR #11 (gift card platform case study)
 - The owner confirmed the test inquiry reached their email, then answered the case study questions: what the platform is, the features, their role (built from the start, with one developer under their guidance) and the numbers (40+ merchants, 8,000+ users, 500+ transactions a day, $45k so far).
 - Built `case-studies/gift-card-platform.html` the same way as the Call Clutch page, linked it from the Experience item and added it to the sitemap. No company name and no screenshots. Tested at 390px and 1280px in dark and light: no script errors, no sideways scrolling.
+- The owner said "merge". **PR #11 merged** (`2b0994d`); the deploy was started (check Actions → "pages build and deployment").

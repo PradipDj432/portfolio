@@ -9,7 +9,7 @@ Everything still to do, newest ideas at the bottom of each section. When work st
 The few things to do next, in order. Keep this list short and current.
 
 1. **Owner:** send one test inquiry from the live site and confirm the Formspree email.
-2. **Owner:** read the gift card platform case study in PR #11 and say "merge".
+2. **Owner:** send the Credly links for the other four certificates, and an updated resume.
 3. **Owner:** open the live site on your phone, try the WhatsApp button, and share the link on WhatsApp once to check the new preview.
 4. **Owner:** confirm "4+ years", send an updated resume, and the HFSS tech if you want it shown.
 
@@ -31,7 +31,7 @@ The few things to do next, in order. Keep this list short and current.
 - [x] **P1 · Dev** (PR #9, merged 2026-11-17) Freelance positioning from the owner's review: one title, new intro, outcome-based services, tighter About and Skills, LeetCode and school details moved or removed, location (D-018).
 - [x] **P1 · Dev** Project inquiry form with Formspree (PR #10, merged 2026-11-17).
 - [x] **P1 · Dev** Case study: Call Clutch (PR #10, merged 2026-11-17).
-- [x] **P1 · Dev** Case study: gift card platform (PR #11, waiting for the merge).
+- [x] **P1 · Dev** Case study: gift card platform (PR #11, merged 2026-11-18).
 - [ ] **P2 · Dev** Verification links for the other four certificates, once the owner sends them (the Cloud Architect link is done, PR #10).
 - [ ] **P3 · Dev** Photo in the intro and testimonials, once they exist (the owner has no professional photo yet).
 - [ ] **P3 · Dev** A privacy policy and basic SEO checks; a performance check on a real phone.
