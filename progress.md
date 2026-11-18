@@ -5,11 +5,11 @@ Where the project stands right now, and a dated log of what was done. Update thi
 ## Current status
 | | |
 |---|---|
-| **Phase** | Live. Eight pull requests merged (#1–#8); the site now offers freelance services (D-017). |
-| **Live site** | https://pradipdj432.github.io/portfolio/ GitHub Pages publishes every merge to `main` (Actions → "pages build and deployment"). Every deploy so far has succeeded, the latest for PR #8 (`b5e0ee2`). |
-| **Branches** | `working` matches `main`, plus these merge notes for PR #8, which go into `main` with the next pull request (D-014). All new work starts on `working` (D-002). |
-| **Blocked on** | Nothing. A few small checks are waiting on the owner ("4+ years", HFSS tech, an updated resume). |
-| **Next step** | Owner: check the live site on a phone (try the WhatsApp button), set up LinkedIn "Providing services" and a freelance profile, and answer the small checks. Full list in `backlog.md` → "Next up". |
+| **Phase** | Live. Twelve pull requests merged (#1–#12): the site is set up for freelance clients, with an inquiry form and two case studies (D-017 to D-020). |
+| **Live site** | https://pradipdj432.github.io/portfolio/ GitHub Pages publishes every merge to `main` (Actions → "pages build and deployment"). Every deploy so far has succeeded, the latest for PR #12 (`0e9aa39`) was started on 2026-11-18; check Actions. |
+| **Branches** | `working` matches `main`, plus these merge notes for PR #12, which go into `main` with the next pull request (D-014). All new work starts on `working` (D-002). |
+| **Blocked on** | Nothing. A few small checks are waiting on the owner ("4+ years", HFSS tech, an updated resume, a photo, testimonials). |
+| **Next step** | Owner: send an updated resume and check the live site on a phone; set up LinkedIn "Providing services" if wanted. Full list in `backlog.md` → "Next up". |
 
 ## Where we are
 What's on the live site today:
@@ -40,6 +40,7 @@ What's on the live site today:
 | #9 | Freelance positioning: one title, outcome-based services, tighter About and Skills, location (D-018) | 2026-11-17 |
 | #10 | Project inquiry form (Formspree), a Verify link on the Cloud Architect certificate and the Call Clutch case study (D-019, D-020) | 2026-11-17 |
 | #11 | Gift card platform case study (D-020) | 2026-11-18 |
+| #12 | Verify links on all five certificate cards | 2026-11-18 |
 
 ## Log
 
@@ -142,3 +143,4 @@ What's on the live site today:
 #### PR #12 (certificate verify links)
 - The owner sent Credly and Microsoft Learn links. Opened the Credly ones to match them: AWS Certified Cloud Practitioner, Generative AI Leader and the Cloud Architect badge (all in the owner's name). The Microsoft link is the Azure Fundamentals share page.
 - Added a "Verify" link to those cards. The owner then sent the Associate Cloud Engineer link (a Google Cloud badge in the owner's name), so all five certificates have one.
+- The owner said "merge". **PR #12 merged** (`0e9aa39`); the deploy was started (check Actions → "pages build and deployment").
