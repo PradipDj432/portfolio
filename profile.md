@@ -147,6 +147,19 @@ The owner's own answers on 2026-11-17 (D-020). The site's page, `case-studies/ca
 | **Scale** | 15 customers; 450+ calls a day; 80+ users; about 10,000 minutes a day (owner, undated) |
 | **Not shown** | Screenshots (customer data). The company name (Dhitech Solutions): the owner asked on 2026-11-17 for the case study page to say only "Call Clutch". The numbers are current as of 2026-11-17 (owner) |
 
+## Gift card platform case study
+The owner's own answers on 2026-11-18 (D-020). The site's page, `case-studies/gift-card-platform.html`, uses only these facts, and does not name the company (as with Call Clutch).
+
+| | |
+|---|---|
+| **What it is** | A platform where merchants onboard themselves as stores and sell gift cards, and customers buy, redeem and transfer them, online and offline |
+| **My part** | Built from the start; one developer worked under the owner's guidance (the owner gives and reviews his work) |
+| **Features** | Purchase and redeem online and offline; transfer now or on a future date; expiry; multi-currency; payment gateway integrations; Google Wallet and Apple Wallet; POS and PMS integrations; a web widget (a script bundle) merchants put on their own websites; merchants with many locations, where any store of the merchant redeems the card; merchant partnerships, where a card bought at one merchant can be redeemed at its partners' stores |
+| **Main goal** | Connect with hospitality systems (POS and PMS), so merchants can add new features, distribute gift cards and manage the ecosystem |
+| **Scale** | 40+ merchants; 8,000+ users; 500+ transactions a day; $45k worth of gift cards bought, redeemed and transferred so far (all confirmed by the owner on 2026-11-18) |
+| **Tech** | Angular, Node.js, MySQL, AWS Cognito, S3, OTP login, ECS, CI/CD, Terraform (from the work history) |
+| **Not shown** | Screenshots (merchant and customer data) |
+
 ## Certificates
 All badges are on Credly (link under "Contact"). The site shows Credly only with the contact links, not in the certificates section (D-012).
 
