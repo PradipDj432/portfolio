@@ -152,3 +152,6 @@ What's on the live site today:
 - Added the confirmed numbers to Experience: gift card (40+ merchants, 8,000+ users, 500+ transactions a day) and Call Clutch (15 customers, 80+ users, 450+ calls a day).
 - Still waiting on the owner: updated resume, photo, testimonials. Open question: "4+ years" wording.
 - The owner said "merge". **PR #13 merged** (`98be931`); the deploy was started (check Actions → "pages build and deployment"). The owner kept "4+ years". Privacy line under the form: waiting on the owner's yes or no.
+
+#### Footer
+- The owner asked for a better footer that matches the current site. New footer on the main page and both case studies: name and short line, "Available for freelance projects" pill, Explore links, Connect links (email, WhatsApp, LinkedIn, GitHub, Credly), a "Start a project" button, and a bottom line with © and location. Only existing facts and links from `js/config.js`. Tested at 390px and 1280px in dark and light: no script errors, no sideways scrolling.
