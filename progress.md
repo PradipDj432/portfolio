@@ -144,3 +144,9 @@ What's on the live site today:
 - The owner sent Credly and Microsoft Learn links. Opened the Credly ones to match them: AWS Certified Cloud Practitioner, Generative AI Leader and the Cloud Architect badge (all in the owner's name). The Microsoft link is the Azure Fundamentals share page.
 - Added a "Verify" link to those cards. The owner then sent the Associate Cloud Engineer link (a Google Cloud badge in the owner's name), so all five certificates have one.
 - The owner said "merge". **PR #12 merged** (`0e9aa39`); the deploy was started (check Actions → "pages build and deployment").
+
+#### End-to-end review
+- The owner asked for a full review. Read every page and case study, checked links, anchors and image attributes, and retested at 390px and 1280px in dark and light: no script errors, no sideways scrolling.
+- Fixed the Resume link on the case study pages (it pointed to the wrong folder).
+- Added the confirmed numbers to Experience: gift card (40+ merchants, 8,000+ users, 500+ transactions a day) and Call Clutch (15 customers, 80+ users, 450+ calls a day).
+- Still waiting on the owner: updated resume, photo, testimonials. Open question: "4+ years" wording.

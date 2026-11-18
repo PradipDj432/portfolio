@@ -40,8 +40,10 @@ function fillProfile() {
     el.href = link.url;
     if (el.hasAttribute("data-show-handle")) el.textContent = link.handle;
   });
+  // Pages in a sub folder (the case studies) find the site's files from where common.js was loaded.
+  const siteRoot = new URL("../", document.querySelector('script[src$="js/common.js"]')?.src || location.href).href;
   document.querySelectorAll("[data-resume]").forEach((el) => {
-    el.href = PROFILE.resume;
+    el.href = new URL(PROFILE.resume, siteRoot).href;
     el.setAttribute("download", PROFILE.name.replace(/\s+/g, "-") + "-Resume.pdf");
     el.setAttribute("type", "application/pdf");
   });
