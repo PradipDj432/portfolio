@@ -167,7 +167,7 @@ The badges are on Credly (link under "Contact"). The site's certificate cards al
 |---|---|---|---|
 | Professional Cloud Architect | Google | 2026 (owner) | Credly badge (checked: a Google Cloud badge issued to Pradipkumar Jaliya) |
 | Generative AI Leader | Google | 2026 | Credly badge (checked: Google Cloud, Pradipkumar Jaliya) |
-| Associate Cloud Engineer | Google | 2025 | not sent yet |
+| Associate Cloud Engineer | Google | 2025 | Credly badge (checked: Google Cloud, Pradipkumar Jaliya) |
 | Microsoft Certified: Azure Fundamentals | Microsoft | 2025 | Microsoft Learn share link (the page opens as "Azure Fundamentals"; holder name not checked) |
 | AWS Certified Cloud Practitioner | AWS | 2025 | Credly badge (checked: AWS, Pradipkumar Jaliya) |
 
@@ -212,7 +212,6 @@ Tracked in `backlog.md`. Until answered, nothing about these goes on the site, e
 - **Company name style:** "Eagerminds", or another spelling such as "EagerMinds"?
 - **Cricket Score Management System:** is there a repo or live link? The resume has none.
 - **Photo:** the owner has no professional photo (2026-11-17), so none is shown.
-- **Certificate verification link** for the Associate Cloud Engineer (the other four are done).
 - **Case studies** (problem, solution, architecture, results) for the main projects, and any numbers that can be verified (users, speed, cost, deploy time). Only the owner can supply and approve these, and only what the employer allows to be public.
 - **Testimonials or recommendations:** none exist yet, so none are shown.
 - **Response time and timezone** to promise visitors.

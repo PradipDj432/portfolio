@@ -139,6 +139,6 @@ What's on the live site today:
 - Built `case-studies/gift-card-platform.html` the same way as the Call Clutch page, linked it from the Experience item and added it to the sitemap. No company name and no screenshots. Tested at 390px and 1280px in dark and light: no script errors, no sideways scrolling.
 - The owner said "merge". **PR #11 merged** (`2b0994d`); the deploy was started (check Actions → "pages build and deployment").
 
-#### Certificate verify links
+#### PR #12 (certificate verify links)
 - The owner sent Credly and Microsoft Learn links. Opened the Credly ones to match them: AWS Certified Cloud Practitioner, Generative AI Leader and the Cloud Architect badge (all in the owner's name). The Microsoft link is the Azure Fundamentals share page.
-- Added a "Verify" link to those cards. The Associate Cloud Engineer link is still missing.
+- Added a "Verify" link to those cards. The owner then sent the Associate Cloud Engineer link (a Google Cloud badge in the owner's name), so all five certificates have one.
