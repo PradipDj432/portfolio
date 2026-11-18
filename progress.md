@@ -42,6 +42,7 @@ What's on the live site today:
 | #11 | Gift card platform case study (D-020) | 2026-11-18 |
 | #12 | Verify links on all five certificate cards | 2026-11-18 |
 | #13 | End-to-end review fixes: resume link on case study pages, proof numbers in Experience | 2026-11-18 |
+| #14 | New footer on the main page and case studies | 2026-11-18 |
 
 ## Log
 
@@ -155,3 +156,4 @@ What's on the live site today:
 
 #### Footer
 - The owner asked for a better footer that matches the current site. New footer on the main page and both case studies: name and short line, "Available for freelance projects" pill, Explore links, Connect links (email, WhatsApp, LinkedIn, GitHub, Credly), a "Start a project" button, and a bottom line with © and location. Only existing facts and links from `js/config.js`. Tested at 390px and 1280px in dark and light: no script errors, no sideways scrolling.
+- The owner said "merge". **PR #14 merged** (`6986607`); the deploy was started (check Actions → "pages build and deployment").
