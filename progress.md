@@ -41,6 +41,7 @@ What's on the live site today:
 | #10 | Project inquiry form (Formspree), a Verify link on the Cloud Architect certificate and the Call Clutch case study (D-019, D-020) | 2026-11-17 |
 | #11 | Gift card platform case study (D-020) | 2026-11-18 |
 | #12 | Verify links on all five certificate cards | 2026-11-18 |
+| #13 | End-to-end review fixes: resume link on case study pages, proof numbers in Experience | 2026-11-18 |
 
 ## Log
 
@@ -150,3 +151,4 @@ What's on the live site today:
 - Fixed the Resume link on the case study pages (it pointed to the wrong folder).
 - Added the confirmed numbers to Experience: gift card (40+ merchants, 8,000+ users, 500+ transactions a day) and Call Clutch (15 customers, 80+ users, 450+ calls a day).
 - Still waiting on the owner: updated resume, photo, testimonials. Open question: "4+ years" wording.
+- The owner said "merge". **PR #13 merged** (`98be931`); the deploy was started (check Actions → "pages build and deployment"). The owner kept "4+ years". Privacy line under the form: waiting on the owner's yes or no.
