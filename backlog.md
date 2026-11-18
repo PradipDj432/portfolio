@@ -32,7 +32,7 @@ The few things to do next, in order. Keep this list short and current.
 - [x] **P1 · Dev** Project inquiry form with Formspree (PR #10, merged 2026-11-17).
 - [x] **P1 · Dev** Case study: Call Clutch (PR #10, merged 2026-11-17).
 - [x] **P1 · Dev** Case study: gift card platform (PR #11, merged 2026-11-18).
-- [x] **P2 · Dev** Verification links on all five certificates (PR #12).
+- [x] **P2 · Dev** Verification links on all five certificates (PR #12, merged 2026-11-18).
 - [ ] **P3 · Dev** Photo in the intro and testimonials, once they exist (the owner has no professional photo yet).
 - [ ] **P3 · Dev** A privacy policy and basic SEO checks; a performance check on a real phone.
 - [ ] **P2 · Dev** Open the live site, the 404 page and the link preview from an environment that can reach `github.io` (this one can't). Every deploy so far has succeeded.
