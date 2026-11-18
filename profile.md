@@ -161,15 +161,17 @@ The owner's own answers on 2026-11-18 (D-020). The site's page, `case-studies/gi
 | **Not shown** | Screenshots (merchant and customer data) |
 
 ## Certificates
-All badges are on Credly (link under "Contact"). The site shows Credly only with the contact links, not in the certificates section (D-012).
+The badges are on Credly (link under "Contact"). The site's certificate cards also have a "Verify" link to each badge's own page, from the owner (2026-11-17 and 2026-11-18), as the freelance review asked (D-019). Credly as a general profile link still goes only with the contact links (D-012).
 
-| Certificate | From | Year |
-|---|---|---|
-| Professional Cloud Architect | Google | 2026 (owner) |
-| Generative AI Leader | Google | 2026 |
-| Associate Cloud Engineer | Google | 2025 |
-| Microsoft Certified: Azure Fundamentals | Microsoft | 2025 |
-| AWS Certified Cloud Practitioner | AWS | 2025 |
+| Certificate | From | Year | Verify link (owner) |
+|---|---|---|---|
+| Professional Cloud Architect | Google | 2026 (owner) | Credly badge (checked: a Google Cloud badge issued to Pradipkumar Jaliya) |
+| Generative AI Leader | Google | 2026 | Credly badge (checked: Google Cloud, Pradipkumar Jaliya) |
+| Associate Cloud Engineer | Google | 2025 | Credly badge (checked: Google Cloud, Pradipkumar Jaliya) |
+| Microsoft Certified: Azure Fundamentals | Microsoft | 2025 | Microsoft Learn share link (the page opens as "Azure Fundamentals"; holder name not checked) |
+| AWS Certified Cloud Practitioner | AWS | 2025 | Credly badge (checked: AWS, Pradipkumar Jaliya) |
+
+The Credly pages don't show issue dates, so the years are the owner's.
 
 ## Education
 | School | Course | Years | Result |
@@ -210,7 +212,6 @@ Tracked in `backlog.md`. Until answered, nothing about these goes on the site, e
 - **Company name style:** "Eagerminds", or another spelling such as "EagerMinds"?
 - **Cricket Score Management System:** is there a repo or live link? The resume has none.
 - **Photo:** the owner has no professional photo (2026-11-17), so none is shown.
-- **Certificate verification links** for the other four certificates (the Cloud Architect one is done: the owner sent its Credly link on 2026-11-17, a Google Cloud badge issued to Pradipkumar Jaliya; the page shows no date, so 2026 is the owner's word).
 - **Case studies** (problem, solution, architecture, results) for the main projects, and any numbers that can be verified (users, speed, cost, deploy time). Only the owner can supply and approve these, and only what the employer allows to be public.
 - **Testimonials or recommendations:** none exist yet, so none are shown.
 - **Response time and timezone** to promise visitors.
