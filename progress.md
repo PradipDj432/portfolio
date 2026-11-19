@@ -157,3 +157,6 @@ What's on the live site today:
 #### Footer
 - The owner asked for a better footer that matches the current site. New footer on the main page and both case studies: name and short line, "Available for freelance projects" pill, Explore links, Connect links (email, WhatsApp, LinkedIn, GitHub, Credly), a "Start a project" button, and a bottom line with © and location. Only existing facts and links from `js/config.js`. Tested at 390px and 1280px in dark and light: no script errors, no sideways scrolling.
 - The owner said "merge". **PR #14 merged** (`6986607`); the deploy was started (check Actions → "pages build and deployment").
+
+#### Service name
+- The owner said "Backend & Full Stack" repeats itself, because full stack already includes backend. Renamed the service to "Full Stack Development" (frontend, backend and database) on the card, in the inquiry form option, `profile.md` and `CLAUDE.md` (D-021). Skills and intro wording about backend stays, because it describes skills.

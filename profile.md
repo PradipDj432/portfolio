@@ -54,10 +54,10 @@ The owner's answers on 2026-10-05 (D-017):
 | | |
 |---|---|
 | **Status** | Freelance on the side, while working at Eagerminds. The site shows both: "Available for freelance work" and "Senior Software Architect at Eagerminds" |
-| **Services** | AWS Cloud & DevOps; Backend & Full Stack Development; AI Integration & Automation; Business Websites, each with a "You get" line (D-018) |
+| **Services** | AWS Cloud & DevOps; Full Stack Development (frontend, backend and database); AI Integration & Automation; Business Websites, each with a "You get" line (D-018) |
 | **Clients** | Businesses in India and abroad; work is remote |
 | **Prices** | Not shown. Clients ask for a free quote |
-| **Position** | One main title, "Cloud-Native Full Stack Engineer", with three services under it (Cloud & DevOps; Backend & Full Stack; AI Integration & Automation) plus business websites (owner, 2026-11-17; D-018) |
+| **Position** | One main title, "Cloud-Native Full Stack Engineer", with three services under it (Cloud & DevOps; Full Stack Development; AI Integration & Automation) plus business websites (owner, 2026-11-17; D-018) |
 | **Target clients** | Startups, small businesses and software teams (from the owner's review, 2026-11-17) |
 | **Location** | Ahmedabad, India, with remote work worldwide (owner's review, 2026-11-17; GitHub also says Ahmedabad) |
 | **How to reach** | Email or WhatsApp (+91 63524 65074, confirmed 2026-10-05), both from `js/config.js` |
@@ -232,7 +232,7 @@ The main lines as the site writes them, built from the facts above. The owner re
 | About card: End to end delivery | From architecture and APIs to deployment and production, I take care of the whole life of a product, so you deal with one person. |
 | Services intro | Freelance and remote, for startups, small businesses and software teams in India and abroad. Tell me what you need, and I'll send you a free quote. |
 | Service 01: AWS Cloud & DevOps | AWS infrastructure setup; Terraform automation; CI/CD pipeline implementation; Docker deployment; cloud migration and optimization. You get: a production-ready deployment, with infrastructure documentation. |
-| Service 02: Backend & Full Stack Development | SaaS application development; REST API development; admin dashboards; database architecture; third-party API integrations. You get: a working application, its source code and its deployment. |
+| Service 02: Full Stack Development | Frontend, backend and database; SaaS application development; REST API development; admin dashboards; database architecture; third-party API integrations. You get: a working application, its source code and its deployment. |
 | Service 03: AI Integration & Automation | LLM API integration; AI-powered chatbots; business workflow automation; AI features in existing applications. You get: working AI features, with testing and documentation. |
 | Service 04: Business Websites | Responsive websites; product catalogues; landing pages; contact and WhatsApp integrations. You get: a live, mobile-friendly business website. |
 | How I work | 1 Tell me about it: Send me your idea by email or WhatsApp: what you need, and by when. · 2 Free quote: I reply with a plan, a timeline and a quote. · 3 Build: I build it and share progress regularly, so you can see it and give feedback. · 4 Launch & support: I put it live, hand everything over, and help with fixes after launch. |

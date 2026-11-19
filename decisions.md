@@ -27,6 +27,7 @@ A log of choices made for the portfolio website and why. Add new decisions at th
 | D-018 | Freelance positioning: one title, "Cloud-Native Full Stack Engineer", outcome-based services, a tighter About and Skills | Accepted |
 | D-019 | A project inquiry form that sends to the owner's email through Formspree, and a Verify link on the Cloud Architect certificate | Proposed |
 | D-020 | Case study pages in `case-studies/`, starting with Call Clutch | Proposed |
+| D-021 | The second service is "Full Stack Development" (frontend, backend and database), not "Backend & Full Stack" | Accepted |
 
 When you add a decision, add a row here too.
 
@@ -192,3 +193,11 @@ When you add a decision, add a row here too.
 - **Alternatives considered:** Longer text inside the Experience section; waiting for more numbers.
 - **Consequences:** The owner asked that the case study page not name the company (Dhitech Solutions) and use only "Call Clutch"; the owner also confirmed the numbers are current (2026-11-17). The Experience section still names Dhitech, as before. The gift card platform case study is next, and the same rule applies: ask the owner before naming a company on a case study page.
 - **Update 2026-11-18:** the gift card platform case study (`case-studies/gift-card-platform.html`) was added the same way, from the owner's answers, without the company name.
+
+## D-021 — "Full Stack Development" instead of "Backend & Full Stack"
+- **Date:** 2026-11-19
+- **Status:** Accepted
+- **Context:** The owner pointed out that full stack already includes backend, so "Backend & Full Stack" said the same thing twice.
+- **Decision:** The second service is named **Full Stack Development**, meaning frontend, backend and database. The card title, its first point, the inquiry form option ("Full Stack Development (Frontend, Backend & Database)"), `profile.md` and `CLAUDE.md` all use this name. Changes the service name in D-017 and D-018.
+- **Alternatives considered:** Keeping "Backend & Full Stack".
+- **Consequences:** The Skills group called "Backend" and the intro mentioning backend APIs describe skills, not the service, so they stay.
