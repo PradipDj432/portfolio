@@ -43,6 +43,7 @@ What's on the live site today:
 | #12 | Verify links on all five certificate cards | 2026-11-18 |
 | #13 | End-to-end review fixes: resume link on case study pages, proof numbers in Experience | 2026-11-18 |
 | #14 | New footer on the main page and case studies | 2026-11-18 |
+| #15 | Service renamed to "Full Stack Development" (D-021) | 2026-11-19 |
 
 ## Log
 
@@ -160,3 +161,4 @@ What's on the live site today:
 
 #### Service name
 - The owner said "Backend & Full Stack" repeats itself, because full stack already includes backend. Renamed the service to "Full Stack Development" (frontend, backend and database) on the card, in the inquiry form option, `profile.md` and `CLAUDE.md` (D-021). Skills and intro wording about backend stays, because it describes skills.
+- The owner said "merge". **PR #15 merged** (`9136b80`); the deploy was started (check Actions → "pages build and deployment").
