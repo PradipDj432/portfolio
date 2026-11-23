@@ -45,6 +45,7 @@ What's on the live site today:
 | #14 | New footer on the main page and case studies | 2026-11-18 |
 | #15 | Service renamed to "Full Stack Development" (D-021) | 2026-11-19 |
 | #16 | New resume, Optimum removed, HFSS and Mandly case studies (D-022, D-023) | 2026-11-23 |
+| #17 | Education, Courses and Competitive coding in one row on laptop screens | 2026-11-23 |
 
 ## Log
 
@@ -178,3 +179,4 @@ What's on the live site today:
 
 #### Education boxes on laptop screens
 - The owner asked for the Education, Courses and Competitive coding boxes to fit laptop screens (the Education box was short next to two tall boxes). From 1100px wide they now sit in one row of three equal cards; on tablets Education is full width with the other two side by side; on phones they stack. The text already matched the owner's wording.
+- The owner said "merge". **PR #17 merged** (`259c3ed`); the deploy was started (check Actions → "pages build and deployment").
