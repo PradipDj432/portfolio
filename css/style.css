@@ -2247,7 +2247,12 @@ a.contact-value:hover {
   }
 
   .learning {
-    grid-template-columns: 1.15fr 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .learning-side {
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
   }
 
   .job {
@@ -2411,6 +2416,18 @@ a.contact-value:hover {
 }
 
 /* ---------- Less motion for people who ask for it ---------- */
+
+/* Laptop screens: Education, Courses and Competitive coding sit in one row of three equal cards */
+@media (min-width: 1100px) {
+  .learning {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: stretch;
+  }
+
+  .learning-side {
+    display: contents;
+  }
+}
 
 @media (prefers-reduced-motion: reduce) {
   html {

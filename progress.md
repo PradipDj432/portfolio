@@ -44,6 +44,7 @@ What's on the live site today:
 | #13 | End-to-end review fixes: resume link on case study pages, proof numbers in Experience | 2026-11-18 |
 | #14 | New footer on the main page and case studies | 2026-11-18 |
 | #15 | Service renamed to "Full Stack Development" (D-021) | 2026-11-19 |
+| #16 | New resume, Optimum removed, HFSS and Mandly case studies (D-022, D-023) | 2026-11-23 |
 
 ## Log
 
@@ -173,3 +174,7 @@ What's on the live site today:
 #### HFSS and Mandly case studies
 - The owner sent project notes for HFSS and Mandly. Built `case-studies/hfss.html` and `case-studies/mandly.html`, rewrote the HFSS Experience text from the resume and notes, added Mandly as the first project card, updated the sitemap and `profile.md` (D-023). Left out the notes' private parts. Tested at 390px and 1280px in dark and light: no script errors, no sideways scrolling.
 
+- The owner said "merge". **PR #16 merged** (`4b046f7`); the deploy was started (check Actions → "pages build and deployment").
+
+#### Education boxes on laptop screens
+- The owner asked for the Education, Courses and Competitive coding boxes to fit laptop screens (the Education box was short next to two tall boxes). From 1100px wide they now sit in one row of three equal cards; on tablets Education is full width with the other two side by side; on phones they stack. The text already matched the owner's wording.
