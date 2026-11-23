@@ -169,3 +169,7 @@ What's on the live site today:
 - The owner asked to remove Optimum totally and to use a new resume. Removed the Optimum job and JM Financial Mutual Fund from the site, `profile.md` and the docs; Dhitech now starts January 2023; "companies worked with" is 2; numbers follow the new resume (15+ customers, $45k+, 10,000+ call minutes a day) (D-022).
 - Saved the new resume as `resume/Pradip-Jaliya-Resume.pdf`; the April 2026 one is in `resume/archive/`.
 - Asked the owner about the Mandly project, the HFSS numbers, and the March 2026 CV in the archive (it still names Optimum).
+
+#### HFSS and Mandly case studies
+- The owner sent project notes for HFSS and Mandly. Built `case-studies/hfss.html` and `case-studies/mandly.html`, rewrote the HFSS Experience text from the resume and notes, added Mandly as the first project card, updated the sitemap and `profile.md` (D-023). Left out the notes' private parts. Tested at 390px and 1280px in dark and light: no script errors, no sideways scrolling.
+

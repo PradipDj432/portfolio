@@ -33,7 +33,7 @@ All changes are made on the **`working`** branch, one feature at a time: sync `w
 ```
 portfolio/
 ├── index.html         The website (one page)
-├── case-studies/      One page per case study (D-020); `call-clutch.html` is the first
+├── case-studies/      One page per case study (D-020); `call-clutch.html` is the first, then `gift-card-platform.html`, `hfss.html` and `mandly.html`
 ├── 404.html           "Page not found" (GitHub Pages shows it for any wrong address)
 ├── css/style.css      All styles; colours and fonts are set at the top (mobile first)
 ├── js/

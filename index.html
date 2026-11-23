@@ -285,12 +285,13 @@
             <ol class="timeline">
               <li class="timeline-item">
                 <h4>HFSS: Helvetia Financial Services</h4>
-                <p class="item-link"><a href="https://hfss.ch/" target="_blank" rel="noopener">hfss.ch<svg aria-hidden="true" class="icon"><use href="#i-arrow-up-right"></use></svg></a></p>
-                <ul class="tags tags-small"><li>Fintech</li><li>Payments</li><li>Crypto</li><li>Custody</li><li>Debit cards</li></ul>
+                <p class="item-link"><a href="https://hfss.ch/" target="_blank" rel="noopener">hfss.ch<svg aria-hidden="true" class="icon"><use href="#i-arrow-up-right"></use></svg></a><a href="case-studies/hfss.html">Read the case study<svg aria-hidden="true" class="icon"><use href="#i-arrow-right"></use></svg></a></p>
+                <ul class="tags tags-small"><li>Node.js</li><li>Fastify</li><li>TypeScript</li><li>Next.js</li><li>PostgreSQL</li><li>AWS</li><li>Terraform</li></ul>
                 <ul class="points">
-                  <li>Built HFSS, a Zurich-based fintech platform that brings payments, crypto exchange, digital custody, currency exchange and debit cards together in one place.</li>
-                  <li>Payments over SEPA, SEPA Instant, TARGET2 and SWIFT with dedicated IBANs, fiat-to-crypto and crypto-to-crypto exchange with a crypto wallet, and 24/7 currency exchange.</li>
-                  <li>Swiss-grade security and compliance: certified HSMs, segregated funds, fraud monitoring, AML, KYC and KYB checks, and REST APIs with webhooks.</li>
+                  <li>Primary backend developer on a live Swiss fintech platform where clients hold EUR and crypto, send payments and trade, with 100+ clients and EUR 10M+ in monthly transaction value.</li>
+                  <li>Wrote 70%+ of the backend commits, and integrated EUR account, exchange, custody and identity providers (Delos, Lorum, Fiat Republic, FinchTrade, Kraken, Fireblocks and Sumsub).</li>
+                  <li>Designed a double-entry ledger with single-transaction writes, row and advisory locks and repeat keys, plus daily checks against each provider's balances.</li>
+                  <li>Built KYC and KYB checks and two-step login, and manage AWS with Terraform and GitHub Actions CI/CD, backed by 1,700+ automated tests.</li>
                 </ul>
               </li>
             </ol>
@@ -352,10 +353,24 @@
         <header class="section-head reveal">
           <p class="eyebrow"><span>04</span>Projects</p>
           <h2 id="projects-title">Selected <em>work.</em></h2>
-          <p class="section-lede">Built and delivered production websites for real businesses, along with full stack applications and a machine learning solution&nbsp;— covering everything from frontend and backend development to deployment and practical AI/ML implementation.</p>
+          <p class="section-lede">A full stack app for a real savings group, production websites for real businesses, and a machine learning solution&nbsp;— covering everything from frontend and backend development to deployment and practical AI/ML implementation.</p>
         </header>
 
         <div class="featured">
+          <article class="project project-featured project-lead spotlight reveal">
+            <div class="project-cover" aria-hidden="true"><svg aria-hidden="true" class="icon"><use href="#i-chart"></use></svg><span>next.js · typescript · postgresql</span></div>
+            <div class="project-body">
+              <p class="project-kind"><span class="live-dot" aria-hidden="true"></span>Full stack app · Live</p>
+              <h3>Mandly</h3>
+              <p>A savings group app that replaced an Excel sheet for 8 real members. It tracks monthly payments, late fees, loans and interest, with a tamper-proof money history (integer amounts, database triggers and cancel entries), locks that stop double spending, and 112 automated tests.</p>
+              <ul class="tags tags-small"><li>Next.js</li><li>TypeScript</li><li>PostgreSQL</li><li>Drizzle ORM</li><li>Vercel</li></ul>
+              <p class="project-links">
+                <a href="case-studies/mandly.html">Read the case study<svg aria-hidden="true" class="icon"><use href="#i-arrow-right"></use></svg></a>
+                <a href="https://mandly.vercel.app" target="_blank" rel="noopener">Live site (login needed)<svg aria-hidden="true" class="icon"><use href="#i-arrow-up-right"></use></svg></a>
+              </p>
+            </div>
+          </article>
+
           <article class="project project-featured spotlight reveal">
             <a class="browser" href="https://pradipdj432.github.io/DK-Engineer/" target="_blank" rel="noopener" aria-label="Open the DK ENGINEER'S website">
               <span class="browser-bar" aria-hidden="true"><span class="dots"><i></i><i></i><i></i></span><span class="browser-url">pradipdj432.github.io/DK-Engineer</span></span>

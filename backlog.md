@@ -19,7 +19,7 @@ The few things to do next, in order. Keep this list short and current.
 - [ ] **P2 · Owner** Were DK ENGINEER'S and Aara Culture paid client work? If yes, the site can call them clients.
 - [ ] **P1 · Owner** Check the live site on a real phone (menu, light/dark button, resume download, contact links) and the WhatsApp link preview.
 - [ ] **P2 · Owner** HFSS: the tech used, if it should be shown (the site describes the product from hfss.ch).
-- [ ] **P2 · Owner** New resume facts not on the site yet (asked 2026-11-23): the Mandly savings group app project, and the HFSS numbers (70%+ of backend commits, 100+ clients, EUR 10M+ a month). Also: delete the March 2026 CV in `resume/archive/`, which still names Optimum, from the public repo?
+- [ ] **P2 · Owner** Delete the March 2026 CV in `resume/archive/`? It still names Optimum and the repo is public (asked 2026-11-23).
 - [ ] **P2 · Owner** Cricket Score Management System: is there a repo or live link? The resume has none.
 - [ ] **P2 · Owner** A photo of yourself, if wanted.
 - [ ] **P3 · Owner** Company name style: "Eagerminds" (as on the site) or "EagerMinds"? The company's own pages use both.

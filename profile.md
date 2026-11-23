@@ -87,14 +87,13 @@ Newest first.
 ### Eagerminds — Senior Software Architect (April 2026 – now)
 https://www.eagerminds.in/ · Title from the owner, 2026-10-04.
 
-**HFSS: Helvetia Financial Services** (https://hfss.ch/)
-Built by the owner at Eagerminds (owner's words: "in which I build this project"). What HFSS is, from its own pages (source 4):
-- A Zurich, Switzerland fintech platform: "one platform for Payments, Crypto Exchange, Digital Custody, Currency Exchange and Debit Cards", described as "the financial backbone for modern finance".
-- Payments: SEPA, SEPA Instant, TARGET2 and SWIFT, with an IBAN dedicated to payment processing; internal transfers.
-- Crypto: fiat/crypto and crypto/crypto exchange, and a crypto wallet to store, send and receive.
-- Currency exchange 24/7 for the top 10 currencies; dedicated debit card accounts with real-time status and automated reconciliation.
-- Security and compliance: certified HSMs, segregated funds, fraud monitoring, geo-redundant backups in Switzerland, AML/KYC/KYB/KYT and Travel Rule support, sanctions screening, accountant access with limited rights, REST APIs and webhooks, 99.99% uptime.
-- The tech stack the owner used: still to confirm.
+**HFSS: Helvetia Financial Services** (Node.js, Fastify, TypeScript, Next.js, PostgreSQL, AWS, Terraform) · https://hfss.ch/ (login needed)
+From the new resume and the owner's project notes (2026-11-23, D-023). The site's page is `case-studies/hfss.html`.
+- A live custodial platform for a Swiss company: clients hold EUR and crypto, send and receive payments and trade. Three apps (client, staff backoffice, OTC desk) and one money engine.
+- The owner was the primary backend developer on a small team, with about 70% of the backend commits, plus frontend work, AWS infrastructure and code reviews. The resume says 100+ clients and EUR 10M+ in monthly transaction value, and 1,700+ automated tests.
+- Providers named on the resume: Delos, Lorum (current accounts, virtual IBANs), FinchTrade, Fiat Republic, Kraken, Fireblocks and Sumsub (KYC and KYB).
+- Double-entry ledger with single-transaction writes, row and advisory locks and repeat keys, plus daily checks against provider balances. AWS with Terraform and GitHub Actions CI/CD.
+- Left off the site on purpose: client names, internal tool addresses, security fixes, open items and production incidents from the notes (the notes say they are private). The description from hfss.ch's own pages is no longer used.
 
 ### Dhitech Solutions — Senior Software Engineer (January 2023 – March 2026)
 https://dhitech.solutions/ · Title and end date from the owner, 2026-10-04; start date January 2023 from the new resume (2026-11-23, D-022).
@@ -117,10 +116,11 @@ https://dhitech.solutions/ · Title and end date from the owner, 2026-10-04; sta
 - Automated email workflows with AWS SES, and fed marketing campaign data into the React dashboard for real-time updates.
 
 ## Projects
-Personal and freelance projects (work projects are under "Work experience"). The owner confirmed on 2026-10-04 that the DK-Engineer and Aara Culture websites are shown too. The other three come from the resume.
+Personal and freelance projects (work projects are under "Work experience"). The owner confirmed on 2026-10-04 that the DK-Engineer and Aara Culture websites are shown too. Mandly and the other three come from the resume.
 
 | Project | Type | Built with | What it does | Links |
 |---|---|---|---|---|
+| Mandly | Full stack app, live | Next.js, TypeScript, PostgreSQL (Neon), Drizzle ORM, Better Auth, Vercel | Replaced an Excel sheet for a real savings group of 8 members: monthly payments, late fees, loans and interest, a tamper-proof money history, 112 Vitest tests. Built alone, October 2026. Shown first in Projects (owner, 2026-11-23; D-023) | [Live](https://mandly.vercel.app) (login needed), case study `case-studies/mandly.html`. The repository is private |
 | DK ENGINEER'S website | Business website, live | HTML, CSS, JavaScript, GitHub Pages, Claude Code | Website for an industrial hardware manufacturer and supplier in Vapi: a 14-section catalogue from their printed PDF, an inquiry form that opens email or WhatsApp, mobile-first | [Live](https://pradipdj432.github.io/DK-Engineer/), [Code](https://github.com/PradipDj432/DK-Engineer) |
 | Aara Culture website | Business website, live | HTML, CSS, JavaScript, JSON, GitHub Pages, Claude Code | Catalog for a women's clothing brand: shop with category and size filters, product pages, WhatsApp orders with a ready message, "minimal luxury" design, products in one JSON file | [Live](https://pradipdj432.github.io/aara-culture/), [Code](https://github.com/PradipDj432/aara-culture) |
 | Parking Management System | Full stack | Angular, ASP.NET, MS SQL | Pre-booking of parking slots and admin management of parking allocations; real-time monitoring for watchmen to track entries and exits; live parking availability | [SQL](https://github.com/PradipDj432/Parking-Management-System-SQL) (the resume's link), [UI](https://github.com/PradipDj432/Parking-Management-System-UI), [API](https://github.com/PradipDj432/Parking-Management-System-API) |
@@ -137,6 +137,15 @@ The owner's own answers on 2026-11-17 (D-020). The site's page, `case-studies/ca
 | **Why the changes** | Getting data from different DynamoDB tables was difficult and slow, so the data moved to a relational database. The APIs moved from Lambda and API Gateway to Node.js REST APIs because they are easy to scale and the front end uses them. Amazon Connect, Lambda and the other AWS resources stay for real-time calls, where fast invocation at run time matters |
 | **Scale** | 15+ customers; 450+ calls a day; 80+ users; about 10,000 minutes a day (owner, undated) |
 | **Not shown** | Screenshots (customer data). The company name (Dhitech Solutions): the owner asked on 2026-11-17 for the case study page to say only "Call Clutch". The numbers are current as of 2026-11-17 (owner) |
+
+## HFSS and Mandly case studies
+From the owner's project notes (2026-11-23, D-023). Pages: `case-studies/hfss.html` and `case-studies/mandly.html`. They use only the facts in those notes and the resume, with no screenshots (both apps need a login and hold real money records).
+
+| | |
+|---|---|
+| **HFSS facts** | See the HFSS entry under Eagerminds above |
+| **Mandly facts** | 8 real members; solo developer; October 2026; 5 features shipped; 112 tests in 17 files; 79 records and 7 loans moved from Excel with zero mismatch; money stored as integer paise; database triggers block edits and deletes; Next.js 16, React 19, Neon PostgreSQL, Drizzle, Better Auth, Vercel; ₹0 a month. The group's name, members' names and rupee amounts are not shown (the notes say not to share them) |
+| **Mandly code** | Private repository; the page says the code is available on request (the owner's notes suggest this wording) |
 
 ## Gift card platform case study
 The owner's own answers on 2026-11-18 (D-020). The site's page, `case-studies/gift-card-platform.html`, uses only these facts, and does not name the company (as with Call Clutch).

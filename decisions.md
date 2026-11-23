@@ -29,6 +29,7 @@ A log of choices made for the portfolio website and why. Add new decisions at th
 | D-020 | Case study pages in `case-studies/`, starting with Call Clutch | Proposed |
 | D-021 | The second service is "Full Stack Development" (frontend, backend and database), not "Backend & Full Stack" | Accepted |
 | D-022 | Optimum Financial Solutions removed from the portfolio; the new resume (2026-11-23) becomes the main source | Accepted |
+| D-023 | Case studies for HFSS and Mandly; Mandly first in Projects; HFSS description rewritten from the owner's notes | Accepted |
 
 When you add a decision, add a row here too.
 
@@ -210,3 +211,11 @@ When you add a decision, add a row here too.
 - **Decision:** The Optimum job and its JM Financial Mutual Fund item are gone from the site, `profile.md` and the docs; "companies worked with" is 2; Dhitech runs January 2023 to March 2026. The new resume is saved as `resume/Pradip-Jaliya-Resume.pdf` and the April 2026 one is archived. Numbers follow the new resume: 15+ customers, $45k+, 10,000+ call minutes a day. Replaces the work-history source in D-011 (older CV first) and the Dhitech start date.
 - **Alternatives considered:** Keeping Optimum under the older CV.
 - **Consequences:** Past entries in `progress.md`, `decisions.md` and `backlog.md` still name Optimum, because they record what happened. The March 2026 CV in `resume/archive/` still names it; the owner is asked whether to delete it.
+
+## D-023 — HFSS and Mandly case studies, Mandly first
+- **Date:** 2026-11-23
+- **Status:** Accepted
+- **Context:** The owner sent project notes for HFSS and Mandly and asked for case studies, the descriptions adjusted to match, and Mandly first in the project list.
+- **Decision:** Two new pages, `case-studies/hfss.html` and `case-studies/mandly.html`, built like the others (D-020). The HFSS Experience item is rewritten from the resume and notes (replacing the text taken from hfss.ch's own pages) and links to its case study. Mandly is a full-width card at the top of Projects, with a cover instead of a screenshot because the app needs a login. Left out on purpose: the notes' private parts (client names, internal addresses, open security items, production incidents, the group's name and members' money amounts).
+- **Alternatives considered:** A screenshot of the login page (the site could not be opened from here); showing the incidents and open items.
+- **Consequences:** The HFSS numbers (100+ clients, EUR 10M+ a month, 70%+ of backend commits) come from the owner's resume, which is public.
