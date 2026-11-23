@@ -43,6 +43,7 @@ What's on the live site today:
 | #12 | Verify links on all five certificate cards | 2026-11-18 |
 | #13 | End-to-end review fixes: resume link on case study pages, proof numbers in Experience | 2026-11-18 |
 | #14 | New footer on the main page and case studies | 2026-11-18 |
+| #15 | Service renamed to "Full Stack Development" (D-021) | 2026-11-19 |
 
 ## Log
 
@@ -160,3 +161,15 @@ What's on the live site today:
 
 #### Service name
 - The owner said "Backend & Full Stack" repeats itself, because full stack already includes backend. Renamed the service to "Full Stack Development" (frontend, backend and database) on the card, in the inquiry form option, `profile.md` and `CLAUDE.md` (D-021). Skills and intro wording about backend stays, because it describes skills.
+- The owner said "merge". **PR #15 merged** (`9136b80`); the deploy was started (check Actions → "pages build and deployment").
+
+### 2026-11-23
+
+#### Optimum removed, new resume
+- The owner asked to remove Optimum totally and to use a new resume. Removed the Optimum job and JM Financial Mutual Fund from the site, `profile.md` and the docs; Dhitech now starts January 2023; "companies worked with" is 2; numbers follow the new resume (15+ customers, $45k+, 10,000+ call minutes a day) (D-022).
+- Saved the new resume as `resume/Pradip-Jaliya-Resume.pdf`; the April 2026 one is in `resume/archive/`.
+- Asked the owner about the Mandly project, the HFSS numbers, and the March 2026 CV in the archive (it still names Optimum).
+
+#### HFSS and Mandly case studies
+- The owner sent project notes for HFSS and Mandly. Built `case-studies/hfss.html` and `case-studies/mandly.html`, rewrote the HFSS Experience text from the resume and notes, added Mandly as the first project card, updated the sitemap and `profile.md` (D-023). Left out the notes' private parts. Tested at 390px and 1280px in dark and light: no script errors, no sideways scrolling.
+

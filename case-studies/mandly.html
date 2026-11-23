@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mandly case study | Pradip Jaliya</title>
+  <meta name="description" content="Case study: Mandly, a full stack app that replaced an Excel sheet for a real savings group, with a tamper-proof money history. Built with Next.js, TypeScript and PostgreSQL.">
+  <link rel="canonical" href="https://pradipdj432.github.io/portfolio/case-studies/mandly.html">
+  <meta name="theme-color" content="#09090b" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#fbfaf8" media="(prefers-color-scheme: light)">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://pradipdj432.github.io/portfolio/case-studies/mandly.html">
+  <meta property="og:title" content="Mandly case study | Pradip Jaliya">
+  <meta property="og:description" content="A savings group app with a tamper-proof money ledger, built alone with Next.js, TypeScript and PostgreSQL.">
+  <meta property="og:image" content="https://pradipdj432.github.io/portfolio/images/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../images/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap">
+  <link rel="stylesheet" href="../css/style.css">
+  <script>
+    document.documentElement.classList.add("js");
+    try {
+      var savedTheme = localStorage.getItem("theme");
+      if (savedTheme === "light" || savedTheme === "dark") document.documentElement.dataset.theme = savedTheme;
+    } catch (e) {}
+  </script>
+  <script src="../js/config.js" defer></script>
+  <script src="../js/common.js" defer></script>
+</head>
+<body>
+  <!-- Icons: same set as the home page -->
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-arrow-up-right" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M5 21h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></g></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></g></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M11 3l2.1 5.6L18.7 11l-5.6 2.1L11 19l-2.1-5.9L3.3 11l5.6-2.4z"/><path d="M19 15.5l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/></g></symbol>
+    <symbol id="i-cloud" viewBox="0 0 24 24"><path d="M17.5 19a4.5 4.5 0 1 0-1.4-8.8A6 6 0 0 0 4.3 12.6 3.5 3.5 0 0 0 6.5 19z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 10 5-10 5L2 7z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></g></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M8.2 13.2 7 22l5-3 5 3-1.2-8.8"/></g></symbol>
+    <symbol id="i-graduation" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></g></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></g></symbol>
+    <symbol id="i-trophy" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></g></symbol>
+    <symbol id="i-car" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17H3v-5l2-5h14l2 5v5h-2"/><path d="M3 12h18"/><circle cx="7.5" cy="17" r="2"/><circle cx="16.5" cy="17" r="2"/></g></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 6-7"/></g></symbol>
+    <symbol id="i-scoreboard" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="12" rx="2"/><path d="M12 5v12M7 9v4M16 9h2v2h-2v2h2M9 21h6"/></g></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></g></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 13h18"/></g></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.2-4A8.5 8.5 0 1 1 8 19.4z"/><path d="M9 8.6c.2 3.2 3 6.1 6.4 6.4l1.1-1.4-2-1-.9.9c-1.1-.5-2.3-1.7-2.8-2.8l.9-.9-1-2z"/></g></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5z"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M20.4 20.5h-3.6v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7H9.3V9h3.4v1.6h.1c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.4 4.3 5.5v6.2zM5.3 7.4a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2zM7.1 20.5H3.5V9h3.6v11.5zM22.2 0H1.8C.8 0 0 .8 0 1.7v20.6c0 .9.8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V1.7C24 .8 23.2 0 22.2 0z"/></symbol>
+  </svg>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../" aria-label="Pradip Jaliya, back to top">
+        <span class="brand-mark" aria-hidden="true">PJ</span>
+        <span class="brand-name">Pradip Jaliya</span>
+      </a>
+      <nav class="nav" id="site-nav" aria-label="Main">
+        <a href="../#about">About</a>
+        <a href="../#services">Services</a>
+        <a href="../#experience">Experience</a>
+        <a href="../#projects">Projects</a>
+        <a href="../#skills">Skills</a>
+        <a href="../#credentials">Credentials</a>
+        <a href="../#contact">Contact</a>
+        <a class="button button-small nav-resume" data-resume href="../#contact"><svg aria-hidden="true" class="icon"><use href="#i-download"></use></svg>Resume</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button theme-toggle" type="button" aria-label="Switch to light theme">
+          <svg aria-hidden="true" class="icon icon-sun"><use href="#i-sun"></use></svg>
+          <svg aria-hidden="true" class="icon icon-moon"><use href="#i-moon"></use></svg>
+        </button>
+        <button class="icon-button nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+          <svg aria-hidden="true" class="icon icon-menu"><use href="#i-menu"></use></svg>
+          <svg aria-hidden="true" class="icon icon-close"><use href="#i-close"></use></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section case-intro" aria-labelledby="case-title">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container">
+        <a class="case-back" href="../#projects"><svg aria-hidden="true" class="icon icon-flip"><use href="#i-arrow-right"></use></svg>Back to my projects</a>
+        <p class="eyebrow"><span>Case study</span>Mandly</p>
+        <h1 id="case-title">A savings group app that replaced <em>an Excel sheet.</em></h1>
+        <p class="section-lede">Mandly tracks monthly payments, late fees, loans and interest for a real savings group of 8 members. I built it alone, with Next.js, TypeScript and PostgreSQL.</p>
+        <dl class="case-meta">
+          <div><dt>My role</dt><dd>Solo developer: planning, database, backend, frontend, testing and deployment</dd></div>
+          <div><dt>Live at</dt><dd><a href="https://mandly.vercel.app" target="_blank" rel="noopener">mandly.vercel.app</a> (login needed)</dd></div>
+          <div><dt>Built</dt><dd>October 2026</dd></div>
+        </dl>
+        <dl class="stats case-stats">
+          <div><dt>Real members</dt><dd>8</dd></div>
+          <div><dt>Automated tests</dt><dd>112</dd></div>
+          <div><dt>Past records moved from Excel with no mismatch</dt><dd>79 + 7 loans</dd></div>
+          <div><dt>Running cost per month</dt><dd>₹0</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section case-body" aria-label="Case study details">
+      <div class="container">
+        <article class="case-block reveal">
+          <p class="eyebrow"><span>01</span>Problem</p>
+          <h2>One Excel file, and nobody could check it.</h2>
+          <p>Eight friends run a savings group. Everyone pays into one shared fund every month, members take small loans from it and pay interest, and late payments cost a fee for each day. For six months, everything lived in one Excel file. It was easy to change by mistake, hard to check, and members could not see their own numbers.</p>
+          <p>The goal: one website where the admin enters the money records and every member can log in and see everything, with the math always correct.</p>
+        </article>
+
+        <article class="case-block reveal">
+          <p class="eyebrow"><span>02</span>Solution</p>
+          <h2>A small app with strict money rules.</h2>
+          <ul class="points">
+            <li><strong>Login with two roles:</strong> the admin adds records and members can only view.</li>
+            <li><strong>Payments:</strong> the late fee is worked out automatically. A wrong payment is never edited or deleted; it is cancelled with a reason.</li>
+            <li><strong>Loans:</strong> give a loan, record repayments and monthly interest. A loan can never be bigger than the cash in hand, and the app warns about loans over the limit or a second open loan.</li>
+            <li><strong>Old records moved over:</strong> six months of Excel data (79 records and 7 loans) went into the database with one script, which checks that the totals match the Excel sheet to the rupee.</li>
+            <li><strong>Screens:</strong> dashboard, months, members, loans, history and a rules page that shows how the group's rules changed over time, in light and dark themes, on desktop and phone.</li>
+          </ul>
+        </article>
+
+        <article class="case-block reveal">
+          <p class="eyebrow"><span>03</span>Architecture</p>
+          <h2>One Next.js app, one PostgreSQL database.</h2>
+          <ol class="case-flow">
+            <li><strong>App:</strong> Next.js 16 and React 19, with the screens and the server code in one app (Server Actions).</li>
+            <li><strong>Data:</strong> PostgreSQL on Neon, with Drizzle ORM and 7 numbered SQL migrations.</li>
+            <li><strong>Login:</strong> Better Auth with email and password and two roles, checked on the server in every page and action.</li>
+            <li><strong>Checks:</strong> zod rules shared by the forms and the server.</li>
+            <li><strong>Hosting:</strong> Vercel, with a preview link for every branch, and separate development and production databases.</li>
+            <li><strong>Release:</strong> branch, then a pull request into dev, a test on the preview link, then a release to main.</li>
+          </ol>
+        </article>
+
+        <article class="case-block reveal">
+          <p class="eyebrow"><span>04</span>Technologies</p>
+          <h2>What it runs on.</h2>
+          <ul class="tags"><li>Next.js</li><li>React</li><li>TypeScript</li><li>PostgreSQL</li><li>Neon</li><li>Drizzle ORM</li><li>Better Auth</li><li>zod</li><li>Tailwind CSS</li><li>shadcn/ui</li><li>Vitest</li><li>Vercel</li></ul>
+        </article>
+
+        <article class="case-block reveal">
+          <p class="eyebrow"><span>05</span>Challenges</p>
+          <h2>Getting the money exactly right.</h2>
+          <ul class="points">
+            <li><strong>Exact money.</strong> Amounts are stored as whole paise (integers), never as decimals that can round.</li>
+            <li><strong>A history nobody can change.</strong> Database triggers block any edit or delete of a money record. A mistake is fixed by adding a cancel entry, so there is a full audit trail.</li>
+            <li><strong>Double saves and clashes.</strong> Each money action runs in one transaction, a row lock stops two writes for one member at once, a fund-level lock stops two loans spending the same cash, and every form sends a request ID so a double click saves once.</li>
+            <li><strong>Rules that change.</strong> Every setting is saved with the date it starts from, so old months are always worked out with the rules that were live then.</li>
+            <li><strong>Money math you can trust.</strong> Late fees, interest, fund total and loan limit are plain TypeScript functions, tested with the real Excel numbers, so the dashboard matches the old sheet exactly.</li>
+            <li><strong>Real problems on the way.</strong> Preview links were pointing at the live database, so I removed the cause and gave previews their own database. A test loan was once entered on the live site, so I restored the database to a point before it and checked every total.</li>
+          </ul>
+        </article>
+
+        <article class="case-block reveal">
+          <p class="eyebrow"><span>06</span>Results</p>
+          <h2>Live, and used by a real group.</h2>
+          <p>Mandly went live in October 2026 and is used by all 8 members. The money rules are covered by 112 automated tests, the dashboard matches the old Excel sheet exactly, and it costs ₹0 a month to run.</p>
+        </article>
+
+        <article class="case-block reveal">
+          <p class="eyebrow"><span>07</span>Links</p>
+          <h2>See it live.</h2>
+          <p class="project-links">
+            <a href="https://mandly.vercel.app" target="_blank" rel="noopener">mandly.vercel.app<svg aria-hidden="true" class="icon"><use href="#i-arrow-up-right"></use></svg></a>
+          </p>
+          <p class="case-note">There are no screenshots, and the code repository is private, because the app holds a real group's money records. The code is available on request.</p>
+        </article>
+
+        <div class="case-cta reveal">
+          <h2>Need something like this?</h2>
+          <p>Tell me about your project and I'll send you a free quote.</p>
+          <div class="button-row">
+            <a class="button" href="../#inquiry">Start a project<svg aria-hidden="true" class="icon icon-shift"><use href="#i-arrow-right"></use></svg></a>
+            <a class="button button-ghost" data-whatsapp href="../#contact" target="_blank" rel="noopener"><svg aria-hidden="true" class="icon"><use href="#i-whatsapp"></use></svg>WhatsApp me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <a class="brand" href="../#top" aria-label="Pradip Jaliya, back to top">
+            <span class="brand-mark" aria-hidden="true">PJ</span>
+            <span class="brand-name">Pradip Jaliya</span>
+          </a>
+          <p class="footer-text">Cloud-Native Full Stack Engineer. I build cloud, backend and AI-powered systems for clients worldwide.</p>
+          <p class="pill"><span class="pulse" aria-hidden="true"></span>Available for freelance projects</p>
+        </div>
+        <nav class="footer-col" aria-label="Footer">
+          <h2 class="footer-title">Explore</h2>
+          <ul>
+            <li><a href="../#services">Services</a></li>
+            <li><a href="../#experience">Experience</a></li>
+            <li><a href="../#projects">Projects</a></li>
+            <li><a href="../#skills">Skills</a></li>
+            <li><a href="../#credentials">Credentials</a></li>
+          </ul>
+        </nav>
+        <div class="footer-col">
+          <h2 class="footer-title">Connect</h2>
+          <ul>
+            <li><a data-email href="../#contact">Email</a></li>
+            <li><a data-whatsapp href="../#contact" target="_blank" rel="noopener">WhatsApp</a></li>
+            <li><a data-link="linkedin" href="../#contact" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a data-link="github" href="../#contact" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a data-link="credly" href="../#contact" target="_blank" rel="noopener">Credly</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-cta">
+          <h2 class="footer-title">Have a project?</h2>
+          <p class="footer-text">Tell me what you need. I reply with a free quote.</p>
+          <a class="button button-small" href="../#inquiry">Start a project<svg aria-hidden="true" class="icon"><use href="#i-arrow-right"></use></svg></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span data-year>2026</span> Pradip Jaliya · Ahmedabad, India</p>
+        <a class="back-to-top" href="#top">Back to top<svg aria-hidden="true" class="icon"><use href="#i-arrow-up"></use></svg></a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
