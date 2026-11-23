@@ -18,13 +18,12 @@ The few things to do next, in order. Keep this list short and current.
 - [ ] **P2 · Owner** Freelance outside the site: LinkedIn "Providing services", an Upwork or Contra profile, and a check that your job contract allows side work.
 - [ ] **P2 · Owner** Were DK ENGINEER'S and Aara Culture paid client work? If yes, the site can call them clients.
 - [ ] **P1 · Owner** Check the live site on a real phone (menu, light/dark button, resume download, contact links) and the WhatsApp link preview.
-- [ ] **P2 · Owner** Confirm "4+ years": the work history on the site starts March 2023 (about 3.5 years). Keep 4+ or change to 3+.
 - [ ] **P2 · Owner** HFSS: the tech used, if it should be shown (the site describes the product from hfss.ch).
-- [ ] **P2 · Owner** An updated resume PDF to replace `resume/Pradip-Jaliya-Resume.pdf` (fix the small typos such as "Predication" and "Linklist" too).
+- [ ] **P2 · Owner** New resume facts not on the site yet (asked 2026-11-23): the Mandly savings group app project, and the HFSS numbers (70%+ of backend commits, 100+ clients, EUR 10M+ a month). Also: delete the March 2026 CV in `resume/archive/`, which still names Optimum, from the public repo?
 - [ ] **P2 · Owner** Cricket Score Management System: is there a repo or live link? The resume has none.
 - [ ] **P2 · Owner** A photo of yourself, if wanted.
 - [ ] **P3 · Owner** Company name style: "Eagerminds" (as on the site) or "EagerMinds"? The company's own pages use both.
-- [ ] **P3 · Owner** Update the GitHub profile's company (it still says "Optimum Fitech", the old company) and add the portfolio link to GitHub and LinkedIn.
+- [ ] **P3 · Owner** Update the GitHub profile's company (it still shows an old company) and add the portfolio link to GitHub and LinkedIn.
 - [ ] **P2 · Owner** Custom domain, if wanted (for example `pradipjaliya.in`), with an email on it (for example `hello@pradipjaliya.in`); it looks more professional to freelance clients.
 
 ## To build

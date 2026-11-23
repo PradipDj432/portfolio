@@ -3,8 +3,8 @@
 Facts about the owner, for the portfolio, and the exact wording the site uses for them. Technical details go in `README.md`, choices go in `decisions.md`. The site (`index.html`, `js/config.js` and the link-preview image) must say the same as this file.
 
 **Sources:**
-1. The main resume, `resume/Pradip-Jaliya-Resume.pdf` (made April 2026, added 2026-10-04). This is the file visitors download.
-2. An older CV, `resume/archive/Pradipkumar-Jaliya-CV-2026-03.pdf` (made March 2026, sent 2026-10-04). The owner said to take the work history from it: Optimum Financial Solutions, then Dhitech Solutions from July 2024. It isn't offered for download.
+1. The main resume, `resume/Pradip-Jaliya-Resume.pdf` (made 2026-11-23, added the same day; it replaced the April 2026 one, now in `resume/archive/`). This is the file visitors download, and it is now the main source for work history, dates and numbers (D-022).
+2. An older CV, `resume/archive/Pradipkumar-Jaliya-CV-2026-03.pdf` (March 2026). Kept as a backup only. It isn't offered for download and the site no longer uses it (D-022).
 3. The owner's own answers on 2026-10-04: the name to show, the headline ("Cloud", not "Claude"), the new job at Eagerminds and the job titles, the Dhitech end month, the company and project links, the new certificate and its year, Credly, Claude Code and Codex, and the numbers in the intro.
 4. For HFSS only: hfss.ch's own pages, read through web search on 2026-10-04 (this environment can't open the site directly). The owner asked for HFSS to be described from its landing page and static pages.
 
@@ -15,9 +15,9 @@ Where these disagree, the owner's latest answer wins, then the older CV for work
 |---|---|
 | **Name on the website** | **Pradip Jaliya**, everywhere (owner, 2026-10-04; D-009). Full name on the resume: Pradipkumar Jaliya |
 | **Headline** | Cloud-Native Full Stack Engineer (owner, 2026-11-17, from their freelance review; D-018). Replaces "Cloud & DevOps Engineer · AI Engineer · Full Stack Developer" (D-016) |
-| **Experience** | 4+ years (owner). Work started March 2023 |
+| **Experience** | 4+ years (owner). Work started January 2023 (the new resume, D-022) |
 | **Current job** | Senior Software Architect at Eagerminds (https://www.eagerminds.in/), since April 2026 (owner) |
-| **Companies** | 3: Optimum Financial Solutions → Dhitech Solutions → Eagerminds |
+| **Companies** | 2: Dhitech Solutions → Eagerminds (the owner removed Optimum Financial Solutions from the portfolio on 2026-11-23; D-022) |
 | **How they work** | Uses Claude Code and Codex "to improve and deliver faster" (owner's words). On the site these sit with AI, not with cloud (D-013) |
 | **Resume (download)** | `resume/Pradip-Jaliya-Resume.pdf` |
 | **Website** | https://pradipdj432.github.io/portfolio/ (live) |
@@ -96,8 +96,8 @@ Built by the owner at Eagerminds (owner's words: "in which I build this project"
 - Security and compliance: certified HSMs, segregated funds, fraud monitoring, geo-redundant backups in Switzerland, AML/KYC/KYB/KYT and Travel Rule support, sanctions screening, accountant access with limited rights, REST APIs and webhooks, 99.99% uptime.
 - The tech stack the owner used: still to confirm.
 
-### Dhitech Solutions — Senior Software Engineer (July 2024 – March 2026)
-https://dhitech.solutions/ · Title and end date from the owner, 2026-10-04 (both resumes say "Software Developer"). Start date from the older CV. The main resume says "March 2023 – Current"; the owner said to use the older CV's dates.
+### Dhitech Solutions — Senior Software Engineer (January 2023 – March 2026)
+https://dhitech.solutions/ · Title and end date from the owner, 2026-10-04; start date January 2023 from the new resume (2026-11-23, D-022).
 
 **Gift Card Management System** (Angular, Node.js, MySQL, AWS) · live at http://rbsgift.com/
 - Developed a multi-role gift card management platform for merchants and administrators, with role-based access (the site words it as covering purchase workflows, redemption, scheduled transfers and expiry management; D-018).
@@ -115,15 +115,6 @@ https://dhitech.solutions/ · Title and end date from the owner, 2026-10-04 (bot
 - Built a data analytics dashboard for AWS Marketing Cloud using AWS Athena, QuickSight and S3.
 - Automated data extraction and storage with AWS Lambda, EventBridge and Step Functions.
 - Automated email workflows with AWS SES, and fed marketing campaign data into the React dashboard for real-time updates.
-
-### Optimum Financial Solutions — Junior Software Developer and Intern (March 2023 – June 2024)
-https://www.optimumfintech.com/ (link from the owner) · From the older CV. The company's site brands itself "Optimum Fintech" and names the company "Optimum Financial Solutions", so the CV's name is kept. The GitHub profile's "Optimum Fitech" refers to this company.
-
-**JM Financial Mutual Fund** (Angular, ASP.NET, MS SQL) · https://www.jmfinancialmf.com/ (link from the owner)
-- Completed extensive training in Angular, the ASP.NET Framework and MS SQL, and applied it to the real-time mutual fund application.
-- Developed, tested and maintained the mutual fund application with Angular, ASP.NET and MS SQL; integrated microservice APIs, managed databases, and used data binding for smooth data synchronisation.
-- Built modules for single sign-on (SSO) login, schedulers, bulk insertion, brokerage calculations and report generation.
-- Integrated microservice APIs and optimised data synchronisation for better processing and reporting.
 
 ## Projects
 Personal and freelance projects (work projects are under "Work experience"). The owner confirmed on 2026-10-04 that the DK-Engineer and Aara Culture websites are shown too. The other three come from the resume.
@@ -144,7 +135,7 @@ The owner's own answers on 2026-11-17 (D-020). The site's page, `case-studies/ca
 | **What it is** | A call tracking platform with a dialer and lead management for sales teams; inbound and outbound calls |
 | **My part** | Everything, alone: "all things done by myself" |
 | **Why the changes** | Getting data from different DynamoDB tables was difficult and slow, so the data moved to a relational database. The APIs moved from Lambda and API Gateway to Node.js REST APIs because they are easy to scale and the front end uses them. Amazon Connect, Lambda and the other AWS resources stay for real-time calls, where fast invocation at run time matters |
-| **Scale** | 15 customers; 450+ calls a day; 80+ users; about 10,000 minutes a day (owner, undated) |
+| **Scale** | 15+ customers; 450+ calls a day; 80+ users; about 10,000 minutes a day (owner, undated) |
 | **Not shown** | Screenshots (customer data). The company name (Dhitech Solutions): the owner asked on 2026-11-17 for the case study page to say only "Call Clutch". The numbers are current as of 2026-11-17 (owner) |
 
 ## Gift card platform case study
@@ -156,7 +147,7 @@ The owner's own answers on 2026-11-18 (D-020). The site's page, `case-studies/gi
 | **My part** | Built from the start; one developer worked under the owner's guidance (the owner gives and reviews his work) |
 | **Features** | Purchase and redeem online and offline; transfer now or on a future date; expiry; multi-currency; payment gateway integrations; Google Wallet and Apple Wallet; POS and PMS integrations; a web widget (a script bundle) merchants put on their own websites; merchants with many locations, where any store of the merchant redeems the card; merchant partnerships, where a card bought at one merchant can be redeemed at its partners' stores |
 | **Main goal** | Connect with hospitality systems (POS and PMS), so merchants can add new features, distribute gift cards and manage the ecosystem |
-| **Scale** | 40+ merchants; 8,000+ users; 500+ transactions a day; $45k worth of gift cards bought, redeemed and transferred so far (all confirmed by the owner on 2026-11-18) |
+| **Scale** | 40+ merchants; 8,000+ users; 500+ transactions a day; $45k+ worth of gift cards bought, redeemed and transferred so far (all confirmed by the owner on 2026-11-18) |
 | **Tech** | Angular, Node.js, MySQL, AWS Cognito, S3, OTP login, ECS, CI/CD, Terraform (from the work history) |
 | **Not shown** | Screenshots (merchant and customer data) |
 
@@ -227,7 +218,7 @@ The main lines as the site writes them, built from the facts above. The owner re
 | Intro | Building scalable software, cloud infrastructure & AI-powered applications. I help businesses build, modernize and scale software products. From backend APIs and SaaS platforms to AWS infrastructure, CI/CD automation and AI integrations, I deliver solutions designed for real-world business needs. (Under it: AWS · Node.js · TypeScript · React · Terraform · GenAI) |
 | About, paragraph 1 | I'm a Cloud-Native Full Stack Engineer. I specialize in Node.js and TypeScript backends, AWS infrastructure with Terraform and CI/CD, and adding AI features to real products. |
 | About, paragraph 2 | I help businesses launch new products, move to the cloud, automate their deployments and bring AI into what they already have. |
-| About card: Real products, in production | 4+ years building business software: Swiss fintech, call tracking, gift cards, marketing analytics and mutual funds. I currently work as a Senior Software Architect at Eagerminds. |
+| About card: Real products, in production | 4+ years building business software: Swiss fintech, call tracking, gift cards, marketing analytics. I currently work as a Senior Software Architect at Eagerminds. |
 | About card: Certified cloud skills | Certified on AWS, Azure and Google Cloud, and a Google-certified Generative AI Leader. |
 | About card: End to end delivery | From architecture and APIs to deployment and production, I take care of the whole life of a product, so you deal with one person. |
 | Services intro | Freelance and remote, for startups, small businesses and software teams in India and abroad. Tell me what you need, and I'll send you a free quote. |
@@ -236,8 +227,8 @@ The main lines as the site writes them, built from the facts above. The owner re
 | Service 03: AI Integration & Automation | LLM API integration; AI-powered chatbots; business workflow automation; AI features in existing applications. You get: working AI features, with testing and documentation. |
 | Service 04: Business Websites | Responsive websites; product catalogues; landing pages; contact and WhatsApp integrations. You get: a live, mobile-friendly business website. |
 | How I work | 1 Tell me about it: Send me your idea by email or WhatsApp: what you need, and by when. · 2 Free quote: I reply with a plan, a timeline and a quote. · 3 Build: I build it and share progress regularly, so you can see it and give feedback. · 4 Launch & support: I put it live, hand everything over, and help with fixes after launch. |
-| Experience intro | Three companies, across Swiss fintech, call tracking, gift cards, marketing analytics and mutual funds. |
+| Experience intro | Two companies, across Swiss fintech, call tracking, gift cards, marketing analytics. |
 | Projects intro | Built and delivered production websites for real businesses, along with full stack applications and a machine learning solution — covering everything from frontend and backend development to deployment and practical AI/ML implementation. |
-| Numbers | 4+ years of experience · 5+ cloud & AI certifications · 12+ projects built · 3 companies worked with |
+| Numbers | 4+ years of experience · 5+ cloud & AI certifications · 12+ projects built · 2 companies worked with |
 | Contact intro | Have a project in mind? Tell me what you need, and I'll send you a free quote. I work remotely with clients in India and abroad. For a role or a question, email me or reach out on LinkedIn. |
 | Link preview | "Pradip Jaliya. Cloud-Native Full Stack Engineer", badges "Available for freelance projects" and "Remote · worldwide", "AWS · Node.js · TypeScript · React · Terraform · GenAI", "4+ yrs · 5+ certifications · 12+ projects" |

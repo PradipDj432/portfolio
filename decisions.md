@@ -28,6 +28,7 @@ A log of choices made for the portfolio website and why. Add new decisions at th
 | D-019 | A project inquiry form that sends to the owner's email through Formspree, and a Verify link on the Cloud Architect certificate | Proposed |
 | D-020 | Case study pages in `case-studies/`, starting with Call Clutch | Proposed |
 | D-021 | The second service is "Full Stack Development" (frontend, backend and database), not "Backend & Full Stack" | Accepted |
+| D-022 | Optimum Financial Solutions removed from the portfolio; the new resume (2026-11-23) becomes the main source | Accepted |
 
 When you add a decision, add a row here too.
 
@@ -201,3 +202,11 @@ When you add a decision, add a row here too.
 - **Decision:** The second service is named **Full Stack Development**, meaning frontend, backend and database. The card title, its first point, the inquiry form option ("Full Stack Development (Frontend, Backend & Database)"), `profile.md` and `CLAUDE.md` all use this name. Changes the service name in D-017 and D-018.
 - **Alternatives considered:** Keeping "Backend & Full Stack".
 - **Consequences:** The Skills group called "Backend" and the intro mentioning backend APIs describe skills, not the service, so they stay.
+
+## D-022 — Optimum removed, new resume
+- **Date:** 2026-11-23
+- **Status:** Accepted
+- **Context:** The owner asked to remove Optimum Financial Solutions totally from the portfolio and to use a new resume, which lists Eagerminds and Dhitech Solutions only (Dhitech from January 2023).
+- **Decision:** The Optimum job and its JM Financial Mutual Fund item are gone from the site, `profile.md` and the docs; "companies worked with" is 2; Dhitech runs January 2023 to March 2026. The new resume is saved as `resume/Pradip-Jaliya-Resume.pdf` and the April 2026 one is archived. Numbers follow the new resume: 15+ customers, $45k+, 10,000+ call minutes a day. Replaces the work-history source in D-011 (older CV first) and the Dhitech start date.
+- **Alternatives considered:** Keeping Optimum under the older CV.
+- **Consequences:** Past entries in `progress.md`, `decisions.md` and `backlog.md` still name Optimum, because they record what happened. The March 2026 CV in `resume/archive/` still names it; the owner is asked whether to delete it.
